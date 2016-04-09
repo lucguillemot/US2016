@@ -1,0 +1,859 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"traj",
+				"trajById"
+			],
+			[
+				"cha",
+				"changeScale"
+			],
+			[
+				"circles",
+				"circles-1"
+			],
+			[
+				"Geo",
+				"Geo_FIPS"
+			],
+			[
+				"cirlce",
+				"circles-1"
+			],
+			[
+				"current",
+				"currentYear"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"rese",
+				"resetMapOpacity"
+			],
+			[
+				"curre",
+				"currentDisplay"
+			],
+			[
+				"curren",
+				"currentYear"
+			],
+			[
+				"btn",
+				"btn-years"
+			],
+			[
+				"varia",
+				"variable_color_scale"
+			],
+			[
+				"variable",
+				"variable_domain"
+			],
+			[
+				"update",
+				"update_map_opacity"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"upda",
+				"update_map"
+			],
+			[
+				"div",
+				"div	Tag"
+			],
+			[
+				"color",
+				"colors"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"stro",
+				"stroke"
+			],
+			[
+				"g",
+				"gSelect"
+			],
+			[
+				"fill",
+				"fill-opacity"
+			],
+			[
+				"upa",
+				"update_cluster_map"
+			],
+			[
+				"updat",
+				"update_cluster_map"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"g_legen",
+				"g_legendreset"
+			],
+			[
+				"g_l",
+				"g_legendinfos"
+			],
+			[
+				"svg",
+				"svg_legend"
+			],
+			[
+				"p",
+				"pointer"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"cluster",
+				"clusterById"
+			],
+			[
+				"top",
+				"topojson"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"json",
+				"json_layer"
+			],
+			[
+				"fndiff",
+				"fndiffcolors"
+			],
+			[
+				"F",
+				"FNcolors"
+			],
+			[
+				"pop",
+				"popMax"
+			],
+			[
+				"PCm",
+				"PCmax"
+			],
+			[
+				"INSE",
+				"INSEE_COM"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"Ins",
+				"InscriptsById"
+			],
+			[
+				"Select",
+				"Select"
+			],
+			[
+				"ball",
+				"ballotDescription"
+			],
+			[
+				"Sele",
+				"SelectedBallot"
+			],
+			[
+				"sele",
+				"SelectedBallot"
+			],
+			[
+				"Yes",
+				"YesColor"
+			],
+			[
+				"P",
+				"PrctDistCircle"
+			],
+			[
+				"legend",
+				"legend_width"
+			],
+			[
+				"se",
+				"SelectedBallot"
+			],
+			[
+				"tim",
+				"time_axis1"
+			],
+			[
+				"up",
+				"update_chart2"
+			],
+			[
+				"rect",
+				"rect_width"
+			],
+			[
+				"ch",
+				"chart4_width"
+			],
+			[
+				"char",
+				"chart3_width"
+			],
+			[
+				"chart",
+				"chart1_width"
+			],
+			[
+				"rec",
+				"rect_width"
+			],
+			[
+				"year",
+				"year_legend"
+			],
+			[
+				"cit",
+				"cityrect"
+			],
+			[
+				"d",
+				"div	Tag"
+			],
+			[
+				"city",
+				"citycircle_hghltd"
+			],
+			[
+				"strok",
+				"stroke-width"
+			],
+			[
+				"parse",
+				"parseDate"
+			],
+			[
+				"time",
+				"time_scale"
+			],
+			[
+				"select",
+				"selectAll"
+			],
+			[
+				"citi",
+				"cities_chart"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"fon",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/layout/css/sankey.css",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/index-sankey.html",
+		"/Users/lucguillemot/Documents/research/postdoc/maps/FR2015/index-fn.html",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/index-bidon.html",
+		"/Users/lucguillemot/Documents/research/publications/2016 AAG/images/sankey.svg",
+		"/Users/lucguillemot/Documents/research/postdoc/maps/SF2015/layout/index.html",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/layout/css/colors3.svg",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/layout/css/colors2.svg",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/layout/css/colors.svg",
+		"/Users/lucguillemot/Documents/research/publications/2016 AAG/images/clusters.svg",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/data/urbandisplacement/cci_rews_data_2015-08-21.csv",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/data/cci_rews_data_2015-08-21.csv",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/layout/sankeyDiagram.js",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/data/censushclust/sankey/sankey.json",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/layout/sankey.js",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/geo/sfbact_2000.json",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/geo/sfbact_2014.json",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/geo/sfbact_2010.json",
+		"/Users/lucguillemot/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/lucguillemot/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/data/census/R11097587-2010-Census.txt",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/data/census/R11097587_SL140-2010-Census.csv",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/data/census/R11088304-2014.txt",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/data/census/R11097593-2010-Census.txt",
+		"/Users/lucguillemot/Documents/research/postdoc/blog/_layouts/post.html",
+		"/Users/lucguillemot/Documents/research/postdoc/blog/css/OLD-main.scss",
+		"/Users/lucguillemot/Documents/research/postdoc/blog/css/main.scss",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/data/census/R11097565-2010.txt",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/data/census/R11088321_SL140-2014.csv",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/data/census/R11097581-2009.txt",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/data/census/R11097581_SL140-2009.csv",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/layout/css/main.css",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/index.html",
+		"/Users/lucguillemot/Documents/research/postdoc/blog/index.html",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/data/var_codes.txt",
+		"/Users/lucguillemot/Documents/research/postdoc/sorting/layout/radarPlot.js",
+		"/Users/lucguillemot/Documents/research/postdoc/sorting/index.html",
+		"/Users/lucguillemot/Documents/research/postdoc/sorting/geo/SFprecincts2014.json",
+		"/Users/lucguillemot/Documents/research/postdoc/sorting/data/2014/SOV_NOV2014.tsv",
+		"/Users/lucguillemot/Documents/research/postdoc/sorting/layout/css/main.css",
+		"/Users/lucguillemot/Documents/research/postdoc/sorting/data/radar/radar-cl3.json",
+		"/Users/lucguillemot/Documents/research/postdoc/sorting/data/radar/radar-cl1.json",
+		"/Users/lucguillemot/Documents/sites/maps/14_SFPBC/OpenBusinessLocations.geojson",
+		"/Users/lucguillemot/Documents/research/postdoc/blog/_posts/2015-11-25-SF2015-ballot-propositions.html",
+		"/Users/lucguillemot/Downloads/state_g14_sov_data_by_g14_srprec/state_g14_sov_data_by_g14_srprec_readme.txt",
+		"/Users/lucguillemot/Documents/research/postdoc/sorting/geo/Untitled.geojson",
+		"/Users/lucguillemot/Documents/research/postdoc/sorting/geo/SFprecincts.json",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/data/var/sfbact-var-2014.csv",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/layout/bootstrap-3.3.6-dist/css/bootstrap.css",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/layout/bootstrap-3.3.6-dist/css/bootstrap-theme.css",
+		"/Users/lucguillemot/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/data/radar/radar-2014-cl10.json",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/data/radar/radar-2014-cl1.json",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/data/radar/radar-2014-cl8.json",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/data/radar/radar.json",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/data/radar/radar-cl1.json",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/layout/radarPlot.js",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/index-radar.html",
+		"/Users/lucguillemot/Documents/research/postdoc/geodemographics/layout/radarPlot-dev.js",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemo-articles/Tracking Neighborhoods Change in San Francisco Bay Area",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/data/census/R11097581-2009.txt",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/data/census/R11097593-2010-Census.txt",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/data/census/R11097587-2010-Census.txt",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/index.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/blog/_posts/2015-11-25-SF2015-ballot-propositions.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/data/census/R11088304-2014.txt",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/data/sankey/sankey.json",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/geo/sfbact/csv/hclust/sfbact-clusters-2011.csv",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/layout/css/main.css",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/data/sfbact/R11097559-2012.txt",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/data/sfbact/R11097554-2013.txt",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/data/sfbact/R11097565-2010.txt",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/data/sfbact/R11097561-2011.txt",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/data/sfbact/R11088304-2014.txt",
+		"/Users/lucguillemot/Documents/DOCUMENTS/SITES/maps/UrbanFactory/urbanworld.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/SF2015/layout/index.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/SF2015/geo/geoprocessing/precincts.json",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/geo/sfbact/csv/sfbact-clusters-2014.csv",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/geo/sfbact/json/sfbact.json",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/index.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/index-RG2015T1.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/data/sfbact/R11097561_SL140-2011.csv",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/index2.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/geo/sfbact/json/sfba-ct-clusters.json",
+		"/Users/lucguillemot/Documents/DOCUMENTS/SITES/maps/UrbanFactory/css/main2.css",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/geo/sfbact/json/sfba-ct-clusters",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/SF2015/data/propA.csv",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/SF2015/geo/SFprecincts.json",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/SF2015/data/props.json",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/data/R11088304.txt",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/blog/about/CV",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/blog/README.md",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/README.md",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/index-fn.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/index-fndiff.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/index-fnInscrits.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/index-RG2015T2.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/data/RG2015/DATARG2015.csv",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/layout/index-absdiff.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/layout/index-RG2015T1.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/layout/index-fndiff.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/layout/index-abs.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/layout/index-fnInscrits.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/layout/index-RG2015T2.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/publications/2015 RG2015/exports/RG2015/RG2015T1FNInscrits.svg",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/publications/2015 RG2015/exports/RG2015/RG2015FNT1T2-2.svg",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/layout/exports/RG2015/RG2015GT2-2.svg",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/layout/exports/RG2015/RG2015FNT1T2.svg",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/layout/exports/RG2015/RG2015FNT1.svg",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/layout/exports/RG2015/RG2015GT1.svg",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/layout/exports/RG2015/RG2015GT2.svg",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/geo/FRmuni.json",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/data/RG2015/Reg_15_Resultats_Communes_T2.csv",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/geo/sfct/sf-ct-clusters",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/geo/sfbact/sfba-ct-clusters",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/SF2015/sources.txt",
+		"/Users/lucguillemot/Documents/DOCUMENTS/SITES/maps/16_lvp/index.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/data/R11087981.txt",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/layout/index.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/data/R11087899.txt",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/geodemographics/SFCT/data/R11087899_SL140.csv",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/layout/PR2012/index-log.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/geo/FRcarto.json",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/layout/index-RG2015.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/layout/index-fn.html",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/data/RG2015/listes.csv",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/layout/exports/ABST.svg",
+		"/Users/lucguillemot/Documents/DOCUMENTS/RESEARCH/postdoc/maps/FR2015/data/RG2015/comsimp2015.csv"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sanke",
+			"});",
+			"console",
+			"scale",
+			"resetMapOpacity",
+			"%",
+			"stroke",
+			"cl12",
+			"12",
+			"spath",
+			"sankeySvg",
+			"ssvg",
+			"T2",
+			"scale",
+			"comment",
+			"NA",
+			"\"GEOID\": \"6",
+			"geo/sfbact",
+			"relation_3",
+			"thclust/",
+			"data/",
+			"college",
+			"Some college",
+			"college",
+			"T040_004",
+			"SE_T156_002",
+			"occupied",
+			"commut",
+			"unit",
+			"1 unit",
+			"T159_001",
+			"median year",
+			"Population 1 year and over",
+			"T130_003",
+			"200,000 or More",
+			"Households: $200,000 or More",
+			"T037_003",
+			"emplo",
+			"labor force",
+			"owner",
+			"foreign",
+			"T018_002",
+			"children",
+			"married",
+			"One unit",
+			"housing units",
+			"T002_002",
+			"commutin",
+			"list",
+			"icon",
+			"lib/",
+			",\n",
+			"\",\"",
+			"\", \"",
+			"\n",
+			"variables_label",
+			"variables_names",
+			"\n\n             ",
+			", ",
+			"T097_002",
+			"T133_003",
+			"T030_001",
+			"some college",
+			"T150_004",
+			"T009_002",
+			"T001_001",
+			"housing unit",
+			"housing",
+			"6001422600",
+			"within same",
+			"T056_017",
+			"housing Units: 3",
+			"housing",
+			"median year",
+			"same house",
+			"/2014/",
+			"prec_2012",
+			"PROP/2015",
+			"/geo/SFprecincts",
+			"data/PRES/",
+			"data/",
+			"data/2014/",
+			"data/2015/",
+			"	",
+			"Local Measure M",
+			"Local Measure L",
+			"Local Measure D",
+			"Local measure D",
+			"Local measure",
+			"[^\\x00-\\x7F]",
+			"0.5",
+			"/SF2015",
+			"{{ site.baseurl }}",
+			"legend",
+			"</br>",
+			"</b>",
+			"<b>",
+			"presence",
+			"attr(\"fill-opacity",
+			"style(\"fill-opacity",
+			"wrap",
+			"wrap(",
+			"wrap",
+			"with inter",
+			"temphclust",
+			"complete",
+			"update_map_opacity",
+			"data/radar/",
+			"data/var/thclust/",
+			"data/var/",
+			"data/hclust/",
+			"btn",
+			"type=\"radio\"",
+			"type=\"button\"",
+			"PrctDistScale",
+			"currentCluster",
+			"RadarChart",
+			"Format",
+			"cluster-legend-label",
+			"legend",
+			"variables_label",
+			" \n             ",
+			"this",
+			"currentY",
+			"update_cluster_map",
+			"btn-variables",
+			"update_map",
+			"clusters"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"path",
+			"svg",
+			"sankeySvg",
+			"sankey",
+			"T4",
+			"T3",
+			"0",
+			"\"GEOID\": \"06",
+			"geo/sfbact_\"+currentYear+\"",
+			"Geo_FIPS",
+			"",
+			"data/censushclust/",
+			"js/",
+			",",
+			"\",\n\"",
+			"\",\"",
+			", ",
+			"\n, ",
+			"\n",
+			"/2015/",
+			"Pid",
+			"PROP/2014",
+			"/geo/SFprecincts2014",
+			"data/PROP/",
+			"data/PRES/",
+			"data/2015/",
+			"data/2014/",
+			"",
+			"style(\"fill-opacity",
+			"attr(\"fill-opacity",
+			"thclust",
+			"data/radar/thclust/",
+			"data/var/thclust/",
+			"data/var/thclust",
+			"data/temphclust/complete/",
+			"type=\"button\"",
+			"type=\"radio\"",
+			"",
+			"update_map_opacity",
+			"btn-years",
+			"=-means[2]",
+			"",
+			"node",
+			"/hclust",
+			"/kmeans",
+			"/hclust",
+			"/kmeans",
+			"/hclust",
+			"/kmeans",
+			"/hclust",
+			"kmeans",
+			"csv/hclust/",
+			"currentYear",
+			"update_cluster_legend",
+			" ",
+			"colors",
+			",",
+			"FnDiffById",
+			",",
+			"AbsDiffById",
+			"9",
+			"8",
+			"7",
+			"6",
+			"5",
+			"4",
+			",",
+			"\n",
+			"",
+			"\n   ",
+			",",
+			":\"",
+			"900",
+			"site.baseurl",
+			"interpolateLab",
+			"interpolateHcl",
+			"interpolateHsl",
+			",",
+			"",
+			"/geo/SF2015/",
+			"name",
+			"id",
+			"",
+			"\n",
+			"",
+			"Jajmau Road",
+			";Jajmau;",
+			"",
+			"(",
+			"g1",
+			"g",
+			"\n",
+			"",
+			"dataUW/",
+			"27.json",
+			"Minus1500",
+			"",
+			"\n",
+			"\",\"",
+			",",
+			"\n",
+			"",
+			",",
+			"\n",
+			",",
+			"-",
+			"",
+			"-",
+			"",
+			"highlight_chart",
+			"1",
+			"0",
+			"",
+			"-",
+			"0",
+			"",
+			"-",
+			"0"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "US2016.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

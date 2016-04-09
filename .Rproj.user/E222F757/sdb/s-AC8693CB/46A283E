@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1460162915490.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "46A283E",
+    "lastKnownWriteTime" : 4298830080,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "del.st.melted",
+        "contentUrl" : "content?title=del.st.melted&file=3355be9bd0b14d7c9a3dce54c7308bb5.htm",
+        "displayedObservations" : "4",
+        "displayedVariables" : 3,
+        "totalObservations" : "4",
+        "variables" : "2"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1460165709395.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D502FB22",
+    "lastKnownWriteTime" : 8389754659302220320,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "rep.cc",
+        "contentUrl" : "content?title=rep.cc&file=91f46cdb00654bb8b02922e6a1edfb46.htm",
+        "displayedObservations" : 31,
+        "displayedVariables" : 30,
+        "totalObservations" : 31,
+        "variables" : 29
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

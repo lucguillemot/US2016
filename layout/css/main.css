@@ -1,0 +1,36 @@
+.top-buffer { margin-top:20px; }
+
+/*#map {
+  width: 100%;
+  height: 400px;
+  cursor: crosshair;
+}*/
+
+path {
+  fill: none;
+  stroke: #efefef;
+  stroke-width: .3px;
+}
+
+.land-boundary {
+  stroke: #555;
+  stroke-width: .5px;
+}
+
+.county-boundary {
+  stroke: #aaa;
+}
+
+svg {
+  font: 10px sans-serif;
+}
+
+rect.bar_del, rect.bar_votes {
+  stroke: #000;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}

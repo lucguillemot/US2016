@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Major League Data Challenge</title>
+    <!-- JQuery -->
+    <script src="layout/jquery-2.2.0.min.js"></script>
+    <!-- Bootstrap -->
+    <link href="layout/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="layout/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <!-- leaflet -->
+    <!-- <link rel="stylesheet" href="layout/leaflet-0.7.3/leaflet.css" />
+    <script src="layout/leaflet-0.7.3/leaflet.js"></script> -->
+    <!-- d3 and plugins -->
+    <script src="layout/d3-master/d3.min.js"></script>
+    <script src="layout/queue.js"></script>
+    <script src="layout/topojson.js"></script>
+    <script src="layout/charts.js"></script>    
+    <!-- custom css -->
+    <link rel="stylesheet" href="layout/css/main.css" /> 
+  </head>
+<style>
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis--x path {
+  display: none;
+}
+
+</style>
+<body>
+<script type="text/javascript">
+
+      //Width and height
+      var w = 500;
+      var h = 500;
+
+      //Original data
+      var dataset = [[{"state":"IA","x":"Trump","y":7},{"state":"IA","x":"Cruz","y":8},{"state":"IA","x":"Rubio","y":7},{"state":"IA","x":"Kasich","y":1}],[{"state":"NH","x":"Trump","y":11},{"state":"NH","x":"Cruz","y":3},{"state":"NH","x":"Rubio","y":2},{"state":"NH","x":"Kasich","y":4}],[{"state":"SC","x":"Trump","y":50},{"state":"SC","x":"Cruz","y":0},{"state":"SC","x":"Rubio","y":0},{"state":"SC","x":"Kasich","y":0}],[{"state":"NV","x":"Trump","y":14},{"state":"NV","x":"Cruz","y":6},{"state":"NV","x":"Rubio","y":7},{"state":"NV","x":"Kasich","y":1}],[{"state":"AL","x":"Trump","y":36},{"state":"AL","x":"Cruz","y":13},{"state":"AL","x":"Rubio","y":1},{"state":"AL","x":"Kasich","y":0}],[{"state":"AK","x":"Trump","y":11},{"state":"AK","x":"Cruz","y":12},{"state":"AK","x":"Rubio","y":5},{"state":"AK","x":"Kasich","y":0}],[{"state":"AR","x":"Trump","y":16},{"state":"AR","x":"Cruz","y":15},{"state":"AR","x":"Rubio","y":9},{"state":"AR","x":"Kasich","y":0}],[{"state":"GA","x":"Trump","y":42},{"state":"GA","x":"Cruz","y":18},{"state":"GA","x":"Rubio","y":16},{"state":"GA","x":"Kasich","y":0}],[{"state":"MA","x":"Trump","y":22},{"state":"MA","x":"Cruz","y":4},{"state":"MA","x":"Rubio","y":8},{"state":"MA","x":"Kasich","y":8}],[{"state":"MN","x":"Trump","y":8},{"state":"MN","x":"Cruz","y":13},{"state":"MN","x":"Rubio","y":17},{"state":"MN","x":"Kasich","y":0}],[{"state":"OK","x":"Trump","y":13},{"state":"OK","x":"Cruz","y":15},{"state":"OK","x":"Rubio","y":12},{"state":"OK","x":"Kasich","y":0}],[{"state":"TN","x":"Trump","y":33},{"state":"TN","x":"Cruz","y":16},{"state":"TN","x":"Rubio","y":9},{"state":"TN","x":"Kasich","y":0}],[{"state":"TX","x":"Trump","y":48},{"state":"TX","x":"Cruz","y":104},{"state":"TX","x":"Rubio","y":3},{"state":"TX","x":"Kasich","y":0}],[{"state":"VT","x":"Trump","y":8},{"state":"VT","x":"Cruz","y":0},{"state":"VT","x":"Rubio","y":0},{"state":"VT","x":"Kasich","y":8}],[{"state":"VA","x":"Trump","y":17},{"state":"VA","x":"Cruz","y":8},{"state":"VA","x":"Rubio","y":16},{"state":"VA","x":"Kasich","y":5}],[{"state":"KS","x":"Trump","y":9},{"state":"KS","x":"Cruz","y":24},{"state":"KS","x":"Rubio","y":6},{"state":"KS","x":"Kasich","y":1}],[{"state":"KY","x":"Trump","y":17},{"state":"KY","x":"Cruz","y":15},{"state":"KY","x":"Rubio","y":7},{"state":"KY","x":"Kasich","y":7}],[{"state":"LA","x":"Trump","y":18},{"state":"LA","x":"Cruz","y":18},{"state":"LA","x":"Rubio","y":5},{"state":"LA","x":"Kasich","y":0}],[{"state":"ME","x":"Trump","y":9},{"state":"ME","x":"Cruz","y":12},{"state":"ME","x":"Rubio","y":0},{"state":"ME","x":"Kasich","y":2}],[{"state":"HI","x":"Trump","y":11},{"state":"HI","x":"Cruz","y":7},{"state":"HI","x":"Rubio","y":1},{"state":"HI","x":"Kasich","y":0}],[{"state":"ID","x":"Trump","y":12},{"state":"ID","x":"Cruz","y":20},{"state":"ID","x":"Rubio","y":0},{"state":"ID","x":"Kasich","y":0}],[{"state":"MI","x":"Trump","y":25},{"state":"MI","x":"Cruz","y":17},{"state":"MI","x":"Rubio","y":0},{"state":"MI","x":"Kasich","y":17}],[{"state":"MS","x":"Trump","y":25},{"state":"MS","x":"Cruz","y":15},{"state":"MS","x":"Rubio","y":0},{"state":"MS","x":"Kasich","y":0}],[{"state":"DC","x":"Trump","y":0},{"state":"DC","x":"Cruz","y":0},{"state":"DC","x":"Rubio","y":10},{"state":"DC","x":"Kasich","y":9}],[{"state":"FL","x":"Trump","y":99},{"state":"FL","x":"Cruz","y":0},{"state":"FL","x":"Rubio","y":0},{"state":"FL","x":"Kasich","y":0}],[{"state":"IL","x":"Trump","y":53},{"state":"IL","x":"Cruz","y":9},{"state":"IL","x":"Rubio","y":0},{"state":"IL","x":"Kasich","y":5}],[{"state":"MO","x":"Trump","y":25},{"state":"MO","x":"Cruz","y":15},{"state":"MO","x":"Rubio","y":0},{"state":"MO","x":"Kasich","y":0}],[{"state":"NC","x":"Trump","y":29},{"state":"NC","x":"Cruz","y":27},{"state":"NC","x":"Rubio","y":6},{"state":"NC","x":"Kasich","y":9}],[{"state":"OH","x":"Trump","y":0},{"state":"OH","x":"Cruz","y":0},{"state":"OH","x":"Rubio","y":0},{"state":"OH","x":"Kasich","y":66}],[{"state":"AZ","x":"Trump","y":58},{"state":"AZ","x":"Cruz","y":0},{"state":"AZ","x":"Rubio","y":0},{"state":"AZ","x":"Kasich","y":0}],[{"state":"UT","x":"Trump","y":0},{"state":"UT","x":"Cruz","y":40},{"state":"UT","x":"Rubio","y":0},{"state":"UT","x":"Kasich","y":0}]];
+
+
+
+      //Set up stack method
+      var stack = d3.layout.stack();
+
+
+      var repColors = ['#1f78b4', '#33a02c', '#e31a1c', '#ff7f00'];
+      var repColorsLight = ['#a6cee3','#b2df8a','#fb9a99','#fdbf6f'];
+
+      //Data, stacked
+      stack(dataset);
+
+      //Set up scales
+      var xScale = d3.scale.ordinal()
+        .domain(d3.range(dataset[0].length))
+        .rangeRoundBands([0, w], 0.05);
+    
+      var yScale = d3.scale.linear()
+        .domain([0,       
+          d3.max(dataset, function(d) {
+            return d3.max(d, function(d) {
+              return d.y0 + d.y;
+            });
+          })
+        ])
+        .range([0, h]);
+        
+      //Easy colors accessible via a 10-step ordinal scale
+      var colors = d3.scale.category10();
+    
+      //Create SVG element
+      var svg = d3.select("body")
+            .append("svg")
+            .attr("width", w)
+            .attr("height", h);
+  
+      // Add a group for each row of data
+      var groups = svg.selectAll("g")
+        .data(dataset)
+        .enter()
+        .append("g");
+        /*.style("fill", function(d, i) {
+          return colors(i);
+        });*/
+  
+      // Add a rect for each data value
+      var rects = groups.selectAll("rect")
+        .data(function(d) { return d; })
+        .enter()
+        .append("rect")
+        .attr("class", function(d) { return d.state; })
+        .attr("x", function(d) {
+          return yScale(d.y0);
+        })
+        .attr("y", function(d, i) {
+          return xScale(i);
+        })
+        .attr("width", function(d) {
+          return yScale(d.y);
+        })
+        .attr("height", xScale.rangeBand())
+        .style("fill", function(d, i) {
+          return repColorsLight[i];
+        })
+        .style("stroke", function(d, i) {
+          return repColors[i];
+        })
+        .on("mouseover", function(d) {
+          console.log(d.state);
+        });
+            
+    </script>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Major League Data Challenge</title>
+    <!-- JQuery -->
+    <script src="layout/jquery-2.2.0.min.js"></script>
+    <!-- Bootstrap -->
+    <link href="layout/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="layout/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <!-- leaflet -->
+    <!-- <link rel="stylesheet" href="layout/leaflet-0.7.3/leaflet.css" />
+    <script src="layout/leaflet-0.7.3/leaflet.js"></script> -->
+    <!-- d3 and plugins -->
+    <script src="layout/d3-master/d3.min.js"></script>
+    <script src="layout/queue.js"></script>
+    <script src="layout/topojson.js"></script>
+    <script src="layout/charts.js"></script>    
+    <!-- custom css -->
+    <link rel="stylesheet" href="layout/css/main.css" /> 
+  </head>
+  <body>
+
+  <div class="container title">
+    <h1>One person, One vote?<br><small>Not in the primaries...</small></h1>
+  </div>
+
+  <div class="container">
+    <div class="row top-buffer">
+      
+      <div class="col-xs-7">
+        <div id="map"></div>
+      </div>
+
+      <div class="col-xs-5">
+        <div id="chart-trump"></div>
+        <div id="chart-cruz"></div>
+        <div id="chart-rubio"></div>
+        <div id="chart-kasich"></div>
+      </div>
+    
+    </div> <!-- END OF ROW -->
+
+    <div class="row top-buffer">
+      <div class="col-xs-6">
+        <div id="stacked"></div>
+      </div>
+    </div> <!-- END OF ROW -->
+
+    <div class="row top-buffer">
+      <div class="col-xs-6">
+
+        <h2>About</h2>
+        
+        <p>The SCOTUS affirmed the principle of "One person, One vote" again. But it applies for elections, not primaries. The fact that primaries are managed at the State level and the different types of election of delegates for the nomination (caucus vs. primary, winner-takes-all vs. proportionnal, etc.) kindle very different situations, and some votes matter more than other. Who gets overrepresented? A republican from Utah? A democrat from San Francisco? Which candidate is favored by this disparities?</p>
+        <p>I favor a geographical analysis of the nomination process rather than a count of every candidates number of delegates.</p>
+        <p>Three scenarios: 1) How it is. 2) If the number of delegates reflected the number of votes. 3) If the</p>
+      </div>
+    
+    </div> <!-- END OF ROW -->
+  </div> <!-- END OF CONTAINER -->
+
+  <script>
+   
+  var map_margin = {top: 20, right: 20, bottom: 30, left: 40},
+      map_width = 700 - map_margin.left - map_margin.right,
+      map_height = 450 - map_margin.top - map_margin.bottom;
+
+  //var repColors = ['#ffe300','#e84d0e','#0084ab','#bc2f56'];
+  
+  var currentState = 0;
+
+  var repColors = ['#1f78b4', '#33a02c', '#e31a1c', '#ff7f00'];// ColorBrewer
+  var repColorsLight = ['#a6cee3','#b2df8a','#fb9a99','#fdbf6f']; // ColorBrewer lighter
+  //var TrumpColors = ['#1f78b4','#a6cee3'];
+  var TrumpColors = [repColors[0], repColorsLight[0]];
+  var CruzColors = [repColors[1], repColorsLight[1]];
+  var RubioColors = [repColors[2], repColorsLight[2]];
+  var KasichColors = [repColors[3], repColorsLight[3]];
+
+// MAP //////
+  var projection = d3.geo.albersUsa()
+    .scale(850)
+    .translate([map_width / 2, map_height / 2]);
+
+  var path = d3.geo.path().projection(projection);
+
+  var svg = d3.select("#map").append("svg")
+    .attr("width", map_width)
+    .attr("height", map_height);
+
+  queue()
+      .defer(d3.json, "geo/us.json")
+      .defer(d3.csv, "data/rep.cc.csv")
+      .await(ready);
+
+  function ready(error, us, data) {
+    if (error) throw error;
+
+    var winnerById = {};
+
+    data.forEach(function(d) {
+        winnerById[d.ansi_code] = d.winner;
+    });
+    
+    svg.append("path")
+      .datum(topojson.feature(us, us.objects.land))
+      .attr("d", path)
+      .attr("class", "land-boundary");
+    /*svg.append("path")
+        .datum(topojson.mesh(us, us.objects.counties, function(a, b) { return a !== b && (a.id / 1000 | 0) === (b.id / 1000 | 0); }))
+        .attr("d", path)
+        .attr("class", "county-boundary");*/
+    svg.append("g")
+          .attr("class", "states")
+        .selectAll("path")
+        //.datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
+        .data(topojson.feature(us, us.objects.states).features)
+      .enter().append("path")
+        .attr("class", "state")
+        .attr("map_state", function(d) {
+          return "st"+d.id;
+        })
+        .attr("d", path)
+        .style("fill", function(d){
+          switch(winnerById[+d.id]) {
+            case "Trump": return repColors[0];  break;
+            case "Cruz": return repColors[1]; break;
+            case "Rubio": return repColors[2]; break;
+            case "Kasich": return repColors[3]; break;
+          }
+        })
+        .on("mouseover", function(d){
+          currentState = "st"+d.id;
+          highlight_map();
+          highlight_chart();
+          highlight_stacked();
+        });    
+
+    // BERTIN MATRIX //
+    //Call function to draw the chart
+    d3.csv("data/trump.csv", function(data){
+      bertin("#chart-trump", data, "Trump", TrumpColors);
+    });
+    d3.csv("data/cruz.csv", function(data){
+      bertin("#chart-cruz", data, "Cruz", CruzColors);
+    });
+    d3.csv("data/rubio.csv", function(data){
+      bertin("#chart-rubio", data, "Rubio", RubioColors);
+    });
+    d3.csv("data/kasich.csv", function(data){
+      bertin("#chart-kasich", data, "Kasich", KasichColors);
+    });
+
+    // CUMULATIVE CHARTS //
+    d3.json("data/rep_stacked.json", function(data){
+      cumulChart("#stacked", data);
+    });
+
+    
+  } // function ready()
+
+  function highlight_map() {
+    //console.log(currentState);
+    d3.selectAll("path.state").style("stroke-width", .3).style("stroke", "#efefef");
+    d3.selectAll("[map_state="+(currentState)+"]").style("stroke-width", 1).style("stroke", "#000");
+  }
+
+  function highlight_chart() {
+    //console.log(currentState);
+    d3.selectAll(".bar").style("stroke-width", 0);
+    d3.selectAll("[bar_state="+(currentState)+"]").style("stroke-width", 1);
+  }
+
+  function highlight_stacked() {
+    //console.log(currentState);
+    d3.selectAll(".stacked").style("stroke-width", .3);
+    d3.selectAll("[stacked_state="+(currentState)+"]").style("stroke-width", 1);
+  }
+
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="layout/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

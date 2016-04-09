@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1460163154345.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "92EBED64",
+    "lastKnownWriteTime" : 2317441070180335360,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "forjson",
+        "contentUrl" : "content?title=forjson&file=634a8fb549ed412f92ee1425e4517275.htm",
+        "displayedObservations" : "31",
+        "displayedVariables" : 1,
+        "totalObservations" : "31",
+        "variables" : "1"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
