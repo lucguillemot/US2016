@@ -180,142 +180,94 @@ var chart_svg = d3.select(id).append("svg")
 
 function cumulChart(id, dataset) {
 	//Width and height
-      var h = 150;
-      var w = 700;
+	var m = {top: 10, right: 10, bottom: 10, left: 10}, // margins
+  		h = 150 - m.left - m.right, // height
+  		w = 1050 - m.top - m.bottom; // width
 
-		//Set up stack method
-      var stack = d3.layout.stack();
+	//Set up stack method
+  var stack = d3.layout.stack();
 
-      //Data, stacked
-      stack(dataset);
+  //Data, stacked
+  stack(dataset);
 
-      //Set up scales
-      var xScale = d3.scale.ordinal()
-        .domain(d3.range(dataset[0].length))
-        .rangeRoundBands([0, h], 0.2); // This is actually the Y scale (candidates)
-    
-      var yScale = d3.scale.linear()
-        .domain([0,       
-          d3.max(dataset, function(d) {
-            return d3.max(d, function(d) {
-              return d.y0 + d.y;
-            });
-          })
-        ])
-        .range([0, w]); // This is actually the X Scale (States)
-        
-      //Easy colors accessible via a 10-step ordinal scale
-      var colors = d3.scale.category10();
-    
-      //Create SVG element
-      var svg = d3.select(id)
-            .append("svg")
-            .attr("width", w)
-            .attr("height", h);
-  
-      // Add a group for each row of data
-      var groups = svg.selectAll("g")
-        .data(dataset)
-        .enter()
-        .append("g");
-        /*.style("fill", function(d, i) {
-          return colors(i);
-        });*/
-  
-      // Add a rect for each data value
-      var rects = groups.selectAll("rect")
-        .data(function(d) { return d; })
-        .enter()
-        .append("rect")
-        .attr("class", "stacked")
-        .attr("stacked_state", function(d) { return "st"+d.state; })
-        .attr("x", function(d) {
-          return yScale(d.y0);
-        })
-        .attr("y", function(d, i) {
-          return xScale(i);
-        })
-        .attr("width", function(d) {
-          return yScale(d.y);
-        })
-        .attr("height", xScale.rangeBand())
-        .style("fill", function(d, i) {
-          return repColorsLight[i];
-        })
-        .style("stroke", function(d, i) {
-          return repColors[i];
-        })
-        .on("mouseover", function(d) {
-          console.log(d.state);
-        }).on("mouseover", function(d){
-      	currentState = "st"+d.state;
-      	highlight_map();
-      	highlight_chart();
-      	highlight_stacked();
-      });
+  //Set up scales
+  var xScale = d3.scale.ordinal()
+    .domain(d3.range(dataset[0].length))
+    .rangeRoundBands([0, h], 0.2); // This is actually the Y scale (candidates)
 
-/*	var cumulChart_margin = {top: 10, right: 10, bottom: 10, left: 10},
-	    cumulChart_width = 458 - cumulChart_margin.left - cumulChart_margin.right,
-	    cumulChart_height = 80 - cumulChart_margin.top - cumulChart_margin.bottom;
-
-	var x_del = d3.scale.linear()
-	    .range([0, cumulChart_width])
-	    .domain([0, 2472]); // Total number of delegates to send
-	var x_votes = d3.scale.linear()
-	    .range([0, cumulChart_width])
-	    .domain([0, 40000000]); // 40M estimate number of potential voters
-
-    var cumulChart_svg = d3.select(id).append("svg")
-	    .attr("width", cumulChart_width + cumulChart_margin.left + cumulChart_margin.right)
-	    .attr("height", cumulChart_height + cumulChart_margin.top + cumulChart_margin.bottom)
-	  .append("g")
-	    .attr("transform", "translate(" + cumulChart_margin.left + "," + cumulChart_margin.top + ")");
-
-	// DELEGATES COUNT //
-  cumulChart_svg.selectAll(".cumulBar_del")
-      .data(data)
-    .enter().append("rect")
-      .attr("class", "cumulBar cumulBar_del")
-      .attr("cumulBar_state", function(d){
-      	return "st"+d.ansi_code;
+  /*var yScale = d3.scale.linear()
+    .domain([0,       
+      d3.max(dataset, function(d) {
+        return d3.max(d, function(d) {
+          return d.y0 + d.y;
+        });
       })
-      .attr("x", function(d, i) { return x_del(i*110); })
-      .attr("width", function(d) {return x_del(d.delegates);} )
-      .attr("y", 0)
-      .attr("height", 10)
-      .attr("fill", colors[1])
-      .on("mouseover", function(d){
-      	console.log(candidate);
-      	console.log(d.state);
-      	console.log(d.votes);
-      	console.log(d.delegates);
-      	currentState = "st"+d.ansi_code;
-      	console.log("current state: "+currentState);
-      	highlight_map();
-      	highlight_chart();
-      });*/
-   /* // VOTES COUNT //
-  cumulChart_svg.selectAll(".cumulBar_votes")
-      .data(data)
-    .enter().append("rect")
-      .attr("class", "cumulBar cumulBar_votes")
-      .attr("cumulBar_state", function(d){
-      	return "st"+d.ansi_code;
-      })
-      .attr("x", function(d, i) { return x_votes(i*1100000); })
-      .attr("width", function(d) {return x_votes(d.votes);} )
-      .attr("y", 10)
-      .attr("height", 10)
-      .attr("fill", colors[0])
-      .on("mouseover", function(d){
-      	console.log(candidate);
-      	console.log(d.state);
-      	console.log(d.votes);
-      	console.log(d.delegates);
-      	currentState = "st"+d.ansi_code;
-      	console.log("current state: "+currentState);
-      	highlight_map();
-      	highlight_chart();
-      });
-*/
+    ])
+    .range([0, w]); // This is actually the X Scale (States)*/
+   var yScale = d3.scale.linear()
+    .domain([0, 1237])
+    .range([0, w]); // This is actually the X Scale (States)
+ 
+  //Create SVG element
+  var svg = d3.select(id)
+        .append("svg")
+        .attr("width", w)
+        .attr("height", h);
+
+  // Add a group for each row of data
+  var groups = svg.selectAll("g")
+    .data(dataset)
+    .enter()
+    .append("g");
+
+  // Add a rect for each data value
+  var rects = groups.selectAll("rect")
+    .data(function(d) { return d; })
+      .enter()
+    .append("rect")
+    .attr("class", "stacked")
+    .attr("stacked_state", function(d) { return "st"+d.state; })
+    .attr("x", function(d) {
+      return yScale(d.y0);
+    })
+    .attr("y", function(d, i) {
+      return xScale(i);
+    })
+    .attr("width", function(d) {
+      return yScale(d.y);
+    })
+    .attr("height", xScale.rangeBand())
+    .style("fill", function(d, i) {
+      return repColorsLight[i];
+    })
+    .style("stroke", function(d, i) {
+      return repColors[i];
+    })
+    .on("mouseover", function(d) {
+      console.log(d.state);
+    })
+    .on("mouseover", function(d){
+	  	currentState = "st"+d.state;
+	  	highlight_map();
+	  	highlight_chart();
+	  	highlight_stacked();
+  	});
+
+ 	svg.append("line")
+	   	.attr("class", "stacked_del_line")
+	   	.attr("x1", w)
+	   	.attr("y1", 0)
+	   	.attr("x2", w)
+	   	.attr("y2", h)
+	   	.style("stroke", "#aaa")
+	   	.style("stroke-width", 1)
+	   	.style("stroke-dasharray", 3);
+	svg.append("text")
+		.attr("class", "stacked_del_line_text")
+	   	.attr("x", w-10)
+	   	.attr("y", 10)
+	   	.style("text-anchor", "end")
+	   	.style("fill", "#aaa")
+	   	.text("1237 delegates to win");
+
 } // cumulChart()
