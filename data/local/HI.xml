@@ -1,0 +1,697 @@
+<section class="content-group election-results">
+                            <header class="content-header has-divider">
+                                <h2>Hawaii Presidential Caucuses Results by County</h2>
+                                    </header>
+                            <article class="results-group" id="countyHawaii" data-fips="15001">
+    <header class="results-header">
+        <div class="title"><h4>Hawaii County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="12975">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">0.0% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders+wins+%23HI+Dem+presidential+Primary%3B+0.0%25+reporting.&amp;url=http://politi.co/1KdGzZr&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo">B. Sanders</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo">H. Clinton</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">R. De La Fuente</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/martino'malley"><span class="name-combo">M. O'Malley</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">Uncommitted</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            <div class="results-data pos-beta contains-republican " data-racenum="12898">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Republican</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Trump+wins+%23HI+GOP+presidential+Primary%3B+100.0%25+reporting.&amp;url=http://politi.co/1KdGzZr&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo">D. Trump</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">47.7%</span><span class="graph"><span class="bar"><span class="index" style="width:47.7%;"></span></span></span></span></td>
+                        <td class="results-popular">955</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo">T. Cruz</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">28.1%</span><span class="graph"><span class="bar"><span class="index" style="width:28.1%;"></span></span></span></span></td>
+                        <td class="results-popular">562</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo">M. Rubio</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">11.6%</span><span class="graph"><span class="bar"><span class="index" style="width:11.6%;"></span></span></span></span></td>
+                        <td class="results-popular">232</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo">J. Kasich</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">11.4%</span><span class="graph"><span class="bar"><span class="index" style="width:11.4%;"></span></span></span></span></td>
+                        <td class="results-popular">229</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/bencarson"><span class="name-combo">B. Carson</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">0.9%</span><span class="graph"><span class="bar"><span class="index" style="width:0.9%;"></span></span></span></span></td>
+                        <td class="results-popular">19</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/jebbush"><span class="name-combo">J. Bush</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">0.2%</span><span class="graph"><span class="bar"><span class="index" style="width:0.2%;"></span></span></span></span></td>
+                        <td class="results-popular">5</td>
+                        
+                    </tr>
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyHonolulu" data-fips="15003">
+    <header class="results-header">
+        <div class="title"><h4>Honolulu County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="12975">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">0.0% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders+winsHonolulu+County+in+%23HI+Dem+presidential+Primary%3B+0.0%25+reporting.&amp;url=http://politi.co/1KdGzZr&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo">B. Sanders</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo">H. Clinton</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">R. De La Fuente</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/martino'malley"><span class="name-combo">M. O'Malley</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">Uncommitted</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            <div class="results-data pos-beta contains-republican " data-racenum="12898">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Republican</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Trump+carries+Honolulu+County+in+%23HI+GOP+presidential+Primary%3B+100%25+reporting.&amp;url=http://politi.co/1KdGzZr&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo">D. Trump</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">40.5%</span><span class="graph"><span class="bar"><span class="index" style="width:40.5%;"></span></span></span></span></td>
+                        <td class="results-popular">3,664</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo">T. Cruz</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">34.3%</span><span class="graph"><span class="bar"><span class="index" style="width:34.3%;"></span></span></span></span></td>
+                        <td class="results-popular">3,100</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo">M. Rubio</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">13.9%</span><span class="graph"><span class="bar"><span class="index" style="width:13.9%;"></span></span></span></span></td>
+                        <td class="results-popular">1,261</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo">J. Kasich</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">10.1%</span><span class="graph"><span class="bar"><span class="index" style="width:10.1%;"></span></span></span></span></td>
+                        <td class="results-popular">918</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/bencarson"><span class="name-combo">B. Carson</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">1.0%</span><span class="graph"><span class="bar"><span class="index" style="width:1.0%;"></span></span></span></span></td>
+                        <td class="results-popular">86</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/jebbush"><span class="name-combo">J. Bush</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">0.2%</span><span class="graph"><span class="bar"><span class="index" style="width:0.2%;"></span></span></span></span></td>
+                        <td class="results-popular">16</td>
+                        
+                    </tr>
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyKauai" data-fips="15007">
+    <header class="results-header">
+        <div class="title"><h4>Kauai County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="12975">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">0.0% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders+winsKauai+County+in+%23HI+Dem+presidential+Primary%3B+0.0%25+reporting.&amp;url=http://politi.co/1KdGzZr&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo">B. Sanders</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo">H. Clinton</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">R. De La Fuente</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/martino'malley"><span class="name-combo">M. O'Malley</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">Uncommitted</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            <div class="results-data pos-beta contains-republican " data-racenum="12898">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Republican</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Trump+carries+Kauai+County+in+%23HI+GOP+presidential+Primary%3B+100%25+reporting.&amp;url=http://politi.co/1KdGzZr&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo">D. Trump</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">42.7%</span><span class="graph"><span class="bar"><span class="index" style="width:42.7%;"></span></span></span></span></td>
+                        <td class="results-popular">380</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo">T. Cruz</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">35.6%</span><span class="graph"><span class="bar"><span class="index" style="width:35.6%;"></span></span></span></span></td>
+                        <td class="results-popular">317</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo">J. Kasich</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">11.5%</span><span class="graph"><span class="bar"><span class="index" style="width:11.5%;"></span></span></span></span></td>
+                        <td class="results-popular">102</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo">M. Rubio</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">9.0%</span><span class="graph"><span class="bar"><span class="index" style="width:9.0%;"></span></span></span></span></td>
+                        <td class="results-popular">80</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/bencarson"><span class="name-combo">B. Carson</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">1.1%</span><span class="graph"><span class="bar"><span class="index" style="width:1.1%;"></span></span></span></span></td>
+                        <td class="results-popular">10</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/jebbush"><span class="name-combo">J. Bush</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">0.1%</span><span class="graph"><span class="bar"><span class="index" style="width:0.1%;"></span></span></span></span></td>
+                        <td class="results-popular">1</td>
+                        
+                    </tr>
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyMaui" data-fips="15009">
+    <header class="results-header">
+        <div class="title"><h4>Maui County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="12975">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">0.0% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders+winsMaui+County+in+%23HI+Dem+presidential+Primary%3B+0.0%25+reporting.&amp;url=http://politi.co/1KdGzZr&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo">B. Sanders</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo">H. Clinton</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">R. De La Fuente</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/martino'malley"><span class="name-combo">M. O'Malley</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">Uncommitted</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            <div class="results-data pos-beta contains-republican " data-racenum="12898">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Republican</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Trump+carries+Maui+County+in+%23HI+GOP+presidential+Primary%3B+100%25+reporting.&amp;url=http://politi.co/1KdGzZr&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo">D. Trump</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">47.1%</span><span class="graph"><span class="bar"><span class="index" style="width:47.1%;"></span></span></span></span></td>
+                        <td class="results-popular">678</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo">T. Cruz</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">27.8%</span><span class="graph"><span class="bar"><span class="index" style="width:27.8%;"></span></span></span></span></td>
+                        <td class="results-popular">400</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo">M. Rubio</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">12.9%</span><span class="graph"><span class="bar"><span class="index" style="width:12.9%;"></span></span></span></span></td>
+                        <td class="results-popular">186</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo">J. Kasich</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">11.4%</span><span class="graph"><span class="bar"><span class="index" style="width:11.4%;"></span></span></span></span></td>
+                        <td class="results-popular">164</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/bencarson"><span class="name-combo">B. Carson</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">0.8%</span><span class="graph"><span class="bar"><span class="index" style="width:0.8%;"></span></span></span></span></td>
+                        <td class="results-popular">12</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/jebbush"><span class="name-combo">J. Bush</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                        <td class="results-popular">0</td>
+                        
+                    </tr>
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+</section>

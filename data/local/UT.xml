@@ -1,0 +1,1611 @@
+<section class="content-group election-results">
+                            <header class="content-header has-divider">
+                                <h2>Utah Presidential Caucuses Results by County</h2>
+                                    </header>
+                            <article class="results-group" id="countyBeaver" data-fips="49001">
+    <header class="results-header">
+        <div class="title"><h4>Beaver County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="45667">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">0.0% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders+wins+Beaver+County+in+%23UT+Dem+presidential+caucus%3B+0.0%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo">B. Sanders</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo">H. Clinton</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">R. De La Fuente</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">M. Greenstein</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">Uncommitted</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            <div class="results-data pos-beta contains-republican " data-racenum="47758">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Republican</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Cruz+carries+Beaver+County+in+%23UT+GOP+presidential+caucus%3B+100%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo">T. Cruz</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">63.1%</span><span class="graph"><span class="bar"><span class="index" style="width:63.1%;"></span></span></span></span></td>
+                        <td class="results-popular">229</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo">D. Trump</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">24.0%</span><span class="graph"><span class="bar"><span class="index" style="width:24.0%;"></span></span></span></span></td>
+                        <td class="results-popular">87</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo">J. Kasich</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">12.9%</span><span class="graph"><span class="bar"><span class="index" style="width:12.9%;"></span></span></span></span></td>
+                        <td class="results-popular">47</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo">M. Rubio</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                        <td class="results-popular">0</td>
+                        
+                    </tr>
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyBoxElder" data-fips="49003">
+    <header class="results-header">
+        <div class="title"><h4>Box Elder County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="45667">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders+carries+Box+Elder+County+in+%23UT+Dem+presidential+caucus%3B+100%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo">B. Sanders</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">75.5%</span><span class="graph"><span class="bar"><span class="index" style="width:75.5%;"></span></span></span></span></td>
+                            <td class="results-popular">281</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo">H. Clinton</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">24.2%</span><span class="graph"><span class="bar"><span class="index" style="width:24.2%;"></span></span></span></span></td>
+                            <td class="results-popular">90</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">M. Greenstein</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.3%</span><span class="graph"><span class="bar"><span class="index" style="width:0.3%;"></span></span></span></span></td>
+                            <td class="results-popular">1</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">R. De La Fuente</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">Uncommitted</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            <div class="results-data pos-beta contains-republican " data-racenum="47758">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Republican</h5>
+                        <p class="reporting">98.1% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Cruz+wins+Box+Elder+County+in+%23UT+GOP+presidential+caucus%3B+98.1%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo">T. Cruz</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">74.1%</span><span class="graph"><span class="bar"><span class="index" style="width:74.1%;"></span></span></span></span></td>
+                        <td class="results-popular">3,314</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo">J. Kasich</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">14.3%</span><span class="graph"><span class="bar"><span class="index" style="width:14.3%;"></span></span></span></span></td>
+                        <td class="results-popular">638</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo">D. Trump</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">11.6%</span><span class="graph"><span class="bar"><span class="index" style="width:11.6%;"></span></span></span></span></td>
+                        <td class="results-popular">520</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo">M. Rubio</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                        <td class="results-popular">0</td>
+                        
+                    </tr>
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyCache" data-fips="49005">
+    <header class="results-header">
+        <div class="title"><h4>Cache County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="45667">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders+carries+Cache+County+in+%23UT+Dem+presidential+caucus%3B+100%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo">B. Sanders</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">81.5%</span><span class="graph"><span class="bar"><span class="index" style="width:81.5%;"></span></span></span></span></td>
+                            <td class="results-popular">2,906</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo">H. Clinton</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">17.7%</span><span class="graph"><span class="bar"><span class="index" style="width:17.7%;"></span></span></span></span></td>
+                            <td class="results-popular">630</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">Uncommitted</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.7%</span><span class="graph"><span class="bar"><span class="index" style="width:0.7%;"></span></span></span></span></td>
+                            <td class="results-popular">26</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">R. De La Fuente</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.1%</span><span class="graph"><span class="bar"><span class="index" style="width:0.1%;"></span></span></span></span></td>
+                            <td class="results-popular">2</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">M. Greenstein</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">1</td>
+                            
+                    </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            <div class="results-data pos-beta contains-republican " data-racenum="47758">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Republican</h5>
+                        <p class="reporting">94.3% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Cruz+wins+Cache+County+in+%23UT+GOP+presidential+caucus%3B+94.3%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo">T. Cruz</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">70.9%</span><span class="graph"><span class="bar"><span class="index" style="width:70.9%;"></span></span></span></span></td>
+                        <td class="results-popular">7,172</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo">J. Kasich</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">18.7%</span><span class="graph"><span class="bar"><span class="index" style="width:18.7%;"></span></span></span></span></td>
+                        <td class="results-popular">1,892</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo">D. Trump</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">10.4%</span><span class="graph"><span class="bar"><span class="index" style="width:10.4%;"></span></span></span></span></td>
+                        <td class="results-popular">1,049</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo">M. Rubio</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                        <td class="results-popular">0</td>
+                        
+                    </tr>
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyCarbon" data-fips="49007">
+    <header class="results-header">
+        <div class="title"><h4>Carbon County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="45667">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders+carries+Carbon+County+in+%23UT+Dem+presidential+caucus%3B+100%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo">B. Sanders</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">61.5%</span><span class="graph"><span class="bar"><span class="index" style="width:61.5%;"></span></span></span></span></td>
+                            <td class="results-popular">235</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo">H. Clinton</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">33.5%</span><span class="graph"><span class="bar"><span class="index" style="width:33.5%;"></span></span></span></span></td>
+                            <td class="results-popular">128</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">Uncommitted</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">5.0%</span><span class="graph"><span class="bar"><span class="index" style="width:5.0%;"></span></span></span></span></td>
+                            <td class="results-popular">19</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">R. De La Fuente</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">M. Greenstein</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            <div class="results-data pos-beta contains-republican " data-racenum="47758">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Republican</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Cruz+carries+Carbon+County+in+%23UT+GOP+presidential+caucus%3B+100%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo">T. Cruz</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">60.8%</span><span class="graph"><span class="bar"><span class="index" style="width:60.8%;"></span></span></span></span></td>
+                        <td class="results-popular">595</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo">D. Trump</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">30.0%</span><span class="graph"><span class="bar"><span class="index" style="width:30.0%;"></span></span></span></span></td>
+                        <td class="results-popular">293</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo">J. Kasich</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">9.2%</span><span class="graph"><span class="bar"><span class="index" style="width:9.2%;"></span></span></span></span></td>
+                        <td class="results-popular">90</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo">M. Rubio</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                        <td class="results-popular">0</td>
+                        
+                    </tr>
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyDaggett" data-fips="49009">
+    <header class="results-header">
+        <div class="title"><h4>Daggett County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="45667">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders+carries+Daggett+County+in+%23UT+Dem+presidential+caucus%3B+100%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo">B. Sanders</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">86.7%</span><span class="graph"><span class="bar"><span class="index" style="width:86.7%;"></span></span></span></span></td>
+                            <td class="results-popular">13</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo">H. Clinton</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">6.7%</span><span class="graph"><span class="bar"><span class="index" style="width:6.7%;"></span></span></span></span></td>
+                            <td class="results-popular">1</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">R. De La Fuente</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">6.7%</span><span class="graph"><span class="bar"><span class="index" style="width:6.7%;"></span></span></span></span></td>
+                            <td class="results-popular">1</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">M. Greenstein</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">Uncommitted</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            <div class="results-data pos-beta contains-republican " data-racenum="47758">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Republican</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Cruz+carries+Daggett+County+in+%23UT+GOP+presidential+caucus%3B+100%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo">T. Cruz</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">38.3%</span><span class="graph"><span class="bar"><span class="index" style="width:38.3%;"></span></span></span></span></td>
+                        <td class="results-popular">36</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo">D. Trump</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">35.1%</span><span class="graph"><span class="bar"><span class="index" style="width:35.1%;"></span></span></span></span></td>
+                        <td class="results-popular">33</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo">J. Kasich</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">26.6%</span><span class="graph"><span class="bar"><span class="index" style="width:26.6%;"></span></span></span></span></td>
+                        <td class="results-popular">25</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo">M. Rubio</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                        <td class="results-popular">0</td>
+                        
+                    </tr>
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyDavis" data-fips="49011">
+    <header class="results-header">
+        <div class="title"><h4>Davis County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="45667">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders+carries+Davis+County+in+%23UT+Dem+presidential+caucus%3B+100%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo">B. Sanders</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">82.4%</span><span class="graph"><span class="bar"><span class="index" style="width:82.4%;"></span></span></span></span></td>
+                            <td class="results-popular">3,563</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo">H. Clinton</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">17.3%</span><span class="graph"><span class="bar"><span class="index" style="width:17.3%;"></span></span></span></span></td>
+                            <td class="results-popular">747</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">Uncommitted</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.3%</span><span class="graph"><span class="bar"><span class="index" style="width:0.3%;"></span></span></span></span></td>
+                            <td class="results-popular">13</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">M. Greenstein</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">2</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">R. De La Fuente</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            <div class="results-data pos-beta contains-republican " data-racenum="47758">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Republican</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Cruz+carries+Davis+County+in+%23UT+GOP+presidential+caucus%3B+100%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo">T. Cruz</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">68.4%</span><span class="graph"><span class="bar"><span class="index" style="width:68.4%;"></span></span></span></span></td>
+                        <td class="results-popular">17,528</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo">J. Kasich</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">20.3%</span><span class="graph"><span class="bar"><span class="index" style="width:20.3%;"></span></span></span></span></td>
+                        <td class="results-popular">5,214</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo">D. Trump</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">11.3%</span><span class="graph"><span class="bar"><span class="index" style="width:11.3%;"></span></span></span></span></td>
+                        <td class="results-popular">2,902</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo">M. Rubio</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                        <td class="results-popular">0</td>
+                        
+                    </tr>
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyDuchesne" data-fips="49013">
+    <header class="results-header">
+        <div class="title"><h4>Duchesne County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="45667">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders+carries+Duchesne+County+in+%23UT+Dem+presidential+caucus%3B+100%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo">B. Sanders</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">69.0%</span><span class="graph"><span class="bar"><span class="index" style="width:69.0%;"></span></span></span></span></td>
+                            <td class="results-popular">87</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo">H. Clinton</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">29.4%</span><span class="graph"><span class="bar"><span class="index" style="width:29.4%;"></span></span></span></span></td>
+                            <td class="results-popular">37</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">Uncommitted</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">1.6%</span><span class="graph"><span class="bar"><span class="index" style="width:1.6%;"></span></span></span></span></td>
+                            <td class="results-popular">2</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">R. De La Fuente</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">M. Greenstein</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            <div class="results-data pos-beta contains-republican " data-racenum="47758">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Republican</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Cruz+carries+Duchesne+County+in+%23UT+GOP+presidential+caucus%3B+100%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo">T. Cruz</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">76.4%</span><span class="graph"><span class="bar"><span class="index" style="width:76.4%;"></span></span></span></span></td>
+                        <td class="results-popular">1,342</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo">D. Trump</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">18.5%</span><span class="graph"><span class="bar"><span class="index" style="width:18.5%;"></span></span></span></span></td>
+                        <td class="results-popular">324</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo">J. Kasich</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">5.1%</span><span class="graph"><span class="bar"><span class="index" style="width:5.1%;"></span></span></span></span></td>
+                        <td class="results-popular">90</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo">M. Rubio</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                        <td class="results-popular">0</td>
+                        
+                    </tr>
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyEmery" data-fips="49015">
+    <header class="results-header">
+        <div class="title"><h4>Emery County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="45667">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders+carries+Emery+County+in+%23UT+Dem+presidential+caucus%3B+100%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo">B. Sanders</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">65.3%</span><span class="graph"><span class="bar"><span class="index" style="width:65.3%;"></span></span></span></span></td>
+                            <td class="results-popular">66</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo">H. Clinton</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">25.7%</span><span class="graph"><span class="bar"><span class="index" style="width:25.7%;"></span></span></span></span></td>
+                            <td class="results-popular">26</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">Uncommitted</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">8.9%</span><span class="graph"><span class="bar"><span class="index" style="width:8.9%;"></span></span></span></span></td>
+                            <td class="results-popular">9</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">R. De La Fuente</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">M. Greenstein</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            <div class="results-data pos-beta contains-republican " data-racenum="47758">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Republican</h5>
+                        <p class="reporting">92.3% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Cruz+wins+Emery+County+in+%23UT+GOP+presidential+caucus%3B+92.3%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo">T. Cruz</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">64.6%</span><span class="graph"><span class="bar"><span class="index" style="width:64.6%;"></span></span></span></span></td>
+                        <td class="results-popular">455</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo">D. Trump</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">22.9%</span><span class="graph"><span class="bar"><span class="index" style="width:22.9%;"></span></span></span></span></td>
+                        <td class="results-popular">161</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo">J. Kasich</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">12.5%</span><span class="graph"><span class="bar"><span class="index" style="width:12.5%;"></span></span></span></span></td>
+                        <td class="results-popular">88</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo">M. Rubio</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                        <td class="results-popular">0</td>
+                        
+                    </tr>
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyGarfield" data-fips="49017">
+    <header class="results-header">
+        <div class="title"><h4>Garfield County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="45667">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders+carries+Garfield+County+in+%23UT+Dem+presidential+caucus%3B+100%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo">B. Sanders</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">73.7%</span><span class="graph"><span class="bar"><span class="index" style="width:73.7%;"></span></span></span></span></td>
+                            <td class="results-popular">73</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo">H. Clinton</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">23.2%</span><span class="graph"><span class="bar"><span class="index" style="width:23.2%;"></span></span></span></span></td>
+                            <td class="results-popular">23</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">Uncommitted</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">3.0%</span><span class="graph"><span class="bar"><span class="index" style="width:3.0%;"></span></span></span></span></td>
+                            <td class="results-popular">3</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">R. De La Fuente</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">M. Greenstein</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            <div class="results-data pos-beta contains-republican " data-racenum="47758">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Republican</h5>
+                        <p class="reporting">45.5% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Cruz+wins+Garfield+County+in+%23UT+GOP+presidential+caucus%3B+45.5%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo">T. Cruz</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">65.7%</span><span class="graph"><span class="bar"><span class="index" style="width:65.7%;"></span></span></span></span></td>
+                        <td class="results-popular">247</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo">D. Trump</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">23.7%</span><span class="graph"><span class="bar"><span class="index" style="width:23.7%;"></span></span></span></span></td>
+                        <td class="results-popular">89</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo">J. Kasich</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">10.6%</span><span class="graph"><span class="bar"><span class="index" style="width:10.6%;"></span></span></span></span></td>
+                        <td class="results-popular">40</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo">M. Rubio</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                        <td class="results-popular">0</td>
+                        
+                    </tr>
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyGrand" data-fips="49019" data-z="10">
+    <header class="results-header">
+        <div class="title"><h4>Grand County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="45667">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders+carries+Grand+County+in+%23UT+Dem+presidential+caucus%3B+100%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo">B. Sanders</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">79.6%</span><span class="graph"><span class="bar"><span class="index" style="width:79.6%;"></span></span></span></span></td>
+                            <td class="results-popular">636</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo">H. Clinton</span></a></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">20.2%</span><span class="graph"><span class="bar"><span class="index" style="width:20.2%;"></span></span></span></span></td>
+                            <td class="results-popular">161</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">Uncommitted</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.3%</span><span class="graph"><span class="bar"><span class="index" style="width:0.3%;"></span></span></span></span></td>
+                            <td class="results-popular">2</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">R. De La Fuente</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    <tr class="type-democrat">
+                        
+                        <th scope="row" class="results-name"><span class="name-combo">M. Greenstein</span></th>
+                        
+                            
+                            <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                            <td class="results-popular">0</td>
+                            
+                    </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            <div class="results-data pos-beta contains-republican " data-racenum="47758">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Republican</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Cruz+carries+Grand+County+in+%23UT+GOP+presidential+caucus%3B+100%25+reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table">
+                    <tbody>
+                    
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo">T. Cruz</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">53.4%</span><span class="graph"><span class="bar"><span class="index" style="width:53.4%;"></span></span></span></span></td>
+                        <td class="results-popular">180</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo">D. Trump</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">37.7%</span><span class="graph"><span class="bar"><span class="index" style="width:37.7%;"></span></span></span></span></td>
+                        <td class="results-popular">127</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo">J. Kasich</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">8.9%</span><span class="graph"><span class="bar"><span class="index" style="width:8.9%;"></span></span></span></span></td>
+                        <td class="results-popular">30</td>
+                        
+                    </tr>
+                    
+                    <tr class="type-republican">
+                        
+                        <th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo">M. Rubio</span></a></th>
+                        
+                        
+                        <td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td>
+                        <td class="results-popular">0</td>
+                        
+                    </tr>
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyIron" data-fips="49021">
+    <header class="results-header">
+        <div class="title"><h4 class="">Iron County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Iron County in %23UT Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">81.5%</span><span class="graph"><span class="bar"><span class="index" style="width:81.5%;"></span></span></span></span></td><td class="results-popular">639</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">18.1%</span><span class="graph"><span class="bar"><span class="index" style="width:18.1%;"></span></span></span></span></td><td class="results-popular">142</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.4%</span><span class="graph"><span class="bar"><span class="index" style="width:0.4%;"></span></span></span></span></td><td class="results-popular">3</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz carries Iron County in %23UT GOP presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">65.5%</span><span class="graph"><span class="bar"><span class="index" style="width:65.5%;"></span></span></span></span></td><td class="results-popular">2,287</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">20.6%</span><span class="graph"><span class="bar"><span class="index" style="width:20.6%;"></span></span></span></span></td><td class="results-popular">720</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">13.9%</span><span class="graph"><span class="bar"><span class="index" style="width:13.9%;"></span></span></span></span></td><td class="results-popular">485</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyJuab" data-fips="49023">
+    <header class="results-header">
+        <div class="title"><h4 class="">Juab County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Juab County in %23UT Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">77.5%</span><span class="graph"><span class="bar"><span class="index" style="width:77.5%;"></span></span></span></span></td><td class="results-popular">55</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">22.5%</span><span class="graph"><span class="bar"><span class="index" style="width:22.5%;"></span></span></span></span></td><td class="results-popular">16</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">90% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz 76.7%25, Trump 14%25%3B 90%25 reporting in Juab County in %23UT GOP presidential caucus.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">76.7%</span><span class="graph"><span class="bar"><span class="index" style="width:76.7%;"></span></span></span></span></td><td class="results-popular">647</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">14.0%</span><span class="graph"><span class="bar"><span class="index" style="width:14.0%;"></span></span></span></span></td><td class="results-popular">118</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">9.3%</span><span class="graph"><span class="bar"><span class="index" style="width:9.3%;"></span></span></span></span></td><td class="results-popular">78</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyKane" data-fips="49025">
+    <header class="results-header">
+        <div class="title"><h4 class="">Kane County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Kane County in %23UT Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">78.2%</span><span class="graph"><span class="bar"><span class="index" style="width:78.2%;"></span></span></span></span></td><td class="results-popular">186</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">21.0%</span><span class="graph"><span class="bar"><span class="index" style="width:21.0%;"></span></span></span></span></td><td class="results-popular">50</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.8%</span><span class="graph"><span class="bar"><span class="index" style="width:0.8%;"></span></span></span></span></td><td class="results-popular">2</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">81.8% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz 64.9%25, Trump 24%25%3B 81.8%25 reporting in Kane County in %23UT GOP presidential caucus.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">64.9%</span><span class="graph"><span class="bar"><span class="index" style="width:64.9%;"></span></span></span></span></td><td class="results-popular">371</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">24.0%</span><span class="graph"><span class="bar"><span class="index" style="width:24.0%;"></span></span></span></span></td><td class="results-popular">137</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">11.2%</span><span class="graph"><span class="bar"><span class="index" style="width:11.2%;"></span></span></span></span></td><td class="results-popular">64</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyMillard" data-fips="49027">
+    <header class="results-header">
+        <div class="title"><h4 class="">Millard County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Millard County in %23UT Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">44.0%</span><span class="graph"><span class="bar"><span class="index" style="width:44.0%;"></span></span></span></span></td><td class="results-popular">11</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">36.0%</span><span class="graph"><span class="bar"><span class="index" style="width:36.0%;"></span></span></span></span></td><td class="results-popular">9</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">20.0%</span><span class="graph"><span class="bar"><span class="index" style="width:20.0%;"></span></span></span></span></td><td class="results-popular">5</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz carries Millard County in %23UT GOP presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">71.2%</span><span class="graph"><span class="bar"><span class="index" style="width:71.2%;"></span></span></span></span></td><td class="results-popular">771</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">18.4%</span><span class="graph"><span class="bar"><span class="index" style="width:18.4%;"></span></span></span></span></td><td class="results-popular">199</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">10.4%</span><span class="graph"><span class="bar"><span class="index" style="width:10.4%;"></span></span></span></span></td><td class="results-popular">113</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyMorgan" data-fips="49029">
+    <header class="results-header">
+        <div class="title"><h4 class="">Morgan County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Morgan County in %23UT Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">69.3%</span><span class="graph"><span class="bar"><span class="index" style="width:69.3%;"></span></span></span></span></td><td class="results-popular">104</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">26.0%</span><span class="graph"><span class="bar"><span class="index" style="width:26.0%;"></span></span></span></span></td><td class="results-popular">39</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">3.3%</span><span class="graph"><span class="bar"><span class="index" style="width:3.3%;"></span></span></span></span></td><td class="results-popular">5</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">1.3%</span><span class="graph"><span class="bar"><span class="index" style="width:1.3%;"></span></span></span></span></td><td class="results-popular">2</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz carries Morgan County in %23UT GOP presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">73.1%</span><span class="graph"><span class="bar"><span class="index" style="width:73.1%;"></span></span></span></span></td><td class="results-popular">839</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">15.2%</span><span class="graph"><span class="bar"><span class="index" style="width:15.2%;"></span></span></span></span></td><td class="results-popular">175</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">11.7%</span><span class="graph"><span class="bar"><span class="index" style="width:11.7%;"></span></span></span></span></td><td class="results-popular">134</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyPiute" data-fips="49031">
+    <header class="results-header">
+        <div class="title"><h4 class="">Piute County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">0% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=No results for Piute County in %23UT Dem presidential caucus. Check back soon on&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz carries Piute County in %23UT GOP presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">51.2%</span><span class="graph"><span class="bar"><span class="index" style="width:51.2%;"></span></span></span></span></td><td class="results-popular">86</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">41.7%</span><span class="graph"><span class="bar"><span class="index" style="width:41.7%;"></span></span></span></span></td><td class="results-popular">70</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">7.1%</span><span class="graph"><span class="bar"><span class="index" style="width:7.1%;"></span></span></span></span></td><td class="results-popular">12</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyRich" data-fips="49033">
+    <header class="results-header">
+        <div class="title"><h4 class="">Rich County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">0% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=No results for Rich County in %23UT Dem presidential caucus. Check back soon on&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz carries Rich County in %23UT GOP presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">78.6%</span><span class="graph"><span class="bar"><span class="index" style="width:78.6%;"></span></span></span></span></td><td class="results-popular">198</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">12.3%</span><span class="graph"><span class="bar"><span class="index" style="width:12.3%;"></span></span></span></span></td><td class="results-popular">31</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">9.1%</span><span class="graph"><span class="bar"><span class="index" style="width:9.1%;"></span></span></span></span></td><td class="results-popular">23</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countySaltLake" data-fips="49035">
+    <header class="results-header">
+        <div class="title"><h4 class="">Salt Lake County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Salt Lake County in %23UT Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">78.8%</span><span class="graph"><span class="bar"><span class="index" style="width:78.8%;"></span></span></span></span></td><td class="results-popular">35,610</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">20.9%</span><span class="graph"><span class="bar"><span class="index" style="width:20.9%;"></span></span></span></span></td><td class="results-popular">9,431</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.3%</span><span class="graph"><span class="bar"><span class="index" style="width:0.3%;"></span></span></span></span></td><td class="results-popular">150</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">8</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">1</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">87% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz 66.7%25, Kasich 19.3%25%3B 87%25 reporting in Salt Lake County in %23UT GOP presidential caucus.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">66.7%</span><span class="graph"><span class="bar"><span class="index" style="width:66.7%;"></span></span></span></span></td><td class="results-popular">31,164</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">19.3%</span><span class="graph"><span class="bar"><span class="index" style="width:19.3%;"></span></span></span></span></td><td class="results-popular">9,017</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">14.0%</span><span class="graph"><span class="bar"><span class="index" style="width:14.0%;"></span></span></span></span></td><td class="results-popular">6,542</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countySanJuan" data-fips="49037">
+    <header class="results-header">
+        <div class="title"><h4 class="">San Juan County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries San Juan County in %23UT Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">64.8%</span><span class="graph"><span class="bar"><span class="index" style="width:64.8%;"></span></span></span></span></td><td class="results-popular">81</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">35.2%</span><span class="graph"><span class="bar"><span class="index" style="width:35.2%;"></span></span></span></span></td><td class="results-popular">44</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz carries San Juan County in %23UT GOP presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">71.8%</span><span class="graph"><span class="bar"><span class="index" style="width:71.8%;"></span></span></span></span></td><td class="results-popular">407</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">14.8%</span><span class="graph"><span class="bar"><span class="index" style="width:14.8%;"></span></span></span></span></td><td class="results-popular">84</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">13.4%</span><span class="graph"><span class="bar"><span class="index" style="width:13.4%;"></span></span></span></span></td><td class="results-popular">76</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countySanpete" data-fips="49039" data-z="20">
+    <header class="results-header">
+        <div class="title"><h4 class="">Sanpete County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Sanpete County in %23UT Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">84.9%</span><span class="graph"><span class="bar"><span class="index" style="width:84.9%;"></span></span></span></span></td><td class="results-popular">264</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">14.1%</span><span class="graph"><span class="bar"><span class="index" style="width:14.1%;"></span></span></span></span></td><td class="results-popular">44</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">1.0%</span><span class="graph"><span class="bar"><span class="index" style="width:1.0%;"></span></span></span></span></td><td class="results-popular">3</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz carries Sanpete County in %23UT GOP presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">69.0%</span><span class="graph"><span class="bar"><span class="index" style="width:69.0%;"></span></span></span></span></td><td class="results-popular">1,282</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">18.7%</span><span class="graph"><span class="bar"><span class="index" style="width:18.7%;"></span></span></span></span></td><td class="results-popular">347</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">12.4%</span><span class="graph"><span class="bar"><span class="index" style="width:12.4%;"></span></span></span></span></td><td class="results-popular">230</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countySevier" data-fips="49041">
+    <header class="results-header">
+        <div class="title"><h4 class="">Sevier County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Sevier County in %23UT Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">71.4%</span><span class="graph"><span class="bar"><span class="index" style="width:71.4%;"></span></span></span></span></td><td class="results-popular">85</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">28.6%</span><span class="graph"><span class="bar"><span class="index" style="width:28.6%;"></span></span></span></span></td><td class="results-popular">34</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz carries Sevier County in %23UT GOP presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">64.2%</span><span class="graph"><span class="bar"><span class="index" style="width:64.2%;"></span></span></span></span></td><td class="results-popular">1,010</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">23.8%</span><span class="graph"><span class="bar"><span class="index" style="width:23.8%;"></span></span></span></span></td><td class="results-popular">374</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">12.0%</span><span class="graph"><span class="bar"><span class="index" style="width:12.0%;"></span></span></span></span></td><td class="results-popular">189</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countySummit" data-fips="49043">
+    <header class="results-header">
+        <div class="title"><h4 class="">Summit County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Summit County in %23UT Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">68.3%</span><span class="graph"><span class="bar"><span class="index" style="width:68.3%;"></span></span></span></span></td><td class="results-popular">1,645</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">31.2%</span><span class="graph"><span class="bar"><span class="index" style="width:31.2%;"></span></span></span></span></td><td class="results-popular">751</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.5%</span><span class="graph"><span class="bar"><span class="index" style="width:0.5%;"></span></span></span></span></td><td class="results-popular">12</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">97.8% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz 43.6%25, Trump 29.8%25%3B 97.8%25 reporting in Summit County in %23UT GOP presidential caucus.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">43.6%</span><span class="graph"><span class="bar"><span class="index" style="width:43.6%;"></span></span></span></span></td><td class="results-popular">672</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">29.8%</span><span class="graph"><span class="bar"><span class="index" style="width:29.8%;"></span></span></span></span></td><td class="results-popular">459</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">26.7%</span><span class="graph"><span class="bar"><span class="index" style="width:26.7%;"></span></span></span></span></td><td class="results-popular">411</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyTooele" data-fips="49045">
+    <header class="results-header">
+        <div class="title"><h4 class="">Tooele County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Tooele County in %23UT Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">80.0%</span><span class="graph"><span class="bar"><span class="index" style="width:80.0%;"></span></span></span></span></td><td class="results-popular">986</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">19.5%</span><span class="graph"><span class="bar"><span class="index" style="width:19.5%;"></span></span></span></span></td><td class="results-popular">240</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.6%</span><span class="graph"><span class="bar"><span class="index" style="width:0.6%;"></span></span></span></span></td><td class="results-popular">7</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz carries Tooele County in %23UT GOP presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">70.8%</span><span class="graph"><span class="bar"><span class="index" style="width:70.8%;"></span></span></span></span></td><td class="results-popular">2,412</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">15.2%</span><span class="graph"><span class="bar"><span class="index" style="width:15.2%;"></span></span></span></span></td><td class="results-popular">518</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">14.1%</span><span class="graph"><span class="bar"><span class="index" style="width:14.1%;"></span></span></span></span></td><td class="results-popular">479</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyUintah" data-fips="49047">
+    <header class="results-header">
+        <div class="title"><h4 class="">Uintah County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Uintah County in %23UT Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">76.3%</span><span class="graph"><span class="bar"><span class="index" style="width:76.3%;"></span></span></span></span></td><td class="results-popular">135</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">22.0%</span><span class="graph"><span class="bar"><span class="index" style="width:22.0%;"></span></span></span></span></td><td class="results-popular">39</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">1.7%</span><span class="graph"><span class="bar"><span class="index" style="width:1.7%;"></span></span></span></span></td><td class="results-popular">3</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz carries Uintah County in %23UT GOP presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">73.9%</span><span class="graph"><span class="bar"><span class="index" style="width:73.9%;"></span></span></span></span></td><td class="results-popular">2,144</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">19.8%</span><span class="graph"><span class="bar"><span class="index" style="width:19.8%;"></span></span></span></span></td><td class="results-popular">575</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">6.3%</span><span class="graph"><span class="bar"><span class="index" style="width:6.3%;"></span></span></span></span></td><td class="results-popular">184</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyUtah" data-fips="49049">
+    <header class="results-header">
+        <div class="title"><h4 class="">Utah County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Utah County in %23UT Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">85.3%</span><span class="graph"><span class="bar"><span class="index" style="width:85.3%;"></span></span></span></span></td><td class="results-popular">6,071</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">14.2%</span><span class="graph"><span class="bar"><span class="index" style="width:14.2%;"></span></span></span></span></td><td class="results-popular">1,011</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.4%</span><span class="graph"><span class="bar"><span class="index" style="width:0.4%;"></span></span></span></span></td><td class="results-popular">29</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.1%</span><span class="graph"><span class="bar"><span class="index" style="width:0.1%;"></span></span></span></span></td><td class="results-popular">5</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.1%</span><span class="graph"><span class="bar"><span class="index" style="width:0.1%;"></span></span></span></span></td><td class="results-popular">4</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">75.3% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz 75.5%25, Kasich 15.4%25%3B 75.3%25 reporting in Utah County in %23UT GOP presidential caucus.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">75.5%</span><span class="graph"><span class="bar"><span class="index" style="width:75.5%;"></span></span></span></span></td><td class="results-popular">30,637</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">15.4%</span><span class="graph"><span class="bar"><span class="index" style="width:15.4%;"></span></span></span></span></td><td class="results-popular">6,236</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">9.1%</span><span class="graph"><span class="bar"><span class="index" style="width:9.1%;"></span></span></span></span></td><td class="results-popular">3,713</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyWasatch" data-fips="49051">
+    <header class="results-header">
+        <div class="title"><h4 class="">Wasatch County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Wasatch County in %23UT Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">76.4%</span><span class="graph"><span class="bar"><span class="index" style="width:76.4%;"></span></span></span></span></td><td class="results-popular">557</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">23.3%</span><span class="graph"><span class="bar"><span class="index" style="width:23.3%;"></span></span></span></span></td><td class="results-popular">170</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.3%</span><span class="graph"><span class="bar"><span class="index" style="width:0.3%;"></span></span></span></span></td><td class="results-popular">2</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz carries Wasatch County in %23UT GOP presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">64.4%</span><span class="graph"><span class="bar"><span class="index" style="width:64.4%;"></span></span></span></span></td><td class="results-popular">1,529</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">19.4%</span><span class="graph"><span class="bar"><span class="index" style="width:19.4%;"></span></span></span></span></td><td class="results-popular">461</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">16.2%</span><span class="graph"><span class="bar"><span class="index" style="width:16.2%;"></span></span></span></span></td><td class="results-popular">386</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyWashington" data-fips="49053">
+    <header class="results-header">
+        <div class="title"><h4 class="">Washington County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Washington County in %23UT Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">69.5%</span><span class="graph"><span class="bar"><span class="index" style="width:69.5%;"></span></span></span></span></td><td class="results-popular">1,509</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">30.4%</span><span class="graph"><span class="bar"><span class="index" style="width:30.4%;"></span></span></span></span></td><td class="results-popular">660</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">1</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">1</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">91.5% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz 62.3%25, Trump 24.7%25%3B 91.5%25 reporting in Washington County in %23UT GOP presidential caucus.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">62.3%</span><span class="graph"><span class="bar"><span class="index" style="width:62.3%;"></span></span></span></span></td><td class="results-popular">7,801</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">24.7%</span><span class="graph"><span class="bar"><span class="index" style="width:24.7%;"></span></span></span></span></td><td class="results-popular">3,090</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">13.0%</span><span class="graph"><span class="bar"><span class="index" style="width:13.0%;"></span></span></span></span></td><td class="results-popular">1,634</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyWayne" data-fips="49055">
+    <header class="results-header">
+        <div class="title"><h4 class="">Wayne County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Wayne County in %23UT Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">69.3%</span><span class="graph"><span class="bar"><span class="index" style="width:69.3%;"></span></span></span></span></td><td class="results-popular">70</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">29.7%</span><span class="graph"><span class="bar"><span class="index" style="width:29.7%;"></span></span></span></span></td><td class="results-popular">30</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">1.0%</span><span class="graph"><span class="bar"><span class="index" style="width:1.0%;"></span></span></span></span></td><td class="results-popular">1</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">87.5% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz 67.5%25, Trump 20.2%25%3B 87.5%25 reporting in Wayne County in %23UT GOP presidential caucus.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">67.5%</span><span class="graph"><span class="bar"><span class="index" style="width:67.5%;"></span></span></span></span></td><td class="results-popular">154</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">20.2%</span><span class="graph"><span class="bar"><span class="index" style="width:20.2%;"></span></span></span></span></td><td class="results-popular">46</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">12.3%</span><span class="graph"><span class="bar"><span class="index" style="width:12.3%;"></span></span></span></span></td><td class="results-popular">28</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyWeber" data-fips="49057">
+    <header class="results-header">
+        <div class="title"><h4 class="">Weber County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="45667"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Weber County in %23UT Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">82.8%</span><span class="graph"><span class="bar"><span class="index" style="width:82.8%;"></span></span></span></span></td><td class="results-popular">5,465</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">16.9%</span><span class="graph"><span class="bar"><span class="index" style="width:16.9%;"></span></span></span></span></td><td class="results-popular">1,113</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.3%</span><span class="graph"><span class="bar"><span class="index" style="width:0.3%;"></span></span></span></span></td><td class="results-popular">20</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> M. Greenstein</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="47758"><div class="results-meta"><div class="title"><h5>Republican</h5> <p class="reporting">76.5% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Cruz 67.1%25, Kasich 16.8%25%3B 76.5%25 reporting in Weber County in %23UT GOP presidential caucus.&amp;url=http://politi.co/1KdGAfX&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/tedcruz"><span class="name-combo"> T. Cruz</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">67.1%</span><span class="graph"><span class="bar"><span class="index" style="width:67.1%;"></span></span></span></span></td><td class="results-popular">7,058</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/johnkasich"><span class="name-combo"> J. Kasich</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">16.8%</span><span class="graph"><span class="bar"><span class="index" style="width:16.8%;"></span></span></span></span></td><td class="results-popular">1,765</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/donaldtrump"><span class="name-combo"> D. Trump</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">16.1%</span><span class="graph"><span class="bar"><span class="index" style="width:16.1%;"></span></span></span></span></td><td class="results-popular">1,695</td></tr><tr class="type-republican"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/marcorubio"><span class="name-combo"> M. Rubio</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div></div></div><footer class="results-footer"></footer></article></section>

@@ -6,90 +6,98 @@ library(jsonlite)
 library(tidyr)
 library(XML)
 library(RCurl)
-
-
-url <- "kansas.xml"
-doc <- xmlTreeParse(url, useInternal = TRUE)
-str(doc)
-top <- xmlRoot(doc)
-str(top)
-xmlName(top)
-names(top[2][[1]])
-
-art <- top[[2]]
-xmlValue(art[[1]])
-
-xmlSApply(art[[1]], xmlValue)
-
-xmlValue(art)
-xmlSApply(art, function(x) xmlSApply(x, xmlValue))
-
-# XPath
-names(top)
-nodes <- getNodeSet(top, "//article")
-
-xmlValue(doc[["//table"]])
-
-###################
-# test from html
-theurl <- "http://www.politico.com/2016-election/results/map/president/kansas"
-webpage <- getURL(theurl)
-webpage <- readLines(tc <- textConnection(webpage)); close(tc)
-
-pagetree <- htmlTreeParse(webpage, error=function(...){}, useInternalNodes = TRUE)
-
-# Extract table header and contents
-tablehead <- xpathSApply(pagetree, "//*/table[@class='results-table']/tbody/tr/th", xmlValue)
-results <- xpathSApply(pagetree, "//*/table[@class='results-table']/tbody/tr/th/td/span/span", xmlValue)
-
-tablehead <- xpathSApply(pagetree, "//*/table[@class='results-table']/tbody/tr/th", xmlValue)
-candidates <- xpathSApply(pagetree, "//*/th[@class='results-name']", xmlValue)
-PCresults <- xpathSApply(pagetree, "//*/td[@class='results-percentage']", xmlValue)
-votes_results  <- xpathSApply(pagetree, "//*/td[@class='results-popular']", xmlValue)
-
-# Convert character vector to dataframe
-content <- as.data.frame(matrix(PCresults, ncol = 1, byrow = TRUE))
-candidates_content <- as.data.frame(matrix(candidates, ncol = 1, byrow = TRUE))
-kansas <- cbind(content, candidates_content)
-
-tablehead
-results
-
-
-c <- xpathSApply(pagetree, "//*/article[@class='results-group']@id", xmlValue)
-#ids <- as.data.frame(toString(pagetree["//*/article[@class='results-group']/@id"]))
-ids <- pagetree["//*/article[@class='results-group']/@id"]
-
-as.data.frame(ids)
-
-data <- htmlTreeParse(theurl)
-data
-
-
-df <- data.frame(id = data["//*/article[@class='results-group']/@id"])
-
+library(taRifx)
 
 ##############################################################
-##############################################################
-##############################################################
-###########
-# try again with downloaded xml file #
-url <- "kansas.xml"
-doc <- xmlTreeParse(url, useInternal = TRUE)
 
-thisstate <- data.frame()
-ids <- unlist(doc["//article/@id"], use.names = FALSE)
-#fips <- unlist(doc["//article/@data-fips"], use.names = FALSE)
+# Function to parse xml files downloaded from politico.com
+parse_xml_states <- function(state) {
+  
+  url <- paste(state, ".xml", sep = "")
+  doc <- xmlTreeParse(url, useInternal = TRUE)
+  
+  thisstate <- data.frame()
+  ids <- unlist(doc["//article/@id"], use.names = FALSE)
+  #fips <- unlist(doc["//article/@data-fips"], use.names = FALSE) # unused
+  
+  for (i in 1:length(ids)) {
+    #i <- 2
+    id <- unlist(doc[paste("//article[", i, "]/@id")], use.names = FALSE)
+    fip <- unlist(doc[paste("//article[", i, "]/@data-fips")], use.names = FALSE)
+    candidates <- gsub("[[:space:]]", "", xpathSApply(doc, paste("//article[", i, "]/div/div/div/table/tbody/tr/th"), xmlValue))
+    pc <- xpathSApply(doc, paste("//article[", i, "]/div/div/div/table/tbody/tr/td[@class='results-percentage']"), xmlValue)
+    votes <- as.numeric( # converts to numbers
+      gsub(",", "", # gsub used to remove commas
+           xpathSApply(doc, 
+                       paste("//article[", i, "]/div/div/div/table/tbody/tr/td[@class='results-popular']"), 
+                       xmlValue)))
+    thisstate <- rbind(thisstate,(cbind(fip, id, candidates, pc, votes)))
+  }
+  
+  unique(thisstate$fip)
+  thisstate$pc <- NULL
+  thisstate$id <- NULL
+  
+  # remove "Uncommitted" and other 'candidate' values leading to erros (duplicate names)
+  thisstate <- thisstate %>% 
+    filter(candidates != "Uncommitted") %>% 
+    filter(candidates != "NoPreference") %>%
+    filter(candidates != "TotalWrite-ins")
+  
+  # From long to wide format
+  thisstate.spreaded <- spread(thisstate, candidates, votes)
+  
+  # Select columns of still-running candidates + Rubio
+  # and add State column
+  thisstate.spreaded <- thisstate.spreaded %>% 
+    select(fip, matches("H.Clinton"), matches("B.Sanders"), matches("D.Trump"), matches("T.Cruz"), matches("M.Rubio"), matches("J.Kasich")) %>% 
+    mutate(state = state)
 
-for (i in 1:length(ids)) {
-  #i <- 2
-  id <- unlist(doc[paste("//article[", i, "]/@id")], use.names = FALSE)
-  fip <- unlist(doc[paste("//article[", i, "]/@data-fips")], use.names = FALSE)
-  candidates <- xpathSApply(doc, paste("//article[", i, "]/div/div/div/table/tbody/tr/th"), xmlValue)
-  pc <- xpathSApply(doc, paste("//article[", i, "]/div/div/div/table/tbody/tr/td[@class='results-percentage']"), xmlValue)
-  votes <- xpathSApply(doc, paste("//article[", i, "]/div/div/div/table/tbody/tr/td[@class='results-popular']"), xmlValue)
-  thisstate <- rbind(thisstate,(cbind(fip, id, candidates, pc, votes)))
+  thisstate.spreaded
 }
-##############################################################
-##############################################################
-##############################################################
+
+# IOWA missing from Politico data
+states <- c("NH", "SC", "NV", "AL", "AK", "AR", "GA", "MA", "MN", "OK", "TN", "TX", "VT", "VA", "KS", "KY", "LA", "ME", "HI", "ID", "MI", "MS", "DC", "FL", "IL", "MO", "NC", "OH", "AZ", "UT")
+
+# Get States data (creates a dataframe for each States with data)
+for (i in 1:length(states)) {
+  this <- states[i]
+  assign(this, parse_xml_states(states[i]))
+  print(states[i]) # Check if States is ok
+}
+
+# Calculates totals // NOT WORKING !!
+#st.sp.cv <- japply(thisstate.spreaded, which(sapply(thisstate.spreaded, class)=="character"), as.numeric )
+#st <- thisstate.spreaded %>% mutate(sum = rowSums(.[2:12]))
+
+# Bind States's data
+# bind_rows (from dplyr) allows to rbind datafames with uneven number of columns
+st <- bind_rows(NH, SC, NV, AL, AK, AR, GA, MA, MN, OK, TN, TX, VT, VA, KS, KY, LA, ME, HI, ID, MI, MS, DC, FL, IL, MO, NC, OH, AZ, UT)
+#st.cl <- st %>% select(fip, as.numeric(H.Clinton))
+
+# find the winner
+## for each row, find the index of the column with max value
+### for the dems
+dems <- names(st[2:3])
+reps <- names(st[4:7])
+st$maxdems <- as.numeric(apply(st[2:3], 1, which.max))
+st$maxreps <- as.numeric(apply(st[4:7], 1, which.max))
+
+st <- st %>% mutate(indexdems = maxdems + 1, indexreps = maxreps + 3) # Column index of the label of the max value
+
+for (j in 1:length(st$fip)) {
+  # get the max value (the number of votes obtained by the winner)
+  st$winnerdem_votes[j] <- as.numeric(st[j,st$indexdems[j]])
+  st$winnerrep_votes[j] <- as.numeric(st[j,st$indexreps[j]])
+  # get the name of the winner
+  st$winnerdem <- as.character(dems[st$maxdems])
+  st$winnerrep <- as.character(reps[st$maxreps])
+}
+
+# housekeeping (remove useless columns)
+st <- st %>% select(-maxdems, -maxreps, -indexdems, -indexreps)
+  
+# Export data to csv file
+write.csv(st, "local.csv", row.names = FALSE)
+
+# END ##############################################################

@@ -1,0 +1,597 @@
+<section class="content-group election-results">
+                            <header class="content-header has-divider">
+                                <h2>Wyoming Presidential Caucuses Results by County</h2>
+                                    </header>
+                            <article class="results-group" id="countyAlbany" data-fips="56001">
+    <header class="results-header">
+        <div class="title"><h4>Albany County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="51512">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders carries Albany County in %23WY Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">75.8%</span><span class="graph"><span class="bar"><span class="index" style="width:75.8%;"></span></span></span></span></td><td class="results-popular">25</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">24.2%</span><span class="graph"><span class="bar"><span class="index" style="width:24.2%;"></span></span></span></span></td><td class="results-popular">8</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table>
+            </div>
+            
+            
+                <div class="results-data pos-beta contains-republican " data-racenum="">
+                    <div class="results-meta">
+                        <div class="title">
+                            <h5>Republican</h5>
+                        </div>
+                    </div>
+                    <div class="system-message">
+                        
+                            
+                            <p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p>
+                            
+                        
+                    </div>
+                </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyBigHorn" data-fips="56003">
+    <header class="results-header">
+        <div class="title"><h4>Big Horn County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="51512">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders 50%25, Clinton 50%25%3B 100%25 reporting in Big Horn County in %23WY Dem presidential caucus.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">50.0%</span><span class="graph"><span class="bar"><span class="index" style="width:50.0%;"></span></span></span></span></td><td class="results-popular">2</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">50.0%</span><span class="graph"><span class="bar"><span class="index" style="width:50.0%;"></span></span></span></span></td><td class="results-popular">2</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table>
+            </div>
+            
+            
+                <div class="results-data pos-beta contains-republican " data-racenum="">
+                    <div class="results-meta">
+                        <div class="title">
+                            <h5>Republican</h5>
+                        </div>
+                    </div>
+                    <div class="system-message">
+                        
+                            
+                            <p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p>
+                            
+                        
+                    </div>
+                </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyCampbell" data-fips="56005">
+    <header class="results-header">
+        <div class="title"><h4>Campbell County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="51512">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders carries Campbell County in %23WY Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">66.7%</span><span class="graph"><span class="bar"><span class="index" style="width:66.7%;"></span></span></span></span></td><td class="results-popular">12</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">33.3%</span><span class="graph"><span class="bar"><span class="index" style="width:33.3%;"></span></span></span></span></td><td class="results-popular">6</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table>
+            </div>
+            
+            
+                <div class="results-data pos-beta contains-republican " data-racenum="">
+                    <div class="results-meta">
+                        <div class="title">
+                            <h5>Republican</h5>
+                        </div>
+                    </div>
+                    <div class="system-message">
+                        
+                            
+                            <p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p>
+                            
+                        
+                    </div>
+                </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyCarbon" data-fips="56007">
+    <header class="results-header">
+        <div class="title"><h4>Carbon County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="51512">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Clinton carries Carbon County in %23WY Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">57.1%</span><span class="graph"><span class="bar"><span class="index" style="width:57.1%;"></span></span></span></span></td><td class="results-popular">4</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">42.9%</span><span class="graph"><span class="bar"><span class="index" style="width:42.9%;"></span></span></span></span></td><td class="results-popular">3</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table>
+            </div>
+            
+            
+                <div class="results-data pos-beta contains-republican " data-racenum="">
+                    <div class="results-meta">
+                        <div class="title">
+                            <h5>Republican</h5>
+                        </div>
+                    </div>
+                    <div class="system-message">
+                        
+                            
+                            <p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p>
+                            
+                        
+                    </div>
+                </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyConverse" data-fips="56009">
+    <header class="results-header">
+        <div class="title"><h4>Converse County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="51512">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders carries Converse County in %23WY Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">60.0%</span><span class="graph"><span class="bar"><span class="index" style="width:60.0%;"></span></span></span></span></td><td class="results-popular">3</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">40.0%</span><span class="graph"><span class="bar"><span class="index" style="width:40.0%;"></span></span></span></span></td><td class="results-popular">2</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table>
+            </div>
+            
+            
+                <div class="results-data pos-beta contains-republican " data-racenum="">
+                    <div class="results-meta">
+                        <div class="title">
+                            <h5>Republican</h5>
+                        </div>
+                    </div>
+                    <div class="system-message">
+                        
+                            
+                            <p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p>
+                            
+                        
+                    </div>
+                </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyCrook" data-fips="56011">
+    <header class="results-header">
+        <div class="title"><h4>Crook County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="51512">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders 50%25, Clinton 50%25%3B 100%25 reporting in Crook County in %23WY Dem presidential caucus.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">50.0%</span><span class="graph"><span class="bar"><span class="index" style="width:50.0%;"></span></span></span></span></td><td class="results-popular">1</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">50.0%</span><span class="graph"><span class="bar"><span class="index" style="width:50.0%;"></span></span></span></span></td><td class="results-popular">1</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table>
+            </div>
+            
+            
+                <div class="results-data pos-beta contains-republican " data-racenum="">
+                    <div class="results-meta">
+                        <div class="title">
+                            <h5>Republican</h5>
+                        </div>
+                    </div>
+                    <div class="system-message">
+                        
+                            
+                            <p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p>
+                            
+                        
+                    </div>
+                </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyFremont" data-fips="56013">
+    <header class="results-header">
+        <div class="title"><h4>Fremont County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="51512">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders 50%25, Clinton 50%25%3B 100%25 reporting in Fremont County in %23WY Dem presidential caucus.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">50.0%</span><span class="graph"><span class="bar"><span class="index" style="width:50.0%;"></span></span></span></span></td><td class="results-popular">10</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">50.0%</span><span class="graph"><span class="bar"><span class="index" style="width:50.0%;"></span></span></span></span></td><td class="results-popular">10</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table>
+            </div>
+            
+            
+                <div class="results-data pos-beta contains-republican " data-racenum="">
+                    <div class="results-meta">
+                        <div class="title">
+                            <h5>Republican</h5>
+                        </div>
+                    </div>
+                    <div class="system-message">
+                        
+                            
+                            <p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p>
+                            
+                        
+                    </div>
+                </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyGoshen" data-fips="56015">
+    <header class="results-header">
+        <div class="title"><h4>Goshen County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="51512">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Clinton carries Goshen County in %23WY Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">60.0%</span><span class="graph"><span class="bar"><span class="index" style="width:60.0%;"></span></span></span></span></td><td class="results-popular">3</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">40.0%</span><span class="graph"><span class="bar"><span class="index" style="width:40.0%;"></span></span></span></span></td><td class="results-popular">2</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table>
+            </div>
+            
+            
+                <div class="results-data pos-beta contains-republican " data-racenum="">
+                    <div class="results-meta">
+                        <div class="title">
+                            <h5>Republican</h5>
+                        </div>
+                    </div>
+                    <div class="system-message">
+                        
+                            
+                            <p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p>
+                            
+                        
+                    </div>
+                </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyHotSprings" data-fips="56017">
+    <header class="results-header">
+        <div class="title"><h4>Hot Springs County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="51512">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders 50%25, Clinton 50%25%3B 100%25 reporting in Hot Springs County in %23WY Dem presidential caucus.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">50.0%</span><span class="graph"><span class="bar"><span class="index" style="width:50.0%;"></span></span></span></span></td><td class="results-popular">1</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">50.0%</span><span class="graph"><span class="bar"><span class="index" style="width:50.0%;"></span></span></span></span></td><td class="results-popular">1</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table>
+            </div>
+            
+            
+                <div class="results-data pos-beta contains-republican " data-racenum="">
+                    <div class="results-meta">
+                        <div class="title">
+                            <h5>Republican</h5>
+                        </div>
+                    </div>
+                    <div class="system-message">
+                        
+                            
+                            <p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p>
+                            
+                        
+                    </div>
+                </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyJohnson" data-fips="56019" data-z="10">
+    <header class="results-header">
+        <div class="title"><h4>Johnson County</h4></div>
+    </header>
+
+    <div class="results-dataset">
+
+
+        <div class="results-row layout-split">
+
+
+            
+            <div class="results-data pos-alpha contains-democrat " data-racenum="51512">
+                <div class="results-meta">
+                    <div class="title">
+                        <h5>Democratic</h5>
+                        <p class="reporting">100% Reporting</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://twitter.com/intent/tweet?text=Sanders 50%25, Clinton 50%25%3B 100%25 reporting in Johnson County in %23WY Dem presidential caucus.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="js-twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b></a>
+                    </div>
+                </div>
+
+                <table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">50.0%</span><span class="graph"><span class="bar"><span class="index" style="width:50.0%;"></span></span></span></span></td><td class="results-popular">1</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">50.0%</span><span class="graph"><span class="bar"><span class="index" style="width:50.0%;"></span></span></span></span></td><td class="results-popular">1</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table>
+            </div>
+            
+            
+                <div class="results-data pos-beta contains-republican " data-racenum="">
+                    <div class="results-meta">
+                        <div class="title">
+                            <h5>Republican</h5>
+                        </div>
+                    </div>
+                    <div class="system-message">
+                        
+                            
+                            <p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p>
+                            
+                        
+                    </div>
+                </div>
+            
+
+        </div>
+    </div>
+
+    <footer class="results-footer">
+        <div class="text-key">
+            <dl>
+                
+            </dl>
+        </div>
+    </footer>
+</article>
+<article class="results-group" id="countyLaramie" data-fips="56021">
+    <header class="results-header">
+        <div class="title"><h4 class="">Laramie County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="51512"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Clinton carries Laramie County in %23WY Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">51.0%</span><span class="graph"><span class="bar"><span class="index" style="width:51.0%;"></span></span></span></span></td><td class="results-popular">26</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">49.0%</span><span class="graph"><span class="bar"><span class="index" style="width:49.0%;"></span></span></span></span></td><td class="results-popular">25</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="99999"><div class="results-meta"><div class="title"><h5>Republican</h5></div></div><div class="system-message"><p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p></div></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyLincoln" data-fips="56023">
+    <header class="results-header">
+        <div class="title"><h4 class="">Lincoln County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="51512"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders 50%25, Clinton 50%25%3B 100%25 reporting in Lincoln County in %23WY Dem presidential caucus.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">50.0%</span><span class="graph"><span class="bar"><span class="index" style="width:50.0%;"></span></span></span></span></td><td class="results-popular">3</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">50.0%</span><span class="graph"><span class="bar"><span class="index" style="width:50.0%;"></span></span></span></span></td><td class="results-popular">3</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="99999"><div class="results-meta"><div class="title"><h5>Republican</h5></div></div><div class="system-message"><p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p></div></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyNatrona" data-fips="56025">
+    <header class="results-header">
+        <div class="title"><h4 class="">Natrona County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="51512"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Clinton carries Natrona County in %23WY Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">52.6%</span><span class="graph"><span class="bar"><span class="index" style="width:52.6%;"></span></span></span></span></td><td class="results-popular">20</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">47.4%</span><span class="graph"><span class="bar"><span class="index" style="width:47.4%;"></span></span></span></span></td><td class="results-popular">18</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="99999"><div class="results-meta"><div class="title"><h5>Republican</h5></div></div><div class="system-message"><p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p></div></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyNiobrara" data-fips="56027">
+    <header class="results-header">
+        <div class="title"><h4 class="">Niobrara County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="51512"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Niobrara County in %23WY Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">100.0%</span><span class="graph"><span class="bar"><span class="index" style="width:100.0%;"></span></span></span></span></td><td class="results-popular">2</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="99999"><div class="results-meta"><div class="title"><h5>Republican</h5></div></div><div class="system-message"><p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p></div></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyPark" data-fips="56029">
+    <header class="results-header">
+        <div class="title"><h4 class="">Park County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="51512"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Park County in %23WY Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">61.5%</span><span class="graph"><span class="bar"><span class="index" style="width:61.5%;"></span></span></span></span></td><td class="results-popular">8</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">38.5%</span><span class="graph"><span class="bar"><span class="index" style="width:38.5%;"></span></span></span></span></td><td class="results-popular">5</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="99999"><div class="results-meta"><div class="title"><h5>Republican</h5></div></div><div class="system-message"><p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p></div></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyPlatte" data-fips="56031">
+    <header class="results-header">
+        <div class="title"><h4 class="">Platte County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="51512"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Platte County in %23WY Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">66.7%</span><span class="graph"><span class="bar"><span class="index" style="width:66.7%;"></span></span></span></span></td><td class="results-popular">2</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">33.3%</span><span class="graph"><span class="bar"><span class="index" style="width:33.3%;"></span></span></span></span></td><td class="results-popular">1</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="99999"><div class="results-meta"><div class="title"><h5>Republican</h5></div></div><div class="system-message"><p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p></div></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countySheridan" data-fips="56033">
+    <header class="results-header">
+        <div class="title"><h4 class="">Sheridan County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="51512"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders 50%25, Clinton 50%25%3B 100%25 reporting in Sheridan County in %23WY Dem presidential caucus.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">50.0%</span><span class="graph"><span class="bar"><span class="index" style="width:50.0%;"></span></span></span></span></td><td class="results-popular">7</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">50.0%</span><span class="graph"><span class="bar"><span class="index" style="width:50.0%;"></span></span></span></span></td><td class="results-popular">7</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="99999"><div class="results-meta"><div class="title"><h5>Republican</h5></div></div><div class="system-message"><p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p></div></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countySublette" data-fips="56035">
+    <header class="results-header">
+        <div class="title"><h4 class="">Sublette County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="51512"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Sublette County in %23WY Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">75.0%</span><span class="graph"><span class="bar"><span class="index" style="width:75.0%;"></span></span></span></span></td><td class="results-popular">3</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">25.0%</span><span class="graph"><span class="bar"><span class="index" style="width:25.0%;"></span></span></span></span></td><td class="results-popular">1</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="99999"><div class="results-meta"><div class="title"><h5>Republican</h5></div></div><div class="system-message"><p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p></div></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countySweetwater" data-fips="56037">
+    <header class="results-header">
+        <div class="title"><h4 class="">Sweetwater County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="51512"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Sweetwater County in %23WY Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">54.5%</span><span class="graph"><span class="bar"><span class="index" style="width:54.5%;"></span></span></span></span></td><td class="results-popular">12</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">45.5%</span><span class="graph"><span class="bar"><span class="index" style="width:45.5%;"></span></span></span></span></td><td class="results-popular">10</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="99999"><div class="results-meta"><div class="title"><h5>Republican</h5></div></div><div class="system-message"><p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p></div></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyTeton" data-fips="56039" data-z="20">
+    <header class="results-header">
+        <div class="title"><h4 class="">Teton County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="51512"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Teton County in %23WY Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">60.0%</span><span class="graph"><span class="bar"><span class="index" style="width:60.0%;"></span></span></span></span></td><td class="results-popular">9</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">40.0%</span><span class="graph"><span class="bar"><span class="index" style="width:40.0%;"></span></span></span></span></td><td class="results-popular">6</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="99999"><div class="results-meta"><div class="title"><h5>Republican</h5></div></div><div class="system-message"><p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p></div></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyUinta" data-fips="56041">
+    <header class="results-header">
+        <div class="title"><h4 class="">Uinta County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="51512"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders carries Uinta County in %23WY Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">55.6%</span><span class="graph"><span class="bar"><span class="index" style="width:55.6%;"></span></span></span></span></td><td class="results-popular">5</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">44.4%</span><span class="graph"><span class="bar"><span class="index" style="width:44.4%;"></span></span></span></span></td><td class="results-popular">4</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="99999"><div class="results-meta"><div class="title"><h5>Republican</h5></div></div><div class="system-message"><p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p></div></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyWashakie" data-fips="56043">
+    <header class="results-header">
+        <div class="title"><h4 class="">Washakie County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="51512"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Clinton carries Washakie County in %23WY Dem presidential caucus%3B 100%25 reporting.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">66.7%</span><span class="graph"><span class="bar"><span class="index" style="width:66.7%;"></span></span></span></span></td><td class="results-popular">2</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">33.3%</span><span class="graph"><span class="bar"><span class="index" style="width:33.3%;"></span></span></span></span></td><td class="results-popular">1</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="99999"><div class="results-meta"><div class="title"><h5>Republican</h5></div></div><div class="system-message"><p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p></div></div></div></div><footer class="results-footer"></footer></article><article class="results-group" id="countyWeston" data-fips="56045">
+    <header class="results-header">
+        <div class="title"><h4 class="">Weston County</h4></div>
+    </header>
+<div class="results-dataset"><div class="results-row layout-split"><div class="results-data pos-alpha contains-democrat" data-racenum="51512"><div class="results-meta"><div class="title"><h5>Democratic</h5> <p class="reporting">100% Reporting</p></div><div class="actions"><a href="https://twitter.com/intent/tweet?text=Sanders 50%25, Clinton 50%25%3B 100%25 reporting in Weston County in %23WY Dem presidential caucus.&amp;url=http://politi.co/1KdGDZk&amp;hashtags=election2016" class="twitter" target="_blank"><b aria-hidden="true" class="icon icon-twitter"></b> <span class="icon-text">Tweet</span></a></div></div><table class="results-table"><tbody><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/berniesanders"><span class="name-combo"> B. Sanders</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">50.0%</span><span class="graph"><span class="bar"><span class="index" style="width:50.0%;"></span></span></span></span></td><td class="results-popular">1</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><a href="http://www.politico.com/2016-election/candidate-overview/hillaryclinton"><span class="name-combo"> H. Clinton</span></a></th><td class="results-percentage"><span class="percentage-combo"><span class="number">50.0%</span><span class="graph"><span class="bar"><span class="index" style="width:50.0%;"></span></span></span></span></td><td class="results-popular">1</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> R. De La Fuente</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Other</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr><tr class="type-democrat"><th scope="row" class="results-name"><span class="name-combo"> Uncommitted</span></th><td class="results-percentage"><span class="percentage-combo"><span class="number">0.0%</span><span class="graph"><span class="bar"><span class="index" style="width:0.0%;"></span></span></span></span></td><td class="results-popular">0</td></tr></tbody></table></div><div class="results-data pos-beta contains-republican" data-racenum="99999"><div class="results-meta"><div class="title"><h5>Republican</h5></div></div><div class="system-message"><p>Twelve delegates will be allocated in the winner-takes-all GOP caucus. County-level results will not be displayed, as the AP reports them in county pairs.</p></div></div></div></div><footer class="results-footer"></footer></article></section>
