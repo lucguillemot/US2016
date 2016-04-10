@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1460254767248.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "367A90DF",
+    "lastKnownWriteTime" : 4504009064,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "st.cl",
+        "contentUrl" : "content?title=st.cl&file=84effa11c1bc4b899150c63835ff5ad7.htm",
+        "displayedObservations" : 1000,
+        "displayedVariables" : 2,
+        "totalObservations" : 1904,
+        "variables" : 2
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
