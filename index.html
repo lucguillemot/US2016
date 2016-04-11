@@ -25,7 +25,7 @@
   <body>
 
   <div class="container title">
-    <h1>The Will of the People<br><small>All ballot casts are not created equal. One person, One vote? Not in the primaries...</small></h1>
+    <h1>The Will of the People<br><small>All ballots are not casted/created equal. One person, One vote? Not in the primaries...</small></h1>
   </div>
 
   <div class="container">
@@ -87,9 +87,11 @@
   var currentDisplay = "reality";
 
   //var repColors = ['#1f78b4', '#33a02c', '#e31a1c', '#ff7f00'];// ColorBrewer
-  var repColors = ['#b2cb06','#e84d0e','#0084ab','#bc2f56'];
+  //var repColors = ['#b2cb06','#e84d0e','#0084ab','#bc2f56'];
+  var repColors = ['#403153','#9e7742','#0084ab','#e30513'];
   //var repColorsLight = ['#a6cee3','#b2df8a','#fb9a99','#fdbf6f']; // ColorBrewer lighter
-  var repColorsLight = ['#d4df83','#f49b6a','#69b0cc','#d58692'];
+  //var repColorsLight = ['#d4df83','#f49b6a','#69b0cc','#d58692'];
+  var repColorsLight = ['#e5dae7','#deba96','#c5d7e9','#f6b89f'];
   var TrumpColors = [repColors[0], repColorsLight[0]];
   var CruzColors = [repColors[1], repColorsLight[1]];
   var RubioColors = [repColors[2], repColorsLight[2]];
@@ -111,7 +113,7 @@
       .domain([0, 238216]); // arbitrary value
   var rpop = d3.scale.linear() // Opacity on ratio delegates/voters
       .range([0, 1])
-      .domain([0, 20]);
+      .domain([0, 2]);
 
   queue()
       .defer(d3.json, "geo/us.json")
@@ -131,7 +133,8 @@
         winnerById[d.fip] = d.winnerrep;
         labelById[d.fip] = d.label;
         popById[d.fip] = +d.respop72015;
-        ratioById[d.fip] = +d.ratio_county_pop;
+        //ratioById[d.fip] = +d.ratio_county;
+        ratioById[d.fip] = +d.ratio_county;
     });
     
     svg.append("path")
@@ -292,7 +295,8 @@
           winnerById[d.fip] = d.winnerrep;
           labelById[d.fip] = d.label;
           popById[d.fip] = +d.respop72015;
-          ratioById[d.fip] = +d.ratio_county_pop;
+          //ratioById[d.fip] = +d.ratio_county;
+          ratioById[d.fip] = +d.ratio_county;
       });
 
       d3.selectAll(".county")

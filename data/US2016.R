@@ -1,8 +1,15 @@
+library(plyr)
 library(dplyr)
 library(ggplot2)
 library(reshape2)
 library(jsonlite)
 library(tidyr)
+library(XML)
+library(RCurl)
+library(taRifx)
+
+##############################################################
+
 rep <- read.csv("republicans.csv")
 popVote <- 20866873
 delSent <- 1512

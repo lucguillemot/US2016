@@ -87,8 +87,8 @@ st <- st %>% mutate(indexdems = maxdems + 1, indexreps = maxreps + 3) # Column i
 
 for (j in 1:length(st$fip)) {
   # get the max value (the number of votes obtained by the winner)
-  #st$winnerdem_votes[j] <- as.numeric(st[j,st$indexdems[j]])
-  #st$winnerrep_votes[j] <- as.numeric(st[j,st$indexreps[j]])
+  st$winnerdem_votes[j] <- as.numeric(st[j,st$indexdems[j]])
+  st$winnerrep_votes[j] <- as.numeric(st[j,st$indexreps[j]])
   # get the name of the winner
   st$winnerdem <- as.character(dems[st$maxdems])
   st$winnerrep <- as.character(reps[st$maxreps])
@@ -112,11 +112,12 @@ rep.st.ratio <- rep.cc %>%
 
 st.rep <- merge(st.pop, rep.st.ratio, by = "state")
 
-st.rep <- st.rep %>% mutate(ratio_county_pop = respop72015*ratio)
+st.rep <- st.rep %>% mutate(ratio_county = winnerrep_votes*ratio, 
+                            ratio_county_pop = respop72015*ratio)
 
-
+max(st.rep$ratio_county_pop)
 # Export data to csv file
-write.csv(st.rep, "map/counties.csv", row.names = FALSE)
+write.csv(st.rep, "map/counties2.csv", row.names = FALSE)
 
 
 
