@@ -307,6 +307,7 @@ function cumulChart(id, dataset) {
     })
     .on("mouseover", function(d){
 	  	currentState = "st"+d.state;
+	  	currentCandidate = d.x;
 	  	highlight_map();
 	  	highlight_chart();
 	  	highlight_stacked();

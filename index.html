@@ -84,6 +84,7 @@
       map_height = 450 - map_margin.top - map_margin.bottom;
 
   var currentState = 0;
+  var currentCandidate = "";
   var currentDisplay = "reality";
 
   //var repColors = ['#1f78b4', '#33a02c', '#e31a1c', '#ff7f00'];// ColorBrewer
@@ -395,8 +396,24 @@
 
   function highlight_stacked() {
     //console.log(currentState);
-    d3.selectAll(".stacked").style("stroke-width", .7);
-    d3.selectAll("[stacked_state="+(currentState)+"]").style("stroke-width", 3);
+    d3.selectAll(".stacked").style("opacity",0.5);
+    d3.selectAll("[stacked_state="+(currentState)+"]").style("opacity", 1);
+    /*d3.selectAll(".stacked").style("fill", function(d){
+          switch(currentCandidate) {
+            case "Trump": return repColorsLight[0];  break;
+            case "Cruz": return repColorsLight[1]; break;
+            case "Rubio": return repColorsLight[2]; break;
+            case "Kasich": return repColorsLight[3]; break;
+          }
+    });
+    d3.selectAll("[stacked_state="+(currentState)+"]").style("fill", function(d){
+          switch(currentCandidate) {
+            case "Trump": return repColors[0];  break;
+            case "Cruz": return repColors[1]; break;
+            case "Rubio": return repColors[2]; break;
+            case "Kasich": return repColors[3]; break;
+          }
+    });*/
   }
 
   function highlight_chart_state_name() {
