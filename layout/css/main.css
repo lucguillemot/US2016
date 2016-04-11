@@ -8,7 +8,11 @@
 
 path {
   fill: none;
-  stroke: #efefef;
+}
+
+path.states {
+  fill: none;
+  stroke: #ddd;
   stroke-width: .3px;
 }
 
@@ -18,7 +22,8 @@ path {
 }
 
 .county-boundary {
-  stroke: #aaa;
+  stroke: #fff;
+  stroke-width: .2;
 }
 
 svg {

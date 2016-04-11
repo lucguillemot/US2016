@@ -25,7 +25,7 @@
   <body>
 
   <div class="container title">
-    <h1>The Will of the People<br><small>One person, One vote? Not in the primaries...</small></h1>
+    <h1>The Will of the People<br><small>All ballot casts are not created equal. One person, One vote? Not in the primaries...</small></h1>
   </div>
 
   <div class="container">
@@ -36,10 +36,18 @@
       </div>
 
       <div class="col-xs-5">
-        <div id="chart-trump"></div>
-        <div id="chart-cruz"></div>
-        <div id="chart-rubio"></div>
-        <div id="chart-kasich"></div>
+        <div class="btn-toolbar" role="toolbar" aria-label="...">
+          <div class="btn-group btn-group-sm" role="group" aria-label="...">
+            <button type="button" class="btn btn-default btn-reality btn-display active" value="reality" aria-pressed="true">Reality</button>
+            <button type="button" class="btn btn-default btn-whatif btn-display" value="whatif">What if</button>
+          </div>
+        </div>
+        <div class=" top-buffer">
+          <div id="chart-trump"></div>
+          <div id="chart-cruz"></div>
+          <div id="chart-rubio"></div>
+          <div id="chart-kasich"></div>
+        </div>
       </div>
     
     </div> <!-- END OF ROW -->
@@ -56,9 +64,14 @@
 
         <h2>About</h2>
         
-       <!--  <p>The SCOTUS affirmed the principle of "One person, One vote" again. But it applies for elections, not primaries. The fact that primaries are managed at the State level and the different types of election of delegates for the nomination (caucus vs. primary, winner-takes-all vs. proportionnal, etc.) kindle very different situations, and some votes matter more than other. Who gets overrepresented? A republican from Utah? A democrat from San Francisco? Which candidate is favored by this disparities?</p>
+       <!--  <p>
+        This is a "what if" history: What if every vote accounted for the same ammount of representation? That is what if one vote was equal to one delegate... Would it change the number of delegates allocated to each candidates?
+       The SCOTUS affirmed the principle of "One person, One vote" again. But it applies for elections, not primaries. The fact that primaries are managed at the State level and the different types of election of delegates for the nomination (caucus vs. primary, winner-takes-all vs. proportionnal, etc.) kindle very different situations, and some votes matter more than other. Who gets overrepresented? A republican from Utah? A democrat from San Francisco? Which candidate is favored by this disparities?</p>
         <p>I favor a geographical analysis of the nomination process rather than a count of every candidates number of delegates.</p>
-        <p>Three scenarios: 1) How it is. 2) If the number of delegates reflected the number of votes. 3) If the</p> -->
+        <p>Three scenarios: 1) How it is. 2) If the number of delegates reflected the number of votes. 3) If the</p> 
+        + don't take into account the fact that States that vote the first have more influence on the choice of which candidates will continue the race. cf. Jeb Bush.
+        + don't take into account the diversity of delegates allocation. Here it is a rough approximation based on 1) States and 2) county population. 
+        + suppose that Delegates are allocated statewide and not per congressional district, or counties (like in Texas)-->
       </div>
     
     </div> <!-- END OF ROW -->
@@ -71,6 +84,7 @@
       map_height = 450 - map_margin.top - map_margin.bottom;
 
   var currentState = 0;
+  var currentDisplay = "reality";
 
   //var repColors = ['#1f78b4', '#33a02c', '#e31a1c', '#ff7f00'];// ColorBrewer
   var repColors = ['#b2cb06','#e84d0e','#0084ab','#bc2f56'];
@@ -92,30 +106,44 @@
     .attr("width", map_width)
     .attr("height", map_height);
 
+  var opop = d3.scale.linear() // Opacity on population
+      .range([0, 1])
+      .domain([0, 238216]); // arbitrary value
+  var rpop = d3.scale.linear() // Opacity on ratio delegates/voters
+      .range([0, 1])
+      .domain([0, 20]);
+
   queue()
       .defer(d3.json, "geo/us.json")
       //.defer(d3.csv, "data/rep.cc.csv")
-      .defer(d3.csv, "data/local/local.csv")
+      .defer(d3.csv, "data/map/counties2.csv")
       .await(ready_counties);
 
   function ready_counties(error, us, data) {
     if (error) throw error;
 
-    var winnerById = {};
+    var winnerById = {},
+        labelById = {},
+        popById = {},
+        ratioById = {};
 
     data.forEach(function(d) {
         winnerById[d.fip] = d.winnerrep;
+        labelById[d.fip] = d.label;
+        popById[d.fip] = +d.respop72015;
+        ratioById[d.fip] = +d.ratio_county_pop;
     });
     
     svg.append("path")
       .datum(topojson.feature(us, us.objects.land))
       .attr("d", path)
       .attr("class", "land-boundary");
-    svg.append("g")
-          .attr("class", "states")
-        .selectAll("path")
-        .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
     
+    /*svg.append("path")
+        .datum(topojson.feature(us, us.objects.states)) //, function(a, b) { return a !== b; }
+        .attr("class", "states")
+        .attr("d", path);*/
+
     svg.append("g")
           .attr("class", "counties")
         .selectAll("path")
@@ -130,9 +158,12 @@
             case "M.Rubio": return repColors[2]; break;
             case "J.Kasich": return repColors[3]; break;
           }
+        })
+        .style("fill-opacity", function(d) {
+          return rpop(ratioById[+d.id]);
         });
 
-        /*svg.append("g")
+        svg.append("g")
           .attr("class", "states")
         .selectAll("path")
         //.datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
@@ -156,7 +187,7 @@
           highlight_map();
           highlight_chart();
           highlight_stacked();
-        });*/
+        });
 
     svg.append("path")
         .datum(topojson.mesh(us, us.objects.counties, function(a, b) { return a !== b && (a.id / 1000 | 0) === (b.id / 1000 | 0); }))
@@ -165,29 +196,120 @@
 
     // BERTIN MATRIX //
     //Call function to draw the chart
-    d3.csv("data/trump.csv", function(data){
+    d3.csv("data/charts/trump.csv", function(data){
       bertin("#chart-trump", data, "Trump", TrumpColors);
     });
-    d3.csv("data/cruz.csv", function(data){
+    d3.csv("data/charts/cruz.csv", function(data){
       bertin("#chart-cruz", data, "Cruz", CruzColors);
     });
-    d3.csv("data/rubio.csv", function(data){
+    d3.csv("data/charts/rubio.csv", function(data){
       bertin("#chart-rubio", data, "Rubio", RubioColors);
     });
-    d3.csv("data/kasich.csv", function(data){
+    d3.csv("data/charts/kasich.csv", function(data){
       bertin("#chart-kasich", data, "Kasich", KasichColors);
     });
 
     // CUMULATIVE CHARTS //
-    d3.json("data/rep_stacked.json", function(data){
+    d3.json("data/stacked/rep_stacked.json", function(data){
       cumulChart("#stacked", data);
     });
     
   } // function ready_counties()
 
+  // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+  // // //  INTERFACE // // // // // // // // // // // // // // // // // // // //
+  // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+  d3.select(".btn-whatif")
+    .on("click", function(){
+      
+      $(".btn-display[value="+currentDisplay+"]").button("toggle");
+      currentDisplay = "whatif";
+      $(this).button("toggle");
 
+      d3.csv("data/charts/trump_if.csv", function(data){
+        update_bertin(data, "Trump");
+      });
+      d3.csv("data/charts/cruz_if.csv", function(data){
+        update_bertin(data, "Cruz");
+      });
+      d3.csv("data/charts/rubio_if.csv", function(data){
+        update_bertin(data, "Rubio");
+      });
+      d3.csv("data/charts/kasich_if.csv", function(data){
+        update_bertin(data, "Kasich");
+      });
 
-  function ready(error, us, data) {
+       d3.json("data/stacked/rep_stacked_if.json", function(data){
+        update_cumulChart(data);
+      });
+
+       queue()
+        .defer(d3.json, "geo/us.json")
+        .defer(d3.csv, "data/map/counties2.csv")
+        .await(update_map);
+    }); 
+  
+  d3.select(".btn-reality")
+    .on("click", function(){
+
+      $(".btn-display[value="+currentDisplay+"]").button("toggle");
+      currentDisplay = "reality";
+      $(this).button("toggle");
+
+      d3.csv("data/charts/trump.csv", function(data){
+        update_bertin(data, "Trump");
+      });
+      d3.csv("data/charts/cruz.csv", function(data){
+        update_bertin(data, "Cruz");
+      });
+      d3.csv("data/charts/rubio.csv", function(data){
+        update_bertin(data, "Rubio");
+      });
+      d3.csv("data/charts/kasich.csv", function(data){
+        update_bertin(data, "Kasich");
+      });
+
+      d3.json("data/stacked/rep_stacked.json", function(data){
+        update_cumulChart(data);
+      });
+
+      queue()
+        .defer(d3.json, "geo/us.json")
+        .defer(d3.csv, "data/map/counties2.csv")
+        .await(update_map);
+
+    }); 
+
+    function update_map(error, us, data) {
+      if (error) throw error;
+
+      var winnerById = {},
+          labelById = {},
+          popById = {},
+          ratioById = {};
+
+      data.forEach(function(d) {
+          winnerById[d.fip] = d.winnerrep;
+          labelById[d.fip] = d.label;
+          popById[d.fip] = +d.respop72015;
+          ratioById[d.fip] = +d.ratio_county_pop;
+      });
+
+      d3.selectAll(".county")
+        .data(topojson.feature(us, us.objects.counties).features)
+        .transition()
+        .duration(300)
+        .style("fill-opacity", function(d) {
+          if (currentDisplay == "whatif") {
+            return opop(popById[+d.id]);
+          }
+          else {
+            return rpop(ratioById[+d.id]);
+          }
+        });
+    }
+
+  /*function ready(error, us, data) {
     if (error) throw error;
 
     var winnerById = {};
@@ -234,26 +356,26 @@
 
     // BERTIN MATRIX //
     //Call function to draw the chart
-    d3.csv("data/trump.csv", function(data){
+    d3.csv("data/charts/trump.csv", function(data){
       bertin("#chart-trump", data, "Trump", TrumpColors);
     });
-    d3.csv("data/cruz.csv", function(data){
+    d3.csv("data/charts/cruz.csv", function(data){
       bertin("#chart-cruz", data, "Cruz", CruzColors);
     });
-    d3.csv("data/rubio.csv", function(data){
+    d3.csv("data/charts/rubio.csv", function(data){
       bertin("#chart-rubio", data, "Rubio", RubioColors);
     });
-    d3.csv("data/kasich.csv", function(data){
+    d3.csv("data/charts/kasich.csv", function(data){
       bertin("#chart-kasich", data, "Kasich", KasichColors);
     });
 
     // CUMULATIVE CHARTS //
-    d3.json("data/rep_stacked.json", function(data){
+    d3.json("data/stacked/rep_stacked.json", function(data){
       cumulChart("#stacked", data);
     });
 
     
-  } // function ready()
+  } // function ready()*/
 
   function highlight_map() {
     //console.log(currentState);
@@ -271,6 +393,11 @@
     //console.log(currentState);
     d3.selectAll(".stacked").style("stroke-width", .7);
     d3.selectAll("[stacked_state="+(currentState)+"]").style("stroke-width", 3);
+  }
+
+  function highlight_chart_state_name() {
+    d3.selectAll(".chart_state_name").style("fill", "#fff");
+    d3.selectAll("[chart_state_name="+(currentState)+"]").style("fill", "#aaa");
   }
 
   </script>

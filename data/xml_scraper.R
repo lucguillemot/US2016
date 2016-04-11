@@ -13,7 +13,7 @@ library(taRifx)
 # Function to parse xml files downloaded from politico.com
 parse_xml_states <- function(state) {
   
-  url <- paste(state, ".xml", sep = "")
+  url <- paste("map/", state, ".xml", sep = "")
   doc <- xmlTreeParse(url, useInternal = TRUE)
   
   thisstate <- data.frame()
@@ -87,8 +87,8 @@ st <- st %>% mutate(indexdems = maxdems + 1, indexreps = maxreps + 3) # Column i
 
 for (j in 1:length(st$fip)) {
   # get the max value (the number of votes obtained by the winner)
-  st$winnerdem_votes[j] <- as.numeric(st[j,st$indexdems[j]])
-  st$winnerrep_votes[j] <- as.numeric(st[j,st$indexreps[j]])
+  #st$winnerdem_votes[j] <- as.numeric(st[j,st$indexdems[j]])
+  #st$winnerrep_votes[j] <- as.numeric(st[j,st$indexreps[j]])
   # get the name of the winner
   st$winnerdem <- as.character(dems[st$maxdems])
   st$winnerrep <- as.character(reps[st$maxreps])
@@ -96,8 +96,29 @@ for (j in 1:length(st$fip)) {
 
 # housekeeping (remove useless columns)
 st <- st %>% select(-maxdems, -maxreps, -indexdems, -indexreps)
-  
+
+# Add 2015 population estimates and Counties labels
+pop <- read.csv("pop/pop2015.csv")
+pop$fip <- as.character(pop$fip)
+st.pop <- inner_join(st, pop, by = "fip")
+
+
+
+## CALCULATE RATIO VOTES/DELEGATES ## REPRESENTATIVITY ##
+rep.st.ratio <- rep.cc %>% 
+  select(State, pop_vote, del_sent) %>% 
+  mutate(ratio = del_sent/pop_vote) %>%
+  select(state = State, ratio)
+
+st.rep <- merge(st.pop, rep.st.ratio, by = "state")
+
+st.rep <- st.rep %>% mutate(ratio_county_pop = respop72015*ratio)
+
+
 # Export data to csv file
-write.csv(st, "local.csv", row.names = FALSE)
+write.csv(st.rep, "map/counties.csv", row.names = FALSE)
+
+
+
 
 # END ##############################################################

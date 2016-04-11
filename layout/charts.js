@@ -11,10 +11,12 @@ var chart_margin = {top: 10, right: 10, bottom: 10, left: 10},
 
 var y_votes = d3.scale.linear()
     .range([chart_height, 0])
-    .domain([0, 1077221]); // Max votes for Trump (in Florida)
+    .domain([0, 20866873/20]);
+    //.domain([0, 1077221]); // Max votes for Trump (in Florida)
 var y_del = d3.scale.linear()
     .range([chart_height, 0])
-    .domain([0, 99]); // Max delegates sent for Trump (in Florida also...);
+    .domain([0, 1512/20]); // number of sent delegates
+    //.domain([0, 99]); // Max delegates sent for Trump (in Florida also...);
 
 /*var xAxis = d3.svg.axis()
     .scale(x)
@@ -80,13 +82,14 @@ var chart_svg = d3.select(id).append("svg")
       	highlight_map();
       	highlight_chart();
       	highlight_stacked();
+      	highlight_chart_state_name();
       });
 
 	// POPULAR VOTE //
   chart_svg.selectAll(".bar_votes")
       .data(data)
     .enter().append("rect")
-      .attr("class", "bar bar_votes")
+      .attr("class", "bar bar_votes "+candidate)
       .attr("bar_state", function(d){
       	return "st"+d.ansi_code;
       })
@@ -107,13 +110,14 @@ var chart_svg = d3.select(id).append("svg")
       	highlight_map();
       	highlight_chart();
       	highlight_stacked();
+      	highlight_chart_state_name();
       });
 
    // DELEGATES SENT //
   chart_svg.selectAll(".bar_del")
       .data(data)
     .enter().append("rect")
-      .attr("class", "bar bar_del")
+      .attr("class", "bar bar_del "+candidate)
       .attr("bar_state", function(d){
       	return "st"+d.ansi_code;
       })
@@ -134,6 +138,7 @@ var chart_svg = d3.select(id).append("svg")
       	highlight_map();
       	highlight_chart();
       	highlight_stacked();
+      	highlight_chart_state_name();
       });
 
    // SCALES //
@@ -171,12 +176,55 @@ var chart_svg = d3.select(id).append("svg")
 	   	.style("fill", "#aaa")
 	   	.text("50 del.");
 
-/*	function type(d) {
-	  d.delegates = +d.delegates;
-	  return d;
-	}*/
+	 // STATE NAME //
+	 chart_svg.selectAll("text")
+      .data(data)
+    .enter().append("text")
+		.attr("class", "chart_state_name")
+		.attr("chart_state_name", function(d){
+	      	return "st"+d.ansi_code;
+	      })
+	   	.attr("x", function(d, i) { return i*14+5; })
+	   	.attr("y", chart_height+(chart_margin.top))
+	   	.style("text-anchor", "middle")
+	   	.style("fill", "#fff")
+	   	.text(function(d) {
+	   		return d.state;
+	   	});
 
 }
+
+function update_bertin(data, candidate) {
+	var chart_margin = {top: 10, right: 10, bottom: 10, left: 10},
+    chart_width = 458 - chart_margin.left - chart_margin.right,
+    chart_height = 80 - chart_margin.top - chart_margin.bottom;
+
+/*var x = d3.scale.ordinal()
+	.rangeRoundBands([0, chart_width], .1);*/
+
+var y_votes = d3.scale.linear()
+    .range([chart_height, 0])
+    .domain([0, 20866873/20]);
+    //.domain([0, 1077221]); // Max votes for Trump (in Florida)
+var y_del = d3.scale.linear()
+    .range([chart_height, 0])
+    .domain([0, 1512/20]);
+    //.domain([0, 2472/20]);
+    //.domain([0, 99]); // Max delegates sent for Trump (in Florida also...);
+
+	d3.selectAll(".bar_del."+candidate)
+      .data(data)
+      .transition()
+      .duration(300)
+      .attr("y", function(d) { return y_del(d.delegates); })
+      .attr("height", function(d) { return chart_height - y_del(d.delegates); })
+
+}
+
+
+// // // // // // // // // // // // // // // // // // // // // // // // // // // 
+// // // // // // // // // // // // // // // // // // // // // // // // // // // 
+ // // // // // // // // // // // // // // // // // // // // // // // // // // // 
 
 function cumulChart(id, dataset) {
 	//Width and height
@@ -214,11 +262,21 @@ function cumulChart(id, dataset) {
         .attr("width", w)
         .attr("height", h);
 
+  	var Trumppattern = svg.append("defs")
+					    .attr("class", "default")
+					    .append("pattern")
+					    .attr("id", "circles")
+					    .attr({ width:"6", height:"6", patternUnits:"userSpaceOnUse", patternTransform:"rotate(-45)"})
+					  .append("circle")
+					    .attr("r", 1)
+					    .attr({ cx:"3", cy:"3", fill:"#444"});
+
   // Add a group for each row of data
   var groups = svg.selectAll("g")
     .data(dataset)
     .enter()
-    .append("g");
+    .append("g")
+    .attr("class", "g_stacked");
 
   // Add a rect for each data value
   var rects = groups.selectAll("rect")
@@ -238,6 +296,7 @@ function cumulChart(id, dataset) {
     })
     .attr("height", xScale.rangeBand())
     .style("fill", function(d, i) {
+      //return "url(#circles)";
       return repColorsLight[i];
     })
     .style("stroke", function(d, i) {
@@ -271,3 +330,42 @@ function cumulChart(id, dataset) {
 	   	.text("1237 delegates to win");
 
 } // cumulChart()
+
+function update_cumulChart(dataset) {
+	var m = {top: 10, right: 10, bottom: 10, left: 10}, // margins
+  		h = 150 - m.left - m.right, // height
+  		w = 1050 - m.top - m.bottom; // width
+
+	//Set up stack method
+	var stack = d3.layout.stack();
+
+	//Data, stacked
+	stack(dataset);
+
+	//Set up scales
+	var xScale = d3.scale.ordinal()
+	.domain(d3.range(dataset[0].length))
+	.rangeRoundBands([0, h], 0.2); // This is actually the Y scale (candidates)
+
+   	var yScale = d3.scale.linear()
+	    .domain([0, 1237])
+	    .range([0, w]); // This is actually the X Scale (States)
+
+    var gr = d3.selectAll(".g_stacked")
+    	//.data(function(d) { return d; })
+    	.data(dataset);
+      gr.selectAll(".stacked")
+		.data(function(d) { return d; })
+		.transition()
+      	.duration(300)
+      	.attr("x", function(d) {
+	      return yScale(d.y0);
+	    })
+	    .attr("y", function(d, i) {
+	      return xScale(i);
+	    })
+	    .attr("width", function(d) {
+	      return yScale(d.y);
+	    })
+	    .attr("height", xScale.rangeBand())
+}

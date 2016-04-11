@@ -1,0 +1,59 @@
+"ansi_code","State","State","Date","Delegates","Clinton","Sanders","Delegate",,"Clinton","Sanders","winner","margin"
+,,"Total","-",4051,1287,1037,,,9350572,6946913,"Clinton ",2403659
+19,"IA","Iowa","02/01/16","44 (8)",23,21,"Caucus","Semi-open",,,,
+33,"NH","New Hampshire","02/09/16","24 (8)",9,15,"Primary","Semi-closed",95252,151584,"Sanders ",56332
+32,"NV","Nevada","02/20/16","35 (8)",20,15,"Caucus","Closed",,,,
+45,"SC","South Carolina","02/27/16","53 (6)",39,14,"Primary","Open",271514,95977,"Clinton ",175537
+1,"AL","Alabama","03/01/16","53 (7)",44,9,"Primary","Open",309928,76399,"Clinton ",233529
+60,"AS","American Samoa","03/01/16","6 (4)",4,2,"Caucus","Closed",,,,
+5,"AR","Arkansas","03/01/16","32 (5)",22,10,"Primary","Open",144580,64868,"Clinton ",79712
+8,"CO","Colorado","03/01/16","66 (13)",28,38,"Caucus","Closed",49314,72115,"Sanders ",22801
+13,"GA","Georgia","03/01/16","102 (14)",73,29,"Primary","Open",543008,214332,"Clinton ",328676
+25,"MA","Massachusetts","03/01/16","91 (25)",46,45,"Primary","Semi-closed",603784,586716,"Clinton ",17068
+27,"MN","Minnesota","03/01/16","77 (16)",31,46,"Caucus","Open",73510,118135,"Sanders ",44625
+40,"OK","Oklahoma","03/01/16","38 (4)",17,21,"Primary","Semi-closed",139338,174054,"Sanders ",34716
+47,"TN","Tennessee","03/01/16","67 (9)",44,23,"Primary","Open",245304,120333,"Clinton ",124971
+48,"TX","Texas","03/01/16","222 (30)",147,75,"Primary","Open",935080,475561,"Clinton ",459519
+50,"VT","Vermont","03/01/16","16 (10)",0,16,"Primary","Open",18335,115863,"Sanders ",97528
+51,"VA","Virginia","03/01/16","95 (15)",62,33,"Primary","Open",503358,275507,"Clinton ",227851
+20,"KS","Kansas","03/05/16","33 (4)",10,23,"Caucus","Closed",12593,26450,"Sanders ",13857
+22,"LA","Louisiana","03/05/16","51 (8)",37,14,"Primary","Closed",221615,72240,"Clinton ",149375
+31,"NE","Nebraska","03/05/16","25 (5)",10,15,"Caucus","Closed",14340,19120,"Sanders ",4780
+23,"ME","Maine","03/06/16","25 (5)",9,16,"Caucus","Closed",,,,
+26,"MI","Michigan","03/08/16","130 (17)",63,67,"Primary","Open",576795,595222,"Sanders ",18427
+28,"MS","Mississippi","03/08/16","36 (5)",32,4,"Primary","Open",182447,36348,"Clinton ",146099
+69,"MP","Northern Marianas","03/12/16","6 (5)",4,2,"N/A","N/A",,,,
+12,"FL","Florida","03/15/16","214 (32)",141,73,"Primary","Closed",1097400,566603,"Clinton ",530797
+17,"IL","Illinois","03/15/16","156 (26)",76,73,"Primary","Open",1007382,971555,"Clinton ",35827
+29,"MO","Missouri","03/15/16","71 (13)",34,34,"Primary","Open",310602,309071,"Clinton ",1531
+37,"NC","North Carolina","03/15/16","107 (14)",59,45,"Primary","Semi-closed",616383,460316,"Clinton ",156067
+39,"OH","Ohio","03/15/16","143 (16)",81,62,"Primary","Semi-open",679266,513549,"Clinton ",165717
+4,"AZ","Arizona","03/22/16","75 (10)",42,33,"Primary","Closed",235697,163400,"Clinton ",72297
+16,"ID","Idaho","03/22/16","23 (4)",5,18,"Caucus","Open",5065,18640,"Sanders ",13575
+49,"UT","Utah","03/22/16","33 (4)",6,27,"Caucus","Semi-open",15666,61333,"Sanders ",45667
+2,"AK","Alaska","03/26/16","16 (4)",3,13,"Caucus","Closed",,,,
+15,"HI","Hawaii","03/26/16","25 (9)",8,17,"Caucus","Semi-closed",10125,23530,"Sanders ",13405
+53,"WA","Washington","03/26/16","101 (17)",9,25,"Caucus","Open",,,,
+55,"WI","Wisconsin","04/05/16","86 (10)",38,48,"Primary","Open",432767,567936,"Sanders ",135169
+56,"WY","Wyoming","04/09/16","14 (4)",7,7,"Caucus","Closed",124,156,"Sanders ",32
+36,"NY","New York","04/19/16","247 (44)",,,"Primary","Closed",,,,
+9,"CT","Connecticut","04/26/16","55 (15)",,,"Primary","Closed",,,,
+10,"DE","Delaware","04/26/16","21 (10)",,,"Primary","Closed",,,,
+24,"MD","Maryland","04/26/16","95 (23)",,,"Primary","Closed",,,,
+42,"PA","Pennsylvania","04/26/16","189 (21)",,,"Primary","Closed",,,,
+44,"RI","Rhode Island","04/26/16","24 (9)",,,"Primary","Semi-closed",,,,
+18,"IN","Indiana","05/03/16","83 (9)",,,"Primary","Open",,,,
+66,"GU","Guam","05/07/16","7 (5)",,,"Caucus","Closed",,,,
+54,"WV","West Virginia","05/10/16","29 (8)",,,"Primary","Semi-closed",,,,
+21,"KY","Kentucky","05/17/16","55 (5)",,,"Primary","Closed",,,,
+41,"OR","Oregon","05/17/16","61 (13)",,,"Primary","Closed",,,,
+78,"VI","Virgin Islands","06/04/16","7 (5)",,,"Caucus","Closed",,,,
+72,"PR","Puerto Rico","06/05/16","60 (7)",,,"Primary","Open",,,,
+6,"CA","California","06/07/16","475 (71)",,,"Primary","Semi-closed",,,,
+30,"MT","Montana","06/07/16","21 (6)",,,"Primary","Open",,,,
+34,"NJ","New Jersey","06/07/16","126 (16)",,,"Primary","Closed",,,,
+35,"NM","New Mexico","06/07/16","34 (9)",,,"Primary","Closed",,,,
+38,"ND","North Dakota","06/07/16","18 (5)",,,"Primary","Open",,,,
+46,"SD","South Dakota","06/07/16","20 (5)",,,"Primary","Semi-open",,,,
+11,"DC","District of Columbia","06/14/16","20 (25)",,,"Primary","Closed",,,,
+0,"DA","Democrats Abroad","March 1-8","13 (4)",4,9,"Primary","Closed",,,,

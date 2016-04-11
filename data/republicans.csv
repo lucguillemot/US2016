@@ -1,0 +1,58 @@
+"ansi_code","State","State","Date","Delegates","Trump_del","Cruz_del","Rubio_del","Kasich_del","primary_or_caucus","delegate_allocation","open_or_closed","Trump","Cruz","Rubio","Kasich","winner","margin"
+,,"(1,237 Needed to Win)","-",2472,743,545,171,143,"-","-","-",8197535,6263349,3445578,2960411,"Trump ",1934186
+19,"IA","Iowa","02/01/16",30,7,8,7,1,"Caucus","Proportional","Closed",45427,51666,43165,3474,"Cruz ",6239
+33,"NH","New Hampshire","02/09/16",23,11,3,2,4,"Primary","Proportional*","Open**",100406,33189,30032,44909,"Trump ",55497
+45,"SC","South Carolina","02/20/16",50,50,0,0,0,"Primary","Winner Take All∇","Open",239851,164790,165881,56206,"Trump ",73970
+32,"NV","Nevada","02/23/16",30,14,6,7,1,"Caucus","Proportional","Closed",34531,16079,17940,2709,"Trump ",16591
+1,"AL","Alabama","03/01/16",50,36,13,1,0,"Primary","Proportional*#∇","Open",371735,180608,159802,37970,"Trump ",191127
+2,"AK","Alaska","03/01/16",28,11,12,5,0,"Caucus","Proportional*","Closed",7346,7973,3318,892,"Cruz ",627
+5,"AR","Arkansas","03/01/16",40,16,15,9,0,"Primary","Proportional*#","Open",133144,123873,101235,15098,"Trump ",9271
+8,"CO","Colorado1","03/01/16",37,0,21,0,0,"Caucus","Unbound","Closed",,,,,,
+13,"GA","Georgia","03/01/16",76,42,18,16,0,"Primary","Proportional*#∇","Open**",501707,305109,315979,72303,"Trump ",185728
+25,"MA","Massachusetts","03/01/16",42,22,4,8,8,"Primary","Proportional*","Open**",311313,60473,112822,113783,"Trump ",197530
+27,"MN","Minnesota","03/01/16",38,8,13,17,0,"Caucus","Proportional*#∇","Open",24018,32684,41126,6488,"Rubio ",8442
+40,"OK","Oklahoma","03/01/16",43,13,15,12,0,"Primary","Proportional*#∇","Closed",130141,157941,119562,16515,"Cruz ",27800
+47,"TN","Tennessee","03/01/16",58,33,16,9,0,"Primary","Proportional*#∇","Open",332702,211159,180989,45243,"Trump ",121543
+48,"TX","Texas","03/01/16",155,48,104,3,0,"Primary","Proportional*#∇","Open",757618,1239370,502223,120257,"Cruz ",481752
+50,"VT","Vermont","03/01/16",16,8,0,0,8,"Primary","Proportional*#","Open",19968,5929,11778,18543,"Trump ",1425
+51,"VA","Virginia","03/01/16",49,17,8,16,5,"Primary","Proportional","Open",355960,173193,327042,96519,"Trump ",28918
+20,"KS","Kansas","03/05/16",40,9,24,6,1,"Caucus","Proportional*∇","Closed",17062,35207,12189,7795,"Cruz ",18145
+21,"KY","Kentucky","03/05/16",46,17,15,7,7,"Caucus","Proportional*","Closed",82493,72503,37579,33134,"Trump ",9990
+22,"LA","Louisiana","03/05/16",46,18,18,5,0,"Primary","Proportional*∇","Closed",124818,113949,33804,19355,"Trump ",10869
+23,"ME","Maine","03/05/16",23,9,12,0,2,"Caucus","Proportional*#","Closed",6070,8550,1492,2270,"Cruz ",2480
+72,"PR","Puerto Rico","03/06/16",23,0,0,23,0,"Primary","Proportional*#","Open",,,,,,
+15,"HI","Hawaii","03/08/16",19,11,7,1,0,"Caucus","Proportional*∇","Closed",5677,4379,1759,1413,"Trump ",1298
+16,"ID","Idaho","03/08/16",32,12,20,0,0,"Primary","Proportional*#","Closed",62478,100942,35347,16517,"Cruz ",38464
+26,"MI","Michigan","03/08/16",59,25,17,0,17,"Primary","Proportional*#","Open",483751,330015,123673,321655,"Trump ",153736
+28,"MS","Mississippi","03/08/16",40,25,15,0,0,"Primary","Proportional*∇","Open",191755,147065,20768,35817,"Trump ",44690
+78,"VI","Virgin Islands","03/10/16",9,0,0,0,0,"Caucus","Winner Take All","Closed",,,,,,
+11,"DC","District of Columbia","03/12/16",19,0,0,10,9,"Convention","Proportional*","Closed",391,351,1059,1009,"Rubio ",50
+66,"GU","Guam","03/12/16",9,0,1,0,0,"Convention","Unbound","Closed",,,,,,
+56,"WY","Wyoming1","03/12/16",29,1,9,1,0,"Caucus","Unbound","Closed",,,,,,
+12,"FL","Florida","03/15/16",99,99,0,0,0,"Primary","Winner Take All","Closed",1077221,403640,636653,159412,"Trump ",440568
+17,"IL","Illinois","03/15/16",69,53,9,0,5,"Primary","Winner Take All∇","Open",551053,430170,122954,279518,"Trump ",120883
+29,"MO","Missouri","03/15/16",52,25,15,0,0,"Primary","Winner Take All∇","Open",382093,380367,57006,92533,"Trump ",1726
+37,"NC","North Carolina","03/15/16",72,29,27,6,9,"Primary","Proportional","Open**",458151,418740,87858,144299,"Trump ",39411
+69,"MP","Northern Marianas","03/15/16",9,9,0,0,0,"Caucus","Winner Take All","Closed",,,,,,
+39,"OH","Ohio","03/15/16",66,0,0,0,66,"Primary","Winner Take All","Open**",727585,267592,59418,956762,"Kasich ",229177
+60,"AS","American Samoa","03/22/16",9,1,1,0,0,"Convention","Unbound","Open",,,,,,
+4,"AZ","Arizona","03/22/16",58,58,0,0,0,"Primary","Winner Take All","Closed",249916,132147,70556,53040,"Trump ",117769
+49,"UT","Utah","03/22/16",40,0,40,0,0,"Caucus","Proportional*#","Closed",24864,122567,0,29773,"Cruz ",92794
+38,"ND","North Dakota","04/01/16",28,0,10,0,0,"Caucus","Unbound","Closed",,,,,,
+55,"WI","Wisconsin","04/05/16",42,6,36,0,0,"Primary","Winner Take All∇","Open",386290,531129,10569,155200,"Cruz ",144839
+36,"NY","New York","04/19/16",95,,,,,"Primary","Proportional*#∇","Closed",,,,,,
+9,"CT","Connecticut","04/26/16",28,,,,,"Primary","Proportional*#∇","Closed",,,,,,
+10,"DE","Delaware","04/26/16",16,,,,,"Primary","Winner Take All","Closed",,,,,,
+24,"MD","Maryland","04/26/16",38,,,,,"Primary","Winner Take All∇","Closed",,,,,,
+42,"PA","Pennsylvania","04/26/16",71,,,,,"Primary","Winner Take All∇","Closed",,,,,,
+44,"RI","Rhode Island","04/26/16",19,,,,,"Primary","Proportional*∇","Open**",,,,,,
+18,"IN","Indiana","05/03/16",57,,,,,"Primary","Winner Take All∇","Open",,,,,,
+31,"NE","Nebraska","05/10/16",36,,,,,"Primary","Winner Take All","Closed",,,,,,
+54,"WV","West Virginia","05/10/16",34,,,,,"Primary","Direct Election","Open**",,,,,,
+41,"OR","Oregon","05/17/16",28,,,,,"Primary","Proportional","Closed",,,,,,
+53,"WA","Washington","05/24/16",44,,,,,"Primary","Proportional*∇","Closed",,,,,,
+6,"CA","California","06/07/16",172,,,,,"Primary","Winner Take All∇","Closed",,,,,,
+30,"MT","Montana","06/07/16",27,,,,,"Primary","Winner Take All","Open",,,,,,
+34,"NJ","New Jersey","06/07/16",51,,,,,"Primary","Winner Take All","Open**",,,,,,
+35,"NM","New Mexico","06/07/16",24,,,,,"Primary","Proportional*","Closed",,,,,,
+46,"SD","South Dakota","06/07/16",29,,,,,"Primary","Winner Take All","Closed",,,,,,
