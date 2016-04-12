@@ -1,0 +1,350 @@
+[
+  [
+    {
+      "state": 33,
+      "x": "Clinton",
+      "y": 16.5051
+    },
+    {
+      "state": 33,
+      "x": "Sanders",
+      "y": 26.2662
+    }
+  ],
+  [
+    {
+      "state": 45,
+      "x": "Clinton",
+      "y": 47.0475
+    },
+    {
+      "state": 45,
+      "x": "Sanders",
+      "y": 16.6307
+    }
+  ],
+  [
+    {
+      "state": 1,
+      "x": "Clinton",
+      "y": 53.7038
+    },
+    {
+      "state": 1,
+      "x": "Sanders",
+      "y": 13.2383
+    }
+  ],
+  [
+    {
+      "state": 5,
+      "x": "Clinton",
+      "y": 25.0526
+    },
+    {
+      "state": 5,
+      "x": "Sanders",
+      "y": 11.2402
+    }
+  ],
+  [
+    {
+      "state": 8,
+      "x": "Clinton",
+      "y": 8.545
+    },
+    {
+      "state": 8,
+      "x": "Sanders",
+      "y": 12.496
+    }
+  ],
+  [
+    {
+      "state": 13,
+      "x": "Clinton",
+      "y": 94.0915
+    },
+    {
+      "state": 13,
+      "x": "Sanders",
+      "y": 37.1391
+    }
+  ],
+  [
+    {
+      "state": 25,
+      "x": "Clinton",
+      "y": 104.6226
+    },
+    {
+      "state": 25,
+      "x": "Sanders",
+      "y": 101.6651
+    }
+  ],
+  [
+    {
+      "state": 27,
+      "x": "Clinton",
+      "y": 12.7377
+    },
+    {
+      "state": 27,
+      "x": "Sanders",
+      "y": 20.4702
+    }
+  ],
+  [
+    {
+      "state": 40,
+      "x": "Clinton",
+      "y": 24.1442
+    },
+    {
+      "state": 40,
+      "x": "Sanders",
+      "y": 30.1598
+    }
+  ],
+  [
+    {
+      "state": 47,
+      "x": "Clinton",
+      "y": 42.5059
+    },
+    {
+      "state": 47,
+      "x": "Sanders",
+      "y": 20.8511
+    }
+  ],
+  [
+    {
+      "state": 48,
+      "x": "Clinton",
+      "y": 162.029
+    },
+    {
+      "state": 48,
+      "x": "Sanders",
+      "y": 82.4044
+    }
+  ],
+  [
+    {
+      "state": 50,
+      "x": "Clinton",
+      "y": 3.1771
+    },
+    {
+      "state": 50,
+      "x": "Sanders",
+      "y": 20.0765
+    }
+  ],
+  [
+    {
+      "state": 51,
+      "x": "Clinton",
+      "y": 87.221
+    },
+    {
+      "state": 51,
+      "x": "Sanders",
+      "y": 47.7394
+    }
+  ],
+  [
+    {
+      "state": 20,
+      "x": "Clinton",
+      "y": 2.1821
+    },
+    {
+      "state": 20,
+      "x": "Sanders",
+      "y": 4.5832
+    }
+  ],
+  [
+    {
+      "state": 22,
+      "x": "Clinton",
+      "y": 38.4011
+    },
+    {
+      "state": 22,
+      "x": "Sanders",
+      "y": 12.5176
+    }
+  ],
+  [
+    {
+      "state": 31,
+      "x": "Clinton",
+      "y": 2.4848
+    },
+    {
+      "state": 31,
+      "x": "Sanders",
+      "y": 3.3131
+    }
+  ],
+  [
+    {
+      "state": 26,
+      "x": "Clinton",
+      "y": 99.946
+    },
+    {
+      "state": 26,
+      "x": "Sanders",
+      "y": 103.139
+    }
+  ],
+  [
+    {
+      "state": 28,
+      "x": "Clinton",
+      "y": 31.6141
+    },
+    {
+      "state": 28,
+      "x": "Sanders",
+      "y": 6.2983
+    }
+  ],
+  [
+    {
+      "state": 12,
+      "x": "Clinton",
+      "y": 190.1556
+    },
+    {
+      "state": 12,
+      "x": "Sanders",
+      "y": 98.18
+    }
+  ],
+  [
+    {
+      "state": 17,
+      "x": "Clinton",
+      "y": 174.5574
+    },
+    {
+      "state": 17,
+      "x": "Sanders",
+      "y": 168.3494
+    }
+  ],
+  [
+    {
+      "state": 29,
+      "x": "Clinton",
+      "y": 53.8206
+    },
+    {
+      "state": 29,
+      "x": "Sanders",
+      "y": 53.5553
+    }
+  ],
+  [
+    {
+      "state": 37,
+      "x": "Clinton",
+      "y": 106.8058
+    },
+    {
+      "state": 37,
+      "x": "Sanders",
+      "y": 79.7628
+    }
+  ],
+  [
+    {
+      "state": 39,
+      "x": "Clinton",
+      "y": 117.702
+    },
+    {
+      "state": 39,
+      "x": "Sanders",
+      "y": 88.9869
+    }
+  ],
+  [
+    {
+      "state": 4,
+      "x": "Clinton",
+      "y": 40.8412
+    },
+    {
+      "state": 4,
+      "x": "Sanders",
+      "y": 28.3137
+    }
+  ],
+  [
+    {
+      "state": 16,
+      "x": "Clinton",
+      "y": 0.8777
+    },
+    {
+      "state": 16,
+      "x": "Sanders",
+      "y": 3.2299
+    }
+  ],
+  [
+    {
+      "state": 49,
+      "x": "Clinton",
+      "y": 2.7146
+    },
+    {
+      "state": 49,
+      "x": "Sanders",
+      "y": 10.6277
+    }
+  ],
+  [
+    {
+      "state": 15,
+      "x": "Clinton",
+      "y": 1.7544
+    },
+    {
+      "state": 15,
+      "x": "Sanders",
+      "y": 4.0772
+    }
+  ],
+  [
+    {
+      "state": 55,
+      "x": "Clinton",
+      "y": 74.9891
+    },
+    {
+      "state": 55,
+      "x": "Sanders",
+      "y": 98.411
+    }
+  ],
+  [
+    {
+      "state": 56,
+      "x": "Clinton",
+      "y": 0.0215
+    },
+    {
+      "state": 56,
+      "x": "Sanders",
+      "y": 0.027
+    }
+  ]
+]

@@ -1,0 +1,350 @@
+[
+  [
+    {
+      "state": 33,
+      "x": "Clinton",
+      "y": 9
+    },
+    {
+      "state": 33,
+      "x": "Sanders",
+      "y": 15
+    }
+  ],
+  [
+    {
+      "state": 45,
+      "x": "Clinton",
+      "y": 39
+    },
+    {
+      "state": 45,
+      "x": "Sanders",
+      "y": 14
+    }
+  ],
+  [
+    {
+      "state": 1,
+      "x": "Clinton",
+      "y": 44
+    },
+    {
+      "state": 1,
+      "x": "Sanders",
+      "y": 9
+    }
+  ],
+  [
+    {
+      "state": 5,
+      "x": "Clinton",
+      "y": 22
+    },
+    {
+      "state": 5,
+      "x": "Sanders",
+      "y": 10
+    }
+  ],
+  [
+    {
+      "state": 8,
+      "x": "Clinton",
+      "y": 28
+    },
+    {
+      "state": 8,
+      "x": "Sanders",
+      "y": 38
+    }
+  ],
+  [
+    {
+      "state": 13,
+      "x": "Clinton",
+      "y": 73
+    },
+    {
+      "state": 13,
+      "x": "Sanders",
+      "y": 29
+    }
+  ],
+  [
+    {
+      "state": 25,
+      "x": "Clinton",
+      "y": 46
+    },
+    {
+      "state": 25,
+      "x": "Sanders",
+      "y": 45
+    }
+  ],
+  [
+    {
+      "state": 27,
+      "x": "Clinton",
+      "y": 31
+    },
+    {
+      "state": 27,
+      "x": "Sanders",
+      "y": 46
+    }
+  ],
+  [
+    {
+      "state": 40,
+      "x": "Clinton",
+      "y": 17
+    },
+    {
+      "state": 40,
+      "x": "Sanders",
+      "y": 21
+    }
+  ],
+  [
+    {
+      "state": 47,
+      "x": "Clinton",
+      "y": 44
+    },
+    {
+      "state": 47,
+      "x": "Sanders",
+      "y": 23
+    }
+  ],
+  [
+    {
+      "state": 48,
+      "x": "Clinton",
+      "y": 147
+    },
+    {
+      "state": 48,
+      "x": "Sanders",
+      "y": 75
+    }
+  ],
+  [
+    {
+      "state": 50,
+      "x": "Clinton",
+      "y": 0
+    },
+    {
+      "state": 50,
+      "x": "Sanders",
+      "y": 16
+    }
+  ],
+  [
+    {
+      "state": 51,
+      "x": "Clinton",
+      "y": 62
+    },
+    {
+      "state": 51,
+      "x": "Sanders",
+      "y": 33
+    }
+  ],
+  [
+    {
+      "state": 20,
+      "x": "Clinton",
+      "y": 10
+    },
+    {
+      "state": 20,
+      "x": "Sanders",
+      "y": 23
+    }
+  ],
+  [
+    {
+      "state": 22,
+      "x": "Clinton",
+      "y": 37
+    },
+    {
+      "state": 22,
+      "x": "Sanders",
+      "y": 14
+    }
+  ],
+  [
+    {
+      "state": 31,
+      "x": "Clinton",
+      "y": 10
+    },
+    {
+      "state": 31,
+      "x": "Sanders",
+      "y": 15
+    }
+  ],
+  [
+    {
+      "state": 26,
+      "x": "Clinton",
+      "y": 63
+    },
+    {
+      "state": 26,
+      "x": "Sanders",
+      "y": 67
+    }
+  ],
+  [
+    {
+      "state": 28,
+      "x": "Clinton",
+      "y": 32
+    },
+    {
+      "state": 28,
+      "x": "Sanders",
+      "y": 4
+    }
+  ],
+  [
+    {
+      "state": 12,
+      "x": "Clinton",
+      "y": 141
+    },
+    {
+      "state": 12,
+      "x": "Sanders",
+      "y": 73
+    }
+  ],
+  [
+    {
+      "state": 17,
+      "x": "Clinton",
+      "y": 76
+    },
+    {
+      "state": 17,
+      "x": "Sanders",
+      "y": 73
+    }
+  ],
+  [
+    {
+      "state": 29,
+      "x": "Clinton",
+      "y": 34
+    },
+    {
+      "state": 29,
+      "x": "Sanders",
+      "y": 34
+    }
+  ],
+  [
+    {
+      "state": 37,
+      "x": "Clinton",
+      "y": 59
+    },
+    {
+      "state": 37,
+      "x": "Sanders",
+      "y": 45
+    }
+  ],
+  [
+    {
+      "state": 39,
+      "x": "Clinton",
+      "y": 81
+    },
+    {
+      "state": 39,
+      "x": "Sanders",
+      "y": 62
+    }
+  ],
+  [
+    {
+      "state": 4,
+      "x": "Clinton",
+      "y": 42
+    },
+    {
+      "state": 4,
+      "x": "Sanders",
+      "y": 33
+    }
+  ],
+  [
+    {
+      "state": 16,
+      "x": "Clinton",
+      "y": 5
+    },
+    {
+      "state": 16,
+      "x": "Sanders",
+      "y": 18
+    }
+  ],
+  [
+    {
+      "state": 49,
+      "x": "Clinton",
+      "y": 6
+    },
+    {
+      "state": 49,
+      "x": "Sanders",
+      "y": 27
+    }
+  ],
+  [
+    {
+      "state": 15,
+      "x": "Clinton",
+      "y": 8
+    },
+    {
+      "state": 15,
+      "x": "Sanders",
+      "y": 17
+    }
+  ],
+  [
+    {
+      "state": 55,
+      "x": "Clinton",
+      "y": 38
+    },
+    {
+      "state": 55,
+      "x": "Sanders",
+      "y": 48
+    }
+  ],
+  [
+    {
+      "state": 56,
+      "x": "Clinton",
+      "y": 7
+    },
+    {
+      "state": 56,
+      "x": "Sanders",
+      "y": 7
+    }
+  ]
+]

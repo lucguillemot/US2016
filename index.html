@@ -25,25 +25,33 @@
   <body>
 
   <div class="container title">
-    <h1>The Will of the People<br><small>All ballots are not cast/created equal</small></h1>
+    <h1>The Will of the People<br><small>All ballots are not cast equally</small></h1>
   </div>
 
   <div class="container">
     <div class="row top-buffer">
       <div class="col-xs-4">
-        <p>What if every elected delegate represented the same number of votes? What if every cast ballot had the same weight in the nomination process? Would it change the number of delegates allocated to each candidate?</p>
-        <p>The Supreme Court recently confirmed the "One person, one vote" principle. But it applies for elections, not primaries. Delegates allocation is managed at the State level and different procedures rule the allocation (caucus vs. primary, winner-takes-all vs. proportional, etc.). These mechanisms lead to different situations, and some votes matter more than others. Who gets overrepresented? A republican from Utah? A democrat from San Francisco? Which candidate is favored by the disparity of procedures?</p>
+        <p>What if every elected delegate represented the same number of votes? What if every ballot cast had the same weight in the nomination process? Would it change the number of delegates allocated to each candidate?</p>
+        <p>The Supreme Court recently confirmed the "One person, one vote" principle. But it applies for elections, not primaries. Delegate allocation is managed at the State level and different procedures rule the allocation (caucus vs. primary, winner-takes-all vs. proportional, etc.). These mechanisms lead to different situations, and some votes matter more than others. Who gets overrepresented? A republican from Utah? A democrat from San Francisco? Which candidate is favored by the disparity of procedures?</p>
       </div>
       <div class="col-xs-4">
-        <p>These maps and charts compare two situations: 
-The ‘What if’ situation where the number of delegates allocated to each candidate reflects the actual number of votes it received. Opacity of counties accounts for population.
-The actual situation where some citizens have more influence on the output of the nomination than others. Opacity accounts for a ratio delegates/votes.</p>
+        <p>These maps and charts compare two situations: 1) The ‘What if’ situation where the number of delegates allocated to each candidate reflects the actual number of votes it received. Opacity of counties accounts for population. 2) The actual situation where some citizens have more influence on the output of the nomination than others. Opacity accounts for the ratio delegates/votes for a given county.</p>
         <p>The ratio delegates/votes is calculated for every county and both parties according to a score each State receives (the number of delegates it sends divided by the overall turnout in this State), multiplied by the number of votes in this particular county.</p>
       </div>
       <div class="col-xs-4">
-        <p>Caucuses typically lead to a low turnout (Utah’s republican caucus for instance) ushering in a high ratio. Some counties high ratio might also be due to a weak representation of one of the parties (District of Columbia’s republican convention for instance where 2,810 voters elected 19 delegates). This analysis omits the fact that early voting States have a higher impact on who gets to stay in the race (cf. the precocious dropout of Jeb Bush). This model assumes that delegates are allocated statewide and not per county or congressional district, which is actually not the case everywhere.</p>
+        <p>Caucuses typically lead to a low turnout (Utah’s republican caucus for instance) ushering in a high ratio. Some counties’ high ratio might also be due to a weak representation of one of the parties (District of Columbia’s republican convention for instance where 2,810 voters elected 19 delegates). This analysis omits the fact that early voting States have a higher impact on who gets to stay in the race (cf. the precocious dropout of Jeb Bush). This model assumes that delegates are allocated statewide and not per county or congressional district, which is actually not the case everywhere.</p>
       </div>
     </div> <!-- END OF ROW -->
+
+    <div class="row top-buffer">
+      <div class="col-xs-7">
+      </div>
+      <div class="col-xs-4">
+        
+      </div>
+      
+    </div> <!-- END OF ROW -->
+    
     <div class="row top-buffer">
 
       <div class="col-xs-7">
@@ -51,17 +59,36 @@ The actual situation where some citizens have more influence on the output of th
       </div>
 
       <div class="col-xs-5">
-        <div class="btn-toolbar" role="toolbar" aria-label="...">
-          <div class="btn-group btn-group-sm" role="group" aria-label="...">
-            <button type="button" class="btn btn-default btn-reality btn-display active" value="reality" aria-pressed="true">Reality</button>
-            <button type="button" class="btn btn-default btn-whatif btn-display" value="whatif">What if</button>
+        <div class="row">
+          <div class="col-xs-5">
+            <div class="btn-toolbar" role="toolbar" aria-label="...">
+              <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                <button type="button" class="btn btn-default btn-republicans btn-party active" value="republicans" aria-pressed="true">Republicans</button>
+                <button type="button" class="btn btn-default btn-democrats btn-party" value="democrats">Democrats</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-5">
+            <div class="btn-toolbar" role="toolbar" aria-label="...">
+              <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                <button type="button" class="btn btn-default btn-whatif btn-display active" value="whatif" aria-pressed="true">What if</button>
+                <button type="button" class="btn btn-default btn-reality btn-display" value="reality">Actual situation</button>
+              </div>
+            </div>
           </div>
         </div>
+      
         <div class=" top-buffer">
-          <div id="chart-trump"></div>
-          <div id="chart-cruz"></div>
-          <div id="chart-rubio"></div>
-          <div id="chart-kasich"></div>
+          <div id="charts-rep">
+            <div id="chart-trump"></div>
+            <div id="chart-cruz"></div>
+            <div id="chart-rubio"></div>
+            <div id="chart-kasich"></div>
+          </div>
+          <div id="charts-dem">
+            <div id="chart-clinton"></div>
+            <div id="chart-sanders"></div>
+          </div>
         </div>
       </div>
     
@@ -70,14 +97,15 @@ The actual situation where some citizens have more influence on the output of th
     <div class="row top-buffer">
       <div class="col-xs-6">
         <h4>The delegates count</h4>
-        <div id="stacked"></div>
+        <div id="stacked-rep"></div>
+        <div id="stacked-dem"></div>
       </div>
     </div> <!-- END OF ROW -->
     <div class="row top-buffer">
       <div class="col-xs-6">
         <h5>Sources</h5>
         <p>realclearpolitics.com, AP via politico.com, US Census Bureau 2015</p>
-        <p>See how data is processed and fork the code on <a href="https://github.com/lucguillemot/US2016">github</a>.</p>
+        <p>See how data is processed, and fork the code on <a href="https://github.com/lucguillemot/US2016">github</a>.</p>
       </div>
     </div> <!-- END OF ROW -->
     <div class="row">
@@ -96,13 +124,17 @@ The actual situation where some citizens have more influence on the output of th
 
   var currentState = 0;
   var currentCandidate = "";
-  var currentDisplay = "reality";
+  var currentDisplay = "whatif";
+  var currentOpacity = "population";
+  var currentParty = "republicans";
 
-  var winnerById = {},
-        labelById = {},
-        popById = {},
-        ratioById = {},
-        winnerVotesById = {};
+  var winnerRepById = {},
+      winnerDemById = {},
+      labelById = {},
+      popById = {},
+      ratioRepById = {},
+      ratioDemById = {},
+      winnerVotesById = {};
 
   //var repColors = ['#1f78b4', '#33a02c', '#e31a1c', '#ff7f00'];// ColorBrewer
   //var repColors = ['#b2cb06','#e84d0e','#0084ab','#bc2f56'];
@@ -110,10 +142,23 @@ The actual situation where some citizens have more influence on the output of th
   //var repColorsLight = ['#a6cee3','#b2df8a','#fb9a99','#fdbf6f']; // ColorBrewer lighter
   //var repColorsLight = ['#d4df83','#f49b6a','#69b0cc','#d58692'];
   var repColorsLight = ['#e5dae7','#deba96','#c5d7e9','#f6b89f'];
+  var repCandidates = ["Trump", "Cruz", "Rubio", "Kasich"];
+
   var TrumpColors = [repColors[0], repColorsLight[0]];
   var CruzColors = [repColors[1], repColorsLight[1]];
   var RubioColors = [repColors[2], repColorsLight[2]];
   var KasichColors = [repColors[3], repColorsLight[3]];
+
+  var demColors = ['#00968f','#f08122'];
+  //var repColorsLight = ['#a6cee3','#b2df8a','#fb9a99','#fdbf6f']; // ColorBrewer lighter
+  //var repColorsLight = ['#d4df83','#f49b6a','#69b0cc','#d58692'];
+  var demColorsLight = ['#90bdba','#f8b77d'];
+  var demCandidates = ["Clinton", "Sanders"];
+
+  var ClintonColors = [demColors[0], demColorsLight[0]];
+  var SandersColors = [demColors[1], demColorsLight[1]];
+
+  var popOpValues = [];
 
 // MAP //////
   var projection = d3.geo.albersUsa()
@@ -128,29 +173,31 @@ The actual situation where some citizens have more influence on the output of th
 
   var opop = d3.scale.linear() // Opacity on population
       .range([0, 1])
-      .domain([0, 238216]); // arbitrary value
-  var rpop = d3.scale.linear() // Opacity on ratio delegates/voters
+      .domain([0, 200000]); // arbitrary value
+  var rep_op = d3.scale.linear() // Opacity on ratio delegates/voters for republicans
       .range([0, 1])
-      .domain([0, 2]);
+      .domain([0, 1.2]);
+  var dem_op = d3.scale.linear() // Opacity on ratio delegates/voters for democrats
+      .range([0, 1])
+      .domain([0, 1.2]);
 
   queue()
       .defer(d3.json, "geo/us.json")
       //.defer(d3.csv, "data/rep.cc.csv")
-      .defer(d3.csv, "data/map/counties2.csv")
+      .defer(d3.csv, "data/map/counties.csv")
       .await(ready_counties);
 
   function ready_counties(error, us, data) {
     if (error) throw error;
 
-    
-
     data.forEach(function(d) {
-        winnerById[d.fip] = d.winnerrep;
-        labelById[d.fip] = d.label;
+        winnerRepById[d.fip] = d.winnerrep;
+        //winnerDemById[d.fip] = d.winnerdem;
+        //labelById[d.fip] = d.label;
         popById[d.fip] = +d.respop72015;
-        //ratioById[d.fip] = +d.ratio_county;
-        ratioById[d.fip] = +d.ratio_county;
-        winnerVotesById[d.fip] = +d.winnerrep_votes;
+        ratioRepById[d.fip] = +d.ratio_county_rep;
+        //ratioDemById[d.fip] = +d.ratio_county_dem;
+        //winnerVotesById[d.fip] = +d.winnerrep_votes;
     });
     
     svg.append("path")
@@ -171,7 +218,7 @@ The actual situation where some citizens have more influence on the output of th
         .attr("class", "county")
         .attr("d", path)
         .style("fill", function(d){
-          switch(winnerById[+d.id]) {
+          switch(winnerRepById[+d.id]) {
             case "D.Trump": return repColors[0];  break;
             case "T.Cruz": return repColors[1]; break;
             case "M.Rubio": return repColors[2]; break;
@@ -179,7 +226,7 @@ The actual situation where some citizens have more influence on the output of th
           }
         })
         .style("fill-opacity", function(d) {
-          return rpop(ratioById[+d.id]);
+          return opop(popById[+d.id]);
         });
 
         svg.append("g")
@@ -194,7 +241,7 @@ The actual situation where some citizens have more influence on the output of th
         })
         .attr("d", path)
         .style("fill", function(d){
-          switch(winnerById[+d.id]) {
+          switch(winnerRepById[+d.id]) {
             case "Trump": return repColors[0];  break;
             case "Cruz": return repColors[1]; break;
             case "Rubio": return repColors[2]; break;
@@ -213,24 +260,79 @@ The actual situation where some citizens have more influence on the output of th
         .attr("d", path)
         .attr("class", "county-boundary");
 
+    // LEGEND //
+    legend = svg.append("g").attr("class", "legend").attr("transform", "translate(400,362)");
+    g_legend = legend.selectAll("rect");
+
+    for (j=0; j<=70; j+=5) {
+      console.log(j);
+      l=j/70; // Opacity value
+      create_legend(repColors, j, l);
+    };
+
+    // Candidate label
+    g_legend.data(repColors)
+      .enter()
+      .append("text")
+      .attr("class", "legend_label")
+      .attr("x", -2)
+      .attr("y", function(d, i) { return i*7+6; })
+      .text(function(d, i) {
+        switch(i) {
+          case 0: return "Trump";  break;
+          case 1: return "Cruz"; break;
+          case 2: return "Rubio"; break;
+          case 3: return "Kasich"; break;
+        }
+      });
+
+    // Opacity label (population or ratio delegates/votes)
+    legend.append("rect")
+      .attr("class", "legend_opacity_rect") // tick rect
+      .attr("x", 70)
+      .attr("y", -3)
+      .attr("height", 5)
+      .attr("width", .5);
+
+    legend.append("text")
+      .attr("class", "legend_opacity_label")
+      .attr("x", 0)
+      .attr("y", -4)//35
+      .text(" → Population");
+
+    legend.append("text")
+      .attr("class", "legend_opacity_value")
+      .attr("x", 70)
+      .attr("y", -4)
+      .text("200'000");
+
     // BERTIN MATRIX //
     //Call function to draw the chart
-    d3.csv("data/charts/trump.csv", function(data){
+    d3.csv("data/charts/trump_if.csv", function(data){
       bertin("#chart-trump", data, "Trump", TrumpColors);
     });
-    d3.csv("data/charts/cruz.csv", function(data){
+    d3.csv("data/charts/cruz_if.csv", function(data){
       bertin("#chart-cruz", data, "Cruz", CruzColors);
     });
-    d3.csv("data/charts/rubio.csv", function(data){
+    d3.csv("data/charts/rubio_if.csv", function(data){
       bertin("#chart-rubio", data, "Rubio", RubioColors);
     });
-    d3.csv("data/charts/kasich.csv", function(data){
+    d3.csv("data/charts/kasich_if.csv", function(data){
       bertin("#chart-kasich", data, "Kasich", KasichColors);
+    });
+    d3.csv("data/charts/clinton_if.csv", function(data){
+      bertin("#chart-clinton", data, "Clinton", ClintonColors);
+    });
+    d3.csv("data/charts/sanders_if.csv", function(data){
+      bertin("#chart-sanders", data, "Sanders", SandersColors);
     });
 
     // CUMULATIVE CHARTS //
-    d3.json("data/stacked/rep_stacked.json", function(data){
-      cumulChart("#stacked", data);
+    d3.json("data/stacked/rep_stacked_if.json", function(data){
+      cumulChart("#stacked-rep", data, "republicans");
+    });
+    d3.json("data/stacked/dem_stacked_if.json", function(data){
+      cumulChart("#stacked-dem", data, "democrats");
     });
     
   } // function ready_counties()
@@ -238,6 +340,109 @@ The actual situation where some citizens have more influence on the output of th
   // // // // // // // // // // // // // // // // // // // // // // // // // // // 
   // // //  INTERFACE // // // // // // // // // // // // // // // // // // // //
   // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+  
+  d3.select(".btn-democrats")
+    .on("click", function(){
+      $(".btn-party[value="+currentParty+"]").button("toggle");
+      currentParty = "democrats";
+      $(this).button("toggle");
+
+      update_legend();
+
+      // Update for first initialization to use the democrats scales
+      if (currentDisplay = "whatif") {
+        d3.csv("data/charts/clinton_if.csv", function(data){
+          update_bertin(data, "Clinton", ClintonColors, "democrats");
+        });
+        d3.csv("data/charts/sanders_if.csv", function(data){
+          update_bertin(data, "Sanders", SandersColors, "democrats");
+        });
+
+         d3.json("data/stacked/dem_stacked_if.json", function(data){
+          update_cumulChart(data, "democrats");
+        });
+      }
+      else {
+        d3.csv("data/charts/clinton.csv", function(data){
+          update_bertin(data, "Clinton", ClintonColors, "democrats");
+        });
+        d3.csv("data/charts/sanders.csv", function(data){
+          update_bertin(data, "Sanders", SandersColors, "democrats");
+        });
+
+         d3.json("data/stacked/dem_stacked.json", function(data){
+          update_cumulChart(data, "democrats");
+        });
+      }
+
+      $("#charts-rep").hide();
+      $("#charts-dem").show();
+      $("#stacked-rep").hide();
+      $("#stacked-dem").show();
+
+      queue()
+        .defer(d3.json, "geo/us.json")
+        .defer(d3.csv, "data/map/counties.csv")
+        .await(update_map);
+    }); 
+
+  d3.select(".btn-republicans")
+    .on("click", function(){
+      $(".btn-party[value="+currentParty+"]").button("toggle");
+      currentParty = "republicans";
+      $(this).button("toggle");
+
+      update_legend();
+
+      if (currentDisplay = "whatif") {
+        d3.csv("data/charts/trump_if.csv", function(data){
+          update_bertin(data, "Trump", TrumpColors, "republicans");
+        });
+        d3.csv("data/charts/cruz_if.csv", function(data){
+          update_bertin(data, "Cruz", CruzColors, "republicans");
+        });
+        d3.csv("data/charts/rubio_if.csv", function(data){
+          update_bertin(data, "Rubio", RubioColors, "republicans");
+        });
+        d3.csv("data/charts/kasich_if.csv", function(data){
+          update_bertin(data, "Kasich", KasichColors, "republicans");
+        });
+
+         d3.json("data/stacked/rep_stacked_if.json", function(data){
+          update_cumulChart(data, "republicans");
+        });
+      }
+      else {
+        d3.csv("data/charts/trump.csv", function(data){
+          update_bertin(data, "Trump", TrumpColors, "republicans");
+        });
+        d3.csv("data/charts/cruz.csv", function(data){
+          update_bertin(data, "Cruz", CruzColors, "republicans");
+        });
+        d3.csv("data/charts/rubio.csv", function(data){
+          update_bertin(data, "Rubio", RubioColors, "republicans");
+        });
+        d3.csv("data/charts/kasich.csv", function(data){
+          update_bertin(data, "Kasich", KasichColors, "republicans");
+        });
+
+        d3.json("data/stacked/rep_stacked.json", function(data){
+          update_cumulChart(data, "republicans");
+        });
+      }
+
+      $("#charts-dem").hide();
+      $("#charts-rep").show();
+      $("#stacked-dem").hide();
+      $("#stacked-rep").show();
+
+      queue()
+        .defer(d3.json, "geo/us.json")
+        .defer(d3.csv, "data/map/counties.csv")
+        .await(update_map);
+    }); 
+
+
   d3.select(".btn-whatif")
     .on("click", function(){
       
@@ -245,26 +450,39 @@ The actual situation where some citizens have more influence on the output of th
       currentDisplay = "whatif";
       $(this).button("toggle");
 
+      update_legend();
+
       d3.csv("data/charts/trump_if.csv", function(data){
-        update_bertin(data, "Trump");
+        update_bertin(data, "Trump", TrumpColors, "republicans");
       });
       d3.csv("data/charts/cruz_if.csv", function(data){
-        update_bertin(data, "Cruz");
+        update_bertin(data, "Cruz", CruzColors, "republicans");
       });
       d3.csv("data/charts/rubio_if.csv", function(data){
-        update_bertin(data, "Rubio");
+        update_bertin(data, "Rubio", RubioColors, "republicans");
       });
       d3.csv("data/charts/kasich_if.csv", function(data){
-        update_bertin(data, "Kasich");
+        update_bertin(data, "Kasich", KasichColors, "republicans");
       });
 
        d3.json("data/stacked/rep_stacked_if.json", function(data){
-        update_cumulChart(data);
+        update_cumulChart(data, "republicans");
       });
 
-       queue()
+      d3.csv("data/charts/clinton_if.csv", function(data){
+        update_bertin(data, "Clinton", ClintonColors, "democrats");
+      });
+      d3.csv("data/charts/sanders_if.csv", function(data){
+        update_bertin(data, "Sanders", SandersColors, "democrats");
+      });
+
+       d3.json("data/stacked/dem_stacked_if.json", function(data){
+        update_cumulChart(data, "democrats");
+      });
+
+      queue()
         .defer(d3.json, "geo/us.json")
-        .defer(d3.csv, "data/map/counties2.csv")
+        .defer(d3.csv, "data/map/counties.csv")
         .await(update_map);
     }); 
   
@@ -275,26 +493,39 @@ The actual situation where some citizens have more influence on the output of th
       currentDisplay = "reality";
       $(this).button("toggle");
 
-      d3.csv("data/charts/trump.csv", function(data){
-        update_bertin(data, "Trump");
-      });
-      d3.csv("data/charts/cruz.csv", function(data){
-        update_bertin(data, "Cruz");
-      });
-      d3.csv("data/charts/rubio.csv", function(data){
-        update_bertin(data, "Rubio");
-      });
-      d3.csv("data/charts/kasich.csv", function(data){
-        update_bertin(data, "Kasich");
-      });
+      update_legend();
 
-      d3.json("data/stacked/rep_stacked.json", function(data){
-        update_cumulChart(data);
-      });
+        d3.csv("data/charts/trump.csv", function(data){
+          update_bertin(data, "Trump", TrumpColors, "republicans");
+        });
+        d3.csv("data/charts/cruz.csv", function(data){
+          update_bertin(data, "Cruz", CruzColors, "republicans");
+        });
+        d3.csv("data/charts/rubio.csv", function(data){
+          update_bertin(data, "Rubio", RubioColors, "republicans");
+        });
+        d3.csv("data/charts/kasich.csv", function(data){
+          update_bertin(data, "Kasich", KasichColors, "republicans");
+        });
+
+        d3.json("data/stacked/rep_stacked.json", function(data){
+          update_cumulChart(data, "republicans");
+        });
+
+        d3.csv("data/charts/clinton.csv", function(data){
+          update_bertin(data, "Clinton", ClintonColors, "democrats");
+        });
+        d3.csv("data/charts/sanders.csv", function(data){
+          update_bertin(data, "Sanders", SandersColors, "democrats");
+        });
+
+        d3.json("data/stacked/dem_stacked.json", function(data){
+          update_cumulChart(data, "democrats");
+        });
 
       queue()
         .defer(d3.json, "geo/us.json")
-        .defer(d3.csv, "data/map/counties2.csv")
+        .defer(d3.csv, "data/map/counties.csv")
         .await(update_map);
 
     }); 
@@ -303,28 +534,63 @@ The actual situation where some citizens have more influence on the output of th
       if (error) throw error;
 
       data.forEach(function(d) {
-          //winnerById[d.fip] = d.winnerrep;
-          labelById[d.fip] = d.label;
+          winnerRepById[d.fip] = d.winnerrep;
+          winnerDemById[d.fip] = d.winnerdem;
+          //labelById[d.fip] = d.label;
           popById[d.fip] = +d.respop72015;
-          //ratioById[d.fip] = +d.ratio_county;
-          ratioById[d.fip] = +d.ratio_county;
-          winnerVotesById[d.fip] = +d.winnerrep_votes;
+          ratioRepById[d.fip] = +d.ratio_county_rep;
+          ratioDemById[d.fip] = +d.ratio_county_dem;
+          //winnerVotesById[d.fip] = +d.winnerrep_votes;
       });
 
       d3.selectAll(".county")
         .data(topojson.feature(us, us.objects.counties).features)
         .transition()
-        .duration(300)
+        .duration(100)
+        .style("fill", function(d){
+          if(currentParty == "democrats") {
+            switch(winnerDemById[+d.id]) {
+              case "H.Clinton": return demColors[0];  break;
+              case "B.Sanders": return demColors[1]; break;
+            }
+          }
+          else {
+            switch(winnerRepById[+d.id]) {
+              case "D.Trump": return repColors[0];  break;
+              case "T.Cruz": return repColors[1]; break;
+              case "M.Rubio": return repColors[2]; break;
+              case "J.Kasich": return repColors[3]; break;
+            }
+          }
+        })
         .style("fill-opacity", function(d) {
           if (currentDisplay == "whatif") {
-            //return opop(popById[+d.id]);
             return opop(popById[+d.id]);
           }
           else {
-            return rpop(ratioById[+d.id]);
+            if(currentParty == "democrats") {
+              return dem_op(ratioDemById[+d.id]);
+            }
+            else {
+              return rep_op(ratioRepById[+d.id]);
+            }
           }
         });
     }
+
+  // LEGEND /////////////////////////////////
+  function create_legend(colors, x, op){
+    g_legend.data(colors)
+      .enter()
+      .append("svg:rect")
+      .attr("class", "rect")
+      .attr("x", x)
+      .attr("y", function(d, i){ return i*7; })
+      .attr("width", 5)
+      .attr("height", 7)
+      .style("fill", function(d){ return d; })
+      .style("fill-opacity", op);
+  };
 
   /*function ready(error, us, data) {
     if (error) throw error;
@@ -410,28 +676,79 @@ The actual situation where some citizens have more influence on the output of th
     //console.log(currentState);
     d3.selectAll(".stacked").style("opacity",0.5);
     d3.selectAll("[stacked_state="+(currentState)+"]").style("opacity", 1);
-    /*d3.selectAll(".stacked").style("fill", function(d){
-          switch(currentCandidate) {
-            case "Trump": return repColorsLight[0];  break;
-            case "Cruz": return repColorsLight[1]; break;
-            case "Rubio": return repColorsLight[2]; break;
-            case "Kasich": return repColorsLight[3]; break;
+  }
+
+  function update_legend() {
+    d3.select(".legend_opacity_label")
+      .transition()
+      .duration(300)
+      .text(function() {
+        switch(currentDisplay) {
+          case "reality": return " → Ratio";  break;
+          case "whatif": return " → Population"; break;
+        }
+      });
+    d3.select(".legend_opacity_value")
+      .transition()
+      .duration(300)
+      .text(function() {
+        switch(currentDisplay) {
+          case "reality": return "1.2";  break;
+          case "whatif": return "200'000"; break;
+        }
+      });
+
+    // Remove existing legend
+    d3.selectAll(".rect").remove();
+    d3.selectAll(".legend_label").remove();
+    
+    if(currentParty == "republicans") {
+      for (j=0; j<=70; j+=5) {
+        l=j/70; // Opacity value
+        create_legend(repColors, j, l);
+      };
+      g_legend.data(repColors)
+        .enter()
+        .append("text")
+        .attr("class", "legend_label")
+        .attr("x", -2)
+        .attr("y", function(d, i) { return i*7+6; })
+        .text(function(d, i) {
+          switch(i) {
+            case 0: return "Trump";  break;
+            case 1: return "Cruz"; break;
+            case 2: return "Rubio"; break;
+            case 3: return "Kasich"; break;
           }
-    });
-    d3.selectAll("[stacked_state="+(currentState)+"]").style("fill", function(d){
-          switch(currentCandidate) {
-            case "Trump": return repColors[0];  break;
-            case "Cruz": return repColors[1]; break;
-            case "Rubio": return repColors[2]; break;
-            case "Kasich": return repColors[3]; break;
+        });
+    }
+    else {
+      for (j=0; j<=70; j+=5) {
+        l=j/70; // Opacity value
+        create_legend(demColors, j, l);
+      };
+      g_legend.data(demColors)
+        .enter()
+        .append("text")
+        .attr("class", "legend_label")
+        .attr("x", -2)
+        .attr("y", function(d, i) { return i*7+6; })
+        .text(function(d, i) {
+          switch(i) {
+            case 0: return "Clinton";  break;
+            case 1: return "Sanders"; break;
           }
-    });*/
+        });
+    } 
   }
 
   function highlight_chart_state_name() {
     d3.selectAll(".chart_state_name").style("fill", "#fff");
     d3.selectAll("[chart_state_name="+(currentState)+"]").style("fill", "#aaa");
   }
+
+  $("#charts-dem").hide();
+  $("#stacked-dem").hide();
 
   </script>
 

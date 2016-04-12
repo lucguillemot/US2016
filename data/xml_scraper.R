@@ -105,19 +105,31 @@ st.pop <- inner_join(st, pop, by = "fip")
 
 
 ## CALCULATE RATIO VOTES/DELEGATES ## REPRESENTATIVITY ##
-rep.st.ratio <- rep.cc %>% 
+# Score for each State: Republicans
+st.ratio.rep <- rep.cc %>% 
   select(State, pop_vote, del_sent) %>% 
-  mutate(ratio = del_sent/pop_vote) %>%
-  select(state = State, ratio)
+  mutate(st_ratio_rep = del_sent/pop_vote) %>%
+  select(state = State, st_ratio_rep)
+# Score for each State: Democrats
+st.ratio.dem <- dem.cc %>% 
+  select(State, pop_vote, del_sent) %>% 
+  mutate(st_ratio_dem = del_sent/pop_vote) %>%
+  select(state = State, st_ratio_dem)
 
-st.rep <- merge(st.pop, rep.st.ratio, by = "state")
 
-st.rep <- st.rep %>% mutate(ratio_county = winnerrep_votes*ratio, 
-                            ratio_county_pop = respop72015*ratio)
 
-max(st.rep$ratio_county_pop)
+
+st.ratio <- merge(st.ratio.rep, st.ratio.dem, by = "state")
+st.ratio.pop <- merge(st.pop, st.ratio, by = "state")
+
+st.ratio.pop <- st.ratio.pop %>% mutate(ratio_county_rep = winnerrep_votes*st_ratio_rep,
+                                ratio_county_dem = winnerdem_votes*st_ratio_dem,
+                                ratio_county_rep_pop = respop72015*st_ratio_rep,
+                                ratio_county_dem_pop = respop72015*st_ratio_dem)
+
+#max(st.rep$ratio_county_pop)
 # Export data to csv file
-write.csv(st.rep, "map/counties2.csv", row.names = FALSE)
+write.csv(st.ratio.pop, "map/counties.csv", row.names = FALSE)
 
 
 

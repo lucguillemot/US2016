@@ -1,8 +1,4 @@
-body {
-  //background-color: rgba(0, 30, 64, .1);
-}
-
-.top-buffer { margin-top:20px; }
+.top-buffer { margin-top:30px; }
 
 path {
   fill: none;
@@ -30,13 +26,22 @@ svg {
 
 rect.bar_del, rect.bar_votes {
   stroke: rgba(0, 30, 64, .9);
-}
-
-.bar {
-  //fill: rgba(0, 30, 64, 0);
+  stroke-width:0;
 }
 .axis path, .axis line {
   fill: none;
   stroke: #000;
   shape-rendering: crispEdges;
+}
+
+.legend_label, .legend_opacity_value, .legend_opacity_label {
+  font: 7px sans-serif;
+}
+
+.legend_opacity_value {
+  text-anchor: middle;
+}
+
+.legend_label {
+  text-anchor: end;
 }

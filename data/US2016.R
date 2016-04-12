@@ -158,3 +158,106 @@ for (st in 1:length(states_ansi)) {
 
 stack <- toJSON(li)
 write(stack, "stacked/rep_stacked_if.json")
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# # # DEMOCRATS # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+dem <- read.csv("democrats.csv")
+popVote_dem <- 16297485
+#delSent_dem <- 2324
+delSent_dem <- 2824
+dem <- dem %>% mutate(pop_vote = Clinton+Sanders, 
+                      del_sent =Clinton_del+Sanders_del) %>%
+  mutate(PClinton = Clinton/pop_vote, 
+         PSanders = Sanders/pop_vote,         
+         PDClinton = Clinton_del/del_sent, 
+         PDSanders = Sanders_del/del_sent) %>%
+  mutate(del_prop = (pop_vote/popVote_dem)*delSent_dem) %>% # Number of delegate for each State if
+  # delegates were allocated proportionally 
+  # the to number of votes
+  
+  mutate(Clinton_del_if = del_prop*PClinton,
+         Sanders_del_if = del_prop*PSanders)# Number of delegates each candidate
+# would get if delegates were allocated
+# proportionally to the number of votes
+
+
+dem <- dem[-1,] # remove the row "total"
+
+dem.cc <- dem[complete.cases(dem), ]
+sum(dem.cc$del_sent)
+
+# EXPORT DATA FOR THE BERTIN MATRIX #
+names <- c("state", "ansi_code", "votes", "delegates")
+
+# Real number of delegates
+chart.clinton <- dem.cc %>% select(State, ansi_code, Clinton, Clinton_del)
+names(chart.clinton) <- names
+write.csv(chart.clinton, "charts/clinton.csv", row.names = FALSE)
+
+chart.sanders <- dem.cc %>% select(State, ansi_code, Sanders, Sanders_del)
+names(chart.sanders) <- names
+write.csv(chart.sanders, "charts/sanders.csv", row.names = FALSE)
+
+# 'If' number of delegates ####
+chart.clinton.if <- dem.cc %>% select(State, ansi_code, Clinton, Clinton_del_if)
+names(chart.clinton.if) <- names
+write.csv(chart.clinton.if, "charts/clinton_if.csv", row.names = FALSE)
+
+chart.sanders.if <- dem.cc %>% select(State, ansi_code, Sanders, Sanders_del_if)
+names(chart.sanders.if) <- names
+write.csv(chart.sanders.if, "charts/sanders_if.csv", row.names = FALSE)
+
+
+# To get States codes
+#write.csv(rep.cc$ansi_code, "states_ansi.csv", row.names = FALSE)
+
+
+states_dem <- dem.cc %>% select(ansi_code)
+write.csv(states_dem, "states_dem.csv", row.names = FALSE)
+#states <- c("IA", "NH", "SC", "NV", "AL", "AK", "AR", "GA", "MA", "MN", "OK", "TN", "TX", "VT", "VA", "KS", "KY", "LA", "ME", "HI", "ID", "MI", "MS", "DC", "FL", "IL", "MO", "NC", "OH", "AZ", "UT")
+states_ansi <- c("33","45","1","5","8","13","25","27","40","47","48","50","51","20","22","31","26","28","12","17","29","37","39","4","16","49","15","55","56")
+
+# EXPORT DATA FOR THE STACKED CHART (CUMULATIVE) #
+Namen <- c("state", "x", "y")
+li <- list()
+
+# Real numbers
+dem.del.count <- dem.cc %>% select(ansi_code, Clinton_del, Sanders_del)
+noms <- c("State", "Clinton", "Sanders")
+names(dem.del.count) <- noms
+
+for (st in 1:length(states_ansi)) {
+  del.st <- dem.del.count %>% filter(State == states_ansi[st])
+  del.st.melted <- del.st %>% melt(id = c("State"))
+  names(del.st.melted) <- Namen
+  #del.st.melted$State <- NULL
+  
+  li[[st]] <- del.st.melted # Creates a list of dataframe, each will become a json array
+  #forjson[st, 1] <- toJSON(del.st.melted)
+}
+
+stack <- toJSON(li, pretty=TRUE)
+write(stack, "stacked/dem_stacked.json")
+
+# reinitiate list
+li <- list()
+
+# What if numbers
+dem.del.count <- dem.cc %>% select(ansi_code, Clinton_del_if, Sanders_del_if)
+noms <- c("State", "Clinton", "Sanders")
+names(dem.del.count) <- noms
+
+for (st in 1:length(states_ansi)) {
+  del.st <- dem.del.count %>% filter(State == states_ansi[st])
+  del.st.melted <- del.st %>% melt(id = c("State"))
+  names(del.st.melted) <- Namen
+  #del.st.melted$State <- NULL
+  
+  li[[st]] <- del.st.melted # Creates a list of dataframe, each will become a json array
+  #forjson[st, 1] <- toJSON(del.st.melted)
+}
+
+stack <- toJSON(li, pretty=TRUE)
+write(stack, "stacked/dem_stacked_if.json")
