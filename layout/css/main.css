@@ -1,7 +1,7 @@
 .top-buffer { margin-top:30px; }
 
 path.state {
-  fill: #fff;
+  fill: none;
   stroke: #ddd;
   stroke-width: .3px;
 }
