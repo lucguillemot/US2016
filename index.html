@@ -183,7 +183,6 @@
 
   queue()
       .defer(d3.json, "geo/us.json")
-      //.defer(d3.csv, "data/rep.cc.csv")
       .defer(d3.csv, "data/map/counties.csv")
       .await(ready_counties);
 
@@ -192,23 +191,25 @@
 
     data.forEach(function(d) {
         winnerRepById[d.fip] = d.winnerrep;
-        //winnerDemById[d.fip] = d.winnerdem;
-        //labelById[d.fip] = d.label;
         popById[d.fip] = +d.respop72015;
         ratioRepById[d.fip] = +d.ratio_county_rep;
-        //ratioDemById[d.fip] = +d.ratio_county_dem;
-        //winnerVotesById[d.fip] = +d.winnerrep_votes;
     });
     
     svg.append("path")
       .datum(topojson.feature(us, us.objects.land))
       .attr("d", path)
       .attr("class", "land-boundary");
-    
-    /*svg.append("path")
-        .datum(topojson.feature(us, us.objects.states)) //, function(a, b) { return a !== b; }
-        .attr("class", "states")
-        .attr("d", path);*/
+
+    svg.append("g")
+          .attr("class", "states")
+        .selectAll("path")
+        .data(topojson.feature(us, us.objects.states).features)
+      .enter().append("path")
+        .attr("class", "state")
+        .attr("map_state", function(d) {
+          return "st"+d.id;
+        })
+        .attr("d", path);
 
     svg.append("g")
           .attr("class", "counties")
@@ -227,38 +228,7 @@
         })
         .style("fill-opacity", function(d) {
           return opop(popById[+d.id]);
-        });
-
-        svg.append("g")
-          .attr("class", "states")
-        .selectAll("path")
-        //.datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
-        .data(topojson.feature(us, us.objects.states).features)
-      .enter().append("path")
-        .attr("class", "state")
-        .attr("map_state", function(d) {
-          return "st"+d.id;
-        })
-        .attr("d", path)
-        .style("fill", function(d){
-          switch(winnerRepById[+d.id]) {
-            case "Trump": return repColors[0];  break;
-            case "Cruz": return repColors[1]; break;
-            case "Rubio": return repColors[2]; break;
-            case "Kasich": return repColors[3]; break;
-          }
-        })
-        .on("mouseover", function(d){
-          currentState = "st"+d.id;
-          highlight_map();
-          highlight_chart();
-          highlight_stacked();
-        });
-
-    svg.append("path")
-        .datum(topojson.mesh(us, us.objects.counties, function(a, b) { return a !== b && (a.id / 1000 | 0) === (b.id / 1000 | 0); }))
-        .attr("d", path)
-        .attr("class", "county-boundary");
+        });      
 
     // LEGEND //
     legend = svg.append("g").attr("class", "legend").attr("transform", "translate(400,362)");
@@ -309,22 +279,22 @@
     // BERTIN MATRIX //
     //Call function to draw the chart
     d3.csv("data/charts/trump_if.csv", function(data){
-      bertin("#chart-trump", data, "Trump", TrumpColors);
+      bertin("#chart-trump", data, "Trump", TrumpColors, "republicans");
     });
     d3.csv("data/charts/cruz_if.csv", function(data){
-      bertin("#chart-cruz", data, "Cruz", CruzColors);
+      bertin("#chart-cruz", data, "Cruz", CruzColors, "republicans");
     });
     d3.csv("data/charts/rubio_if.csv", function(data){
-      bertin("#chart-rubio", data, "Rubio", RubioColors);
+      bertin("#chart-rubio", data, "Rubio", RubioColors, "republicans");
     });
     d3.csv("data/charts/kasich_if.csv", function(data){
-      bertin("#chart-kasich", data, "Kasich", KasichColors);
+      bertin("#chart-kasich", data, "Kasich", KasichColors, "republicans");
     });
     d3.csv("data/charts/clinton_if.csv", function(data){
-      bertin("#chart-clinton", data, "Clinton", ClintonColors);
+      bertin("#chart-clinton", data, "Clinton", ClintonColors, "democrats");
     });
     d3.csv("data/charts/sanders_if.csv", function(data){
-      bertin("#chart-sanders", data, "Sanders", SandersColors);
+      bertin("#chart-sanders", data, "Sanders", SandersColors, "democrats");
     });
 
     // CUMULATIVE CHARTS //
@@ -339,52 +309,7 @@
 
   // // // // // // // // // // // // // // // // // // // // // // // // // // // 
   // // //  INTERFACE // // // // // // // // // // // // // // // // // // // //
-  // // // // // // // // // // // // // // // // // // // // // // // // // // // 
-  
-  d3.select(".btn-democrats")
-    .on("click", function(){
-      $(".btn-party[value="+currentParty+"]").button("toggle");
-      currentParty = "democrats";
-      $(this).button("toggle");
-
-      update_legend();
-
-      // Update for first initialization to use the democrats scales
-      if (currentDisplay = "whatif") {
-        d3.csv("data/charts/clinton_if.csv", function(data){
-          update_bertin(data, "Clinton", ClintonColors, "democrats");
-        });
-        d3.csv("data/charts/sanders_if.csv", function(data){
-          update_bertin(data, "Sanders", SandersColors, "democrats");
-        });
-
-         d3.json("data/stacked/dem_stacked_if.json", function(data){
-          update_cumulChart(data, "democrats");
-        });
-      }
-      else {
-        d3.csv("data/charts/clinton.csv", function(data){
-          update_bertin(data, "Clinton", ClintonColors, "democrats");
-        });
-        d3.csv("data/charts/sanders.csv", function(data){
-          update_bertin(data, "Sanders", SandersColors, "democrats");
-        });
-
-         d3.json("data/stacked/dem_stacked.json", function(data){
-          update_cumulChart(data, "democrats");
-        });
-      }
-
-      $("#charts-rep").hide();
-      $("#charts-dem").show();
-      $("#stacked-rep").hide();
-      $("#stacked-dem").show();
-
-      queue()
-        .defer(d3.json, "geo/us.json")
-        .defer(d3.csv, "data/map/counties.csv")
-        .await(update_map);
-    }); 
+  // // // // // // // // // // // // // // // // // // // // // // // // // // //  
 
   d3.select(".btn-republicans")
     .on("click", function(){
@@ -394,7 +319,7 @@
 
       update_legend();
 
-      if (currentDisplay = "whatif") {
+      if (currentDisplay == "whatif") {
         d3.csv("data/charts/trump_if.csv", function(data){
           update_bertin(data, "Trump", TrumpColors, "republicans");
         });
@@ -442,8 +367,53 @@
         .await(update_map);
     }); 
 
+    d3.select(".btn-democrats")
+    .on("click", function(){
+      $(".btn-party[value="+currentParty+"]").button("toggle");
+      currentParty = "democrats";
+      $(this).button("toggle");
 
-  d3.select(".btn-whatif")
+      update_legend();
+
+      // Update for first initialization to use the democrats scales
+      if (currentDisplay == "whatif") {
+        d3.csv("data/charts/clinton_if.csv", function(data){
+          update_bertin(data, "Clinton", ClintonColors, "democrats");
+        });
+        d3.csv("data/charts/sanders_if.csv", function(data){
+          update_bertin(data, "Sanders", SandersColors, "democrats");
+        });
+
+         d3.json("data/stacked/dem_stacked_if.json", function(data){
+          update_cumulChart(data, "democrats");
+        });
+      }
+      else {
+        d3.csv("data/charts/clinton.csv", function(data){
+          update_bertin(data, "Clinton", ClintonColors, "democrats");
+        });
+        d3.csv("data/charts/sanders.csv", function(data){
+          update_bertin(data, "Sanders", SandersColors, "democrats");
+        });
+
+         d3.json("data/stacked/dem_stacked.json", function(data){
+          update_cumulChart(data, "democrats");
+        });
+      }
+
+      $("#charts-rep").hide();
+      $("#charts-dem").show();
+      $("#stacked-rep").hide();
+      $("#stacked-dem").show();
+
+      queue()
+        .defer(d3.json, "geo/us.json")
+        .defer(d3.csv, "data/map/counties.csv")
+        .await(update_map);
+    });
+
+
+    d3.select(".btn-whatif")
     .on("click", function(){
       
       $(".btn-display[value="+currentDisplay+"]").button("toggle");
@@ -486,7 +456,7 @@
         .await(update_map);
     }); 
   
-  d3.select(".btn-reality")
+    d3.select(".btn-reality")
     .on("click", function(){
 
       $(".btn-display[value="+currentDisplay+"]").button("toggle");
@@ -536,17 +506,15 @@
       data.forEach(function(d) {
           winnerRepById[d.fip] = d.winnerrep;
           winnerDemById[d.fip] = d.winnerdem;
-          //labelById[d.fip] = d.label;
           popById[d.fip] = +d.respop72015;
           ratioRepById[d.fip] = +d.ratio_county_rep;
           ratioDemById[d.fip] = +d.ratio_county_dem;
-          //winnerVotesById[d.fip] = +d.winnerrep_votes;
       });
 
       d3.selectAll(".county")
         .data(topojson.feature(us, us.objects.counties).features)
         .transition()
-        .duration(100)
+        .duration(500)
         .style("fill", function(d){
           if(currentParty == "democrats") {
             switch(winnerDemById[+d.id]) {
@@ -592,89 +560,18 @@
       .style("fill-opacity", op);
   };
 
-  /*function ready(error, us, data) {
-    if (error) throw error;
-
-    var winnerById = {};
-
-    data.forEach(function(d) {
-        winnerById[d.ansi_code] = d.winner;
-    });
-    
-    svg.append("path")
-      .datum(topojson.feature(us, us.objects.land))
-      .attr("d", path)
-      .attr("class", "land-boundary");
-    
-    svg.append("g")
-          .attr("class", "states")
-        .selectAll("path")
-        //.datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
-        .data(topojson.feature(us, us.objects.states).features)
-      .enter().append("path")
-        .attr("class", "state")
-        .attr("map_state", function(d) {
-          return "st"+d.id;
-        })
-        .attr("d", path)
-        .style("fill", function(d){
-          switch(winnerById[+d.id]) {
-            case "Trump": return repColors[0];  break;
-            case "Cruz": return repColors[1]; break;
-            case "Rubio": return repColors[2]; break;
-            case "Kasich": return repColors[3]; break;
-          }
-        })
-        .on("mouseover", function(d){
-          currentState = "st"+d.id;
-          highlight_map();
-          highlight_chart();
-          highlight_stacked();
-        });
-
-    svg.append("path")
-        .datum(topojson.mesh(us, us.objects.counties, function(a, b) { return a !== b && (a.id / 1000 | 0) === (b.id / 1000 | 0); }))
-        .attr("d", path)
-        .attr("class", "county-boundary");
-
-    // BERTIN MATRIX //
-    //Call function to draw the chart
-    d3.csv("data/charts/trump.csv", function(data){
-      bertin("#chart-trump", data, "Trump", TrumpColors);
-    });
-    d3.csv("data/charts/cruz.csv", function(data){
-      bertin("#chart-cruz", data, "Cruz", CruzColors);
-    });
-    d3.csv("data/charts/rubio.csv", function(data){
-      bertin("#chart-rubio", data, "Rubio", RubioColors);
-    });
-    d3.csv("data/charts/kasich.csv", function(data){
-      bertin("#chart-kasich", data, "Kasich", KasichColors);
-    });
-
-    // CUMULATIVE CHARTS //
-    d3.json("data/stacked/rep_stacked.json", function(data){
-      cumulChart("#stacked", data);
-    });
-
-    
-  } // function ready()*/
-
   function highlight_map() {
-    //console.log(currentState);
-    d3.selectAll("path.state").style("stroke-width", .3).style("stroke", "#efefef");
-    d3.selectAll("[map_state="+(currentState)+"]").style("stroke-width", 1).style("stroke", "#000");
+    d3.selectAll("path.state").style("stroke-width", .3).style("stroke", "#ddd");
+    d3.selectAll("[map_state="+(currentState)+"]").style("stroke-width", .7).style("stroke", "#444");
   }
 
   function highlight_chart() {
-    //console.log(currentState);
     d3.selectAll(".bar").style("stroke-width", 0);
     d3.selectAll("[bar_state="+(currentState)+"]").style("stroke-width", 1);
   }
 
   function highlight_stacked() {
-    //console.log(currentState);
-    d3.selectAll(".stacked").style("opacity",0.5);
+    d3.selectAll(".stacked").style("opacity", 0.5);
     d3.selectAll("[stacked_state="+(currentState)+"]").style("opacity", 1);
   }
 

@@ -1,72 +1,33 @@
-function bertin(id, data, candidate, colors) {
+function bertin(id, data, candidate, colors, party) {
 
-//var maxValue = d3.max(data, function(d) { return +d.delegates; })
-
-var chart_margin = {top: 10, right: 10, bottom: 10, left: 10},
+	var chart_margin = {top: 10, right: 10, bottom: 10, left: 10},
     chart_width = 458 - chart_margin.left - chart_margin.right,
     chart_height = 80 - chart_margin.top - chart_margin.bottom;
 
-/*var x = d3.scale.ordinal()
-	.rangeRoundBands([0, chart_width], .1);*/
+	if(party == "republicans") {
+		console.log("repu");
+		var y_votes = d3.scale.linear()
+		    .range([chart_height, 0])
+		    .domain([0, 20866873/19]); //Total number of votes cast
+		var y_del = d3.scale.linear()
+		    .range([chart_height, 0])
+		    .domain([0, 1512/19]); // number of sent delegates
+	}
+	else {
+		console.log("demo");
+		var y_votes = d3.scale.linear()
+		    .range([chart_height, 0])
+		    .domain([0, 16297485/17]);//Total number of votes cast
+		var y_del = d3.scale.linear()
+		    .range([chart_height, 0])
+		    .domain([0, 2824/17]); // number of sent delegates
+	}
 
-if(currentParty == "republicans") {
-	console.log("repu");
-	var y_votes = d3.scale.linear()
-	    .range([chart_height, 0])
-	    .domain([0, 20866873/19]); //Total number of votes cast
-	var y_del = d3.scale.linear()
-	    .range([chart_height, 0])
-	    .domain([0, 1512/19]); // number of sent delegates
-}
-else {
-	console.log("demo");
-	var y_votes = d3.scale.linear()
-	    .range([chart_height, 0])
-	    .domain([0, 16297485/17]);//Total number of votes cast
-	var y_del = d3.scale.linear()
-	    .range([chart_height, 0])
-	    .domain([0, 2824/17]); // number of sent delegates
-}
-
-
-/*var xAxis = d3.svg.axis()
-    .scale(x)
-    .orient("bottom")
-    .ticks(0, "");
-
-var yAxis = d3.svg.axis()
-    .scale(y)
-    .orient("left")
-    .ticks(0, "");*/
-
-var chart_svg = d3.select(id).append("svg")
+	var chart_svg = d3.select(id).append("svg")
     .attr("width", chart_width + chart_margin.left + chart_margin.right)
     .attr("height", chart_height + chart_margin.top + chart_margin.bottom)
   .append("g")
     .attr("transform", "translate(" + chart_margin.left + "," + chart_margin.top + ")");
-
-	//x.domain(data.map(function(d) { return d.state; }));
-	//y_votes.domain([0, d3.max(data, function(d) { return +d.votes; })]);
-	//y_del.domain([0, d3.max(data, function(d) { return +d.delegates; })]);
-
-  /*svg.append("g")
-      .attr("class", "x axis")
-      .attr("transform", "translate(0," + chart_height + ")")
-      .call(xAxis);*/
-
-  /*svg.append("g")
-      .attr("class", "y axis")
-      .call(yAxis);*/
-    /*.append("text")
-      .attr("transform", "rotate(-90)")
-      .attr("y", 6)
-      .attr("dy", ".71em")
-      .style("text-anchor", "end")
-      .text("Popular votes");*/
-
-
-
-
 
    // BACKGROUND INVISIBLE BARS FOR HOVERING //
   chart_svg.selectAll(".bar")
@@ -76,9 +37,7 @@ var chart_svg = d3.select(id).append("svg")
       .attr("bar_state", function(d){
       	return "st"+d.ansi_code;
       })
-      //.attr("x", function(d) { return x(d.state); })
       .attr("x", function(d, i) { return i*14; })
-      //.attr("width", x.rangeBand())
       .attr("width", 10)
       .attr("y", 0)
       .attr("height", chart_height+chart_margin.top+chart_margin.bottom)
@@ -104,9 +63,7 @@ var chart_svg = d3.select(id).append("svg")
       .attr("bar_state", function(d){
       	return "st"+d.ansi_code;
       })
-      //.attr("x", function(d) { return x(d.state); })
       .attr("x", function(d, i) { return i*14; })
-      //.attr("width" x.rangeBand())
       .attr("width", 5)
       .attr("y", function(d) { return y_votes(d.votes); })
       .attr("height", function(d) { return chart_height - y_votes(d.votes); })
@@ -132,9 +89,7 @@ var chart_svg = d3.select(id).append("svg")
       .attr("bar_state", function(d){
       	return "st"+d.ansi_code;
       })
-      //.attr("x", function(d) { return x(d.state); })
       .attr("x", function(d, i) { return (i*14)+5; })
-      //.attr("width", x.rangeBand())
       .attr("width", 5)
       .attr("y", function(d) { return y_del(d.delegates); })
       .attr("height", function(d) { return chart_height - y_del(d.delegates); })
@@ -154,7 +109,7 @@ var chart_svg = d3.select(id).append("svg")
 
    // SCALES //
    chart_svg.append("line")
-	   	.attr("class", "chart_line_votes")
+	   	.attr("class", "chart_line_votes"+party)
 	   	.attr("x1", 0)
 	   	.attr("y1", function() { return y_votes(1000000);} )
 	   	.attr("x2", chart_width)
@@ -163,7 +118,7 @@ var chart_svg = d3.select(id).append("svg")
 	   	.style("stroke-width", .5)
 	   	.style("stroke-dasharray", 3);
 	chart_svg.append("text")
-		.attr("class", "chart_line_votes_text")
+		.attr("class", "chart_line_votes_text"+party)
 	   	.attr("x", 0)
 	   	.attr("y", function() { return y_votes(829500);} )
 	   	.style("text-anchor", "start")
@@ -171,7 +126,7 @@ var chart_svg = d3.select(id).append("svg")
 	   	.text("1M votes");
 
    chart_svg.append("line")
-	   	.attr("class", "chart_line_del")
+	   	.attr("class", "chart_line_del"+party)
 	   	.attr("x1", 0)
 	   	.attr("y1", function() { return y_del(50);} )
 	   	.attr("x2", chart_width)
@@ -180,7 +135,7 @@ var chart_svg = d3.select(id).append("svg")
 	   	.style("stroke-width", .5)
 	   	.style("stroke-dasharray", 1);
 	chart_svg.append("text")
-		.attr("class", "chart_line_del_text")
+		.attr("class", "chart_line_del_text"+party)
 	   	.attr("x", chart_width)
 	   	.attr("y", function() { return y_del(54);} )
 	   	.style("text-anchor", "end")
@@ -210,66 +165,63 @@ function update_bertin(data, candidate, colors, party) {
     chart_width = 458 - chart_margin.left - chart_margin.right,
     chart_height = 80 - chart_margin.top - chart_margin.bottom;
 
-/*var x = d3.scale.ordinal()
-	.rangeRoundBands([0, chart_width], .1);*/
-
-if(party == "republicans") {
-	console.log("repu");
-	var y_votes = d3.scale.linear()
-	    .range([chart_height, 0])
-	    .domain([0, 20866873/19]); //Total number of votes cast
-	var y_del = d3.scale.linear()
-	    .range([chart_height, 0])
-	    .domain([0, 1512/19]); // number of sent delegates
-}
-else {
-	console.log("demo");
-	var y_votes = d3.scale.linear()
-	    .range([chart_height, 0])
-	    .domain([0, 16297485/17]);//Total number of votes cast
-	var y_del = d3.scale.linear()
-	    .range([chart_height, 0])
-	    .domain([0, 2824/17]); // number of sent delegates
-}
+	if(party == "republicans") {
+		console.log("repu");
+		var y_votes = d3.scale.linear()
+		    .range([chart_height, 0])
+		    .domain([0, 20866873/19]); //Total number of votes cast
+		var y_del = d3.scale.linear()
+		    .range([chart_height, 0])
+		    .domain([0, 1512/19]); // number of sent delegates
+	}
+	else {
+		console.log("demo");
+		var y_votes = d3.scale.linear()
+		    .range([chart_height, 0])
+		    .domain([0, 16297485/17]); //Total number of votes cast
+		var y_del = d3.scale.linear()
+		    .range([chart_height, 0])
+		    .domain([0, 2824/17]); // number of sent delegates
+	}
 
 	d3.selectAll(".bar_votes."+candidate)
 		.data(data)
 		.transition()
-		.duration(200)
+		.duration(500)
     	.attr("y", function(d) { return y_votes(d.votes); })
     	.attr("height", function(d) { return chart_height - y_votes(d.votes); })
     	.style("fill", colors[0]);
     d3.selectAll(".bar_del."+candidate)
       .data(data)
       .transition()
-      .duration(200)
+      .duration(500)
       .attr("y", function(d) { return y_del(d.delegates); })
       .attr("height", function(d) { return chart_height - y_del(d.delegates); })
       .style("fill", colors[1]);
     
-    d3.selectAll(".chart_line_votes")
+   /* d3.selectAll(".chart_line_votes"+party)
     	.transition()
-    	.duration(200)
+    	.duration(500)
     	.attr("y1", function() { return y_votes(1000000);} )
 	   	.attr("y2", function() { return y_votes(1000000);} );
-	d3.selectAll(".chart_line_votes_text")
+	d3.selectAll(".chart_line_votes_text"+party)
     	.transition()
-    	.duration(200)
+    	.duration(500)
 	   	.attr("y", function() { return y_votes(829500);} );
-	d3.selectAll(".chart_line_del")
+	d3.selectAll(".chart_line_del"+party)
     	.transition()
-    	.duration(200)
+    	.duration(500)
     	.attr("y1", function() { return y_del(50);} )
 	   	.attr("y2", function() { return y_del(50);} );
-	d3.selectAll(".chart_line_del_text")
+	d3.selectAll(".chart_line_del_text"+party)
     	.transition()
-    	.duration(200)
-	   	.attr("y", function() { return y_del(54);} );
+    	.duration(500)
+	   	.attr("y", function() { return y_del(54);} );*/
 }
 
 
-// // // // // // // // // // // // // // // // // // // // // // // // // // // 
-// // // // // // // // // // // // // // // // // // // // // // // // // // // 
+// // // // // // // // // // // // // // // // // // // // // // // // // // // //
+// // STACKED // // // // // // // // // // // // // // // // // // // // // // // 
  // // // // // // // // // // // // // // // // // // // // // // // // // // // 
 
 function cumulChart(id, dataset, party) {
@@ -296,7 +248,7 @@ function cumulChart(id, dataset, party) {
 	else {
 		var xScale = d3.scale.ordinal()
 			.domain(d3.range(dataset[0].length))
-			.rangeRoundBands([0, h], 0.2); // This is actually the Y scale (candidates)
+			.rangeRoundBands([0, h/2], 0.2); // This is actually the Y scale (candidates)
 	   	var yScale = d3.scale.linear()
 		    .domain([0, 2324])
 		    .range([0, w]); // This is actually the X Scale (States)
@@ -403,7 +355,7 @@ function update_cumulChart(dataset, party) {
       gr.selectAll(".stacked")
 		.data(function(d) { return d; })
 		.transition()
-      	.duration(300)
+      	.duration(500)
       	.attr("x", function(d) {
 	      return yScale(d.y0);
 	    })
@@ -432,7 +384,7 @@ function update_cumulChart(dataset, party) {
 	    });
 	d3.selectAll(".stacked_del_line_text")
 		.transition()
-		.duration(200)
+		.duration(500)
 		.text(function() {
 			if (party == "republicans") {
 				return "1237 delegates to win";

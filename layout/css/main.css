@@ -1,23 +1,19 @@
 .top-buffer { margin-top:30px; }
 
-path {
-  fill: none;
-}
-
-path.states {
-  fill: none;
+path.state {
+  fill: #fff;
   stroke: #ddd;
   stroke-width: .3px;
 }
 
-.land-boundary {
-  stroke: #555;
-  stroke-width: .5px;
+path.county {
+  fill:none;
 }
 
-.county-boundary {
-  stroke: #fff;
-  stroke-width: .2;
+.land-boundary {
+  fill:none;
+  stroke: #555;
+  stroke-width: .5px;
 }
 
 svg {
@@ -27,6 +23,10 @@ svg {
 rect.bar_del, rect.bar_votes {
   stroke: rgba(0, 30, 64, .9);
   stroke-width:0;
+}
+
+rect.stacked {
+  opacity: .5;
 }
 .axis path, .axis line {
   fill: none;
@@ -44,4 +44,8 @@ rect.bar_del, rect.bar_votes {
 
 .legend_label {
   text-anchor: end;
+}
+
+#chart-sanders {
+
 }
