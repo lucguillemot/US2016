@@ -140,6 +140,7 @@ for (st in 1:length(states_ansi)) {
   #forjson[st, 1] <- toJSON(del.st.melted)
 }
 
+# create a json file from the list of dataframes (good format for d3.layout().stack())
 stack <- toJSON(li)
 write(stack, "stacked/rep_stacked.json")
 
@@ -241,7 +242,8 @@ for (st in 1:length(states_ansi)) {
   #forjson[st, 1] <- toJSON(del.st.melted)
 }
 
-stack <- toJSON(li, pretty=TRUE)
+# create a json file from the list of dataframes (good format for d3.layout().stack())
+stack <- toJSON(li, pretty=TRUE) 
 write(stack, "stacked/dem_stacked.json")
 
 # reinitiate list

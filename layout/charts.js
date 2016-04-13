@@ -5,7 +5,6 @@ function bertin(id, data, candidate, colors, party) {
     chart_height = 80 - chart_margin.top - chart_margin.bottom;
 
 	if(party == "republicans") {
-		console.log("repu");
 		var y_votes = d3.scale.linear()
 		    .range([chart_height, 0])
 		    .domain([0, 20866873/19]); //Total number of votes cast
@@ -14,7 +13,6 @@ function bertin(id, data, candidate, colors, party) {
 		    .domain([0, 1512/19]); // number of sent delegates
 	}
 	else {
-		console.log("demo");
 		var y_votes = d3.scale.linear()
 		    .range([chart_height, 0])
 		    .domain([0, 16297485/17]);//Total number of votes cast
@@ -26,11 +24,11 @@ function bertin(id, data, candidate, colors, party) {
 	var chart_svg = d3.select(id).append("svg")
     .attr("width", chart_width + chart_margin.left + chart_margin.right)
     .attr("height", chart_height + chart_margin.top + chart_margin.bottom)
-  .append("g")
+  	  .append("g")
     .attr("transform", "translate(" + chart_margin.left + "," + chart_margin.top + ")");
 
-   // BACKGROUND INVISIBLE BARS FOR HOVERING //
-  chart_svg.selectAll(".bar")
+  	// BACKGROUND INVISIBLE BARS FOR HOVERING //
+  	chart_svg.selectAll(".bar")
       .data(data)
     .enter().append("rect")
       .attr("class", "bar")
@@ -56,7 +54,7 @@ function bertin(id, data, candidate, colors, party) {
       });
 
 	// POPULAR VOTE //
-  chart_svg.selectAll(".bar_votes")
+  	chart_svg.selectAll(".bar_votes")
       .data(data)
     .enter().append("rect")
       .attr("class", "bar bar_votes "+candidate)
@@ -166,7 +164,6 @@ function update_bertin(data, candidate, colors, party) {
     chart_height = 80 - chart_margin.top - chart_margin.bottom;
 
 	if(party == "republicans") {
-		console.log("repu");
 		var y_votes = d3.scale.linear()
 		    .range([chart_height, 0])
 		    .domain([0, 20866873/19]); //Total number of votes cast
@@ -175,7 +172,6 @@ function update_bertin(data, candidate, colors, party) {
 		    .domain([0, 1512/19]); // number of sent delegates
 	}
 	else {
-		console.log("demo");
 		var y_votes = d3.scale.linear()
 		    .range([chart_height, 0])
 		    .domain([0, 16297485/17]); //Total number of votes cast
@@ -231,13 +227,13 @@ function cumulChart(id, dataset, party) {
   		w = 1158 - m.top - m.bottom; // width
 
 	//Set up stack method
-  var stack = d3.layout.stack();
+  	var stack = d3.layout.stack();
 
-  //Data, stacked
-  stack(dataset);
+  	//Data, stacked
+  	stack(dataset);
 
-  //Set up scales
-  if (party == "republicans") {
+  	//Set up scales
+  	if (party == "republicans") {
 		var xScale = d3.scale.ordinal()
 			.domain(d3.range(dataset[0].length))
 			.rangeRoundBands([0, h], 0.2); // This is actually the Y scale (candidates)
@@ -250,57 +246,68 @@ function cumulChart(id, dataset, party) {
 			.domain(d3.range(dataset[0].length))
 			.rangeRoundBands([0, h/2], 0.2); // This is actually the Y scale (candidates)
 	   	var yScale = d3.scale.linear()
-		    .domain([0, 2324])
+		    .domain([0, 2382])
 		    .range([0, w]); // This is actually the X Scale (States)
 	}
  
-  //Create SVG element
-  var svg = d3.select(id)
+  	//Create SVG element
+  	var svg = d3.select(id)
         .append("svg")
         .attr("width", w)
         .attr("height", h);
 
-  // Add a group for each row of data
-  var groups = svg.selectAll("g")
-    .data(dataset)
-    .enter()
-    .append("g")
-    .attr("class", "g_stacked "+party);
+  	// Add a group for each row of data
+  	var groups = svg.selectAll("g")
+	    .data(dataset)
+	    .enter()
+	    .append("g")
+	    .attr("class", "g_stacked "+party);
 
-  // Add a rect for each data value
-  var rects = groups.selectAll("rect")
-    .data(function(d) { return d; })
-      .enter()
-    .append("rect")
-    .attr("class", "stacked")
-    .attr("stacked_state", function(d) { return "st"+d.state; })
-    .attr("x", function(d) {
-      return yScale(d.y0);
-    })
-    .attr("y", function(d, i) {
-      return xScale(i);
-    })
-    .attr("width", function(d) {
-      return yScale(d.y);
-    })
-    .attr("height", xScale.rangeBand())
-    .style("fill", function(d, i) {
-      return repColorsLight[i];
-    })
-    .style("stroke", function(d, i) {
-      return repColors[i];
-    })
-    .on("mouseover", function(d) {
-      console.log(d.state);
-    })
-    .on("mouseover", function(d){
-	  	currentState = "st"+d.state;
-	  	currentCandidate = d.x;
-	  	highlight_map();
-	  	highlight_chart();
-	  	highlight_stacked();
-	  	highlight_chart_state_name();
-  	});
+  	// Add a rect for each data value
+  	var rects = groups
+  		.selectAll("rect")
+	    .data(function(d) { return d; })
+	      .enter()
+	    .append("rect")
+	    .attr("class", "stacked")
+	    .attr("stacked_state", function(d) { return "st"+d.state; })
+	    .attr("x", function(d) {
+	      return yScale(d.y0);
+	    })
+	    .attr("y", function(d, i) {
+	      return xScale(i);
+	    })
+	    .attr("width", function(d) {
+	      return yScale(d.y);
+	    })
+	    .attr("height", xScale.rangeBand())
+	    .style("fill", function(d, i) {
+	    	if (party == "republicans") {
+	    		return repColorsLight[i];
+	    	}
+	    	else {
+	    		return demColorsLight[i];
+	    	}
+	    })
+	    .style("stroke", function(d, i) {
+	      	if (party == "republicans") {
+	    		return repColors[i];
+	    	}
+	    	else {
+	    		return demColors[i];
+	    	}
+	    })
+	    .on("mouseover", function(d) {
+	      console.log(d.state);
+	    })
+	    .on("mouseover", function(d){
+		  	currentState = "st"+d.state;
+		  	currentCandidate = d.x;
+		  	highlight_map();
+		  	highlight_chart();
+		  	highlight_stacked();
+		  	highlight_chart_state_name();
+	  	});
 
  	svg.append("line")
 	   	.attr("class", "stacked_del_line")
@@ -346,7 +353,7 @@ function update_cumulChart(dataset, party) {
 			.domain(d3.range(dataset[0].length))
 			.rangeRoundBands([0, h/2], 0.2); // This is actually the Y scale (candidates)
 	   	var yScale = d3.scale.linear()
-		    .domain([0, 2324])
+		    .domain([0, 2382])
 		    .range([0, w]); // This is actually the X Scale (States)
 	}
 
@@ -364,24 +371,8 @@ function update_cumulChart(dataset, party) {
 	    })
 	    .attr("width", function(d) {
 	      return yScale(d.y);
-	    })
-	    .attr("height", xScale.rangeBand())
-	    .style("fill", function(d, i) {
-	    	if (party == "republicans") {
-	    		return repColorsLight[i];
-	    	}
-	    	else {
-	    		return demColorsLight[i];
-	    	}
-	    })
-	    .style("stroke", function(d, i) {
-	      	if (party == "republicans") {
-	    		return repColors[i];
-	    	}
-	    	else {
-	    		return demColors[i];
-	    	}
 	    });
+	
 	d3.selectAll(".stacked_del_line_text")
 		.transition()
 		.duration(500)
